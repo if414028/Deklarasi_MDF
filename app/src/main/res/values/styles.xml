@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Fonts-->
+    <style name="Manrope.Reguler" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/regular</item>
+    </style>
+
+    <style name="Manrope.Bold" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/bold</item>
+    </style>
+
+    <style name="Manrope.ExtraBold" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/extrabold</item>
+    </style>
+
+    <style name="Manrope.Light" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/light</item>
+    </style>
+
+    <style name="Manrope.Medium" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/medium</item>
+    </style>
+
+    <style name="Manrope.SemiBold" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/semibold</item>
+    </style>
+
+    <style name="Manrope.Thin" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/thin</item>
+    </style>
+
+    <style name="Manrope.Black" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/black</item>
+    </style>
+
+    <style name="NoActionBar" parent="android:Theme.Material.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+</resources>

@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Deklarasi MDF</string>
+
+    <string name="welcome">Selamat Datang</string>
+
+    <string name="copyrights">Benih MDF 2020 V3.0 (Untuk Kalangan Sendiri)</string>
+
+    <string name="declaration">Deklarasi</string>
+    <string name="spiritual_warfare">Peperangan Rohani</string>
+    <string name="library">Pengajaran</string>
+    <string name="setting">Pengaturan</string>
 </resources>

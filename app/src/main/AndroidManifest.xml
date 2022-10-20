@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.mdf.deklarasi" >
+    package="com.mdf.deklarasi">
 
     <application
         android:allowBackup="true"
@@ -12,10 +12,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DeklarasiMDF"
-        tools:targetApi="31" >
+        tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true" >
+            android:name=".library.LibraryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".spiritualwarfare.SpiritualWarfareActivity"
+            android:exported="false" />
+        <activity
+            android:name=".declaration.DeclarationListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splash.SplashScreen"
+            android:exported="false" />
+        <activity
+            android:name=".main.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
