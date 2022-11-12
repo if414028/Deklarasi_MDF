@@ -9,4 +9,8 @@
     <string name="spiritual_warfare">Peperangan Rohani</string>
     <string name="library">Pengajaran</string>
     <string name="setting">Pengaturan</string>
+
+    <string name="search_declaration">Cari Deklarasi</string>
+    <string name="ops">Oops...</string>
+    <string name="search_declaration_not_found">Deklarasi yang kamu cari gak ketemu</string>
 </resources>

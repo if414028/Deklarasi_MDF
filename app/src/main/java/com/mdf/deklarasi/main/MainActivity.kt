@@ -13,6 +13,8 @@ import com.mdf.deklarasi.library.LibraryActivity
 import com.mdf.deklarasi.settings.SettingsActivity
 import com.mdf.deklarasi.spiritualwarfare.SpiritualWarfareActivity
 import com.mdf.deklarasi.utilities.SimpleRecyclerAdapter
+import java.text.SimpleDateFormat
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,7 +27,8 @@ class MainActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         supportActionBar?.hide()
 
-        setupGridMenu()
+
+        setupLayout()
     }
 
     private fun setupGridMenu() {
@@ -68,5 +71,15 @@ class MainActivity : AppCompatActivity() {
         moduleList.add(spiritualWarfareModule)
         moduleList.add(libraryModule)
         moduleList.add(settingModule)
+    }
+
+    private fun setupLayout() {
+        binding.tvCurrentDate.text = getCurrentDate()
+        setupGridMenu()
+    }
+
+    private fun getCurrentDate(): String {
+        val sdf = SimpleDateFormat("dd MMMM yyyy")
+        return sdf.format(Date())
     }
 }

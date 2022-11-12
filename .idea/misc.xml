@@ -3,9 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Workspace/DeklarasiMDF/app/src/main/res/layout/activity_declaration_list.xml" value="0.2952991452991453" />
+        <entry key="..\:/Workspace/DeklarasiMDF/app/src/main/res/drawable/edittext_grey_background_border_grey.xml" value="0.1875" />
+        <entry key="..\:/Workspace/DeklarasiMDF/app/src/main/res/drawable/ic_back.xml" value="0.1875" />
+        <entry key="..\:/Workspace/DeklarasiMDF/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1875" />
+        <entry key="..\:/Workspace/DeklarasiMDF/app/src/main/res/layout/activity_declaration_list.xml" value="0.25" />
+        <entry key="..\:/Workspace/DeklarasiMDF/app/src/main/res/layout/activity_library.xml" value="0.2952991452991453" />
         <entry key="..\:/Workspace/DeklarasiMDF/app/src/main/res/layout/activity_main.xml" value="0.29156118143459914" />
+        <entry key="..\:/Workspace/DeklarasiMDF/app/src/main/res/layout/activity_splash_screen.xml" value="0.14786324786324787" />
+        <entry key="..\:/Workspace/DeklarasiMDF/app/src/main/res/layout/item_declaration.xml" value="0.29444444444444445" />
         <entry key="..\:/Workspace/DeklarasiMDF/app/src/main/res/layout/item_module.xml" value="0.29444444444444445" />
+        <entry key="..\:/Workspace/DeklarasiMDF/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1875" />
       </map>
     </option>
   </component>
