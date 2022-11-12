@@ -23,7 +23,7 @@
         <activity
             android:name=".declaration.DeclarationListActivity"
             android:exported="false"
-            android:windowSoftInputMode="adjustNothing"/>
+            android:windowSoftInputMode="adjustNothing" />
         <activity
             android:name=".splash.SplashScreen"
             android:exported="true">

@@ -50,9 +50,17 @@ class SplashScreen : AppCompatActivity() {
             false
         )
 
+        val tembokPerlindunganDeclaration = Declaration(
+            "declaration_tembok_perlindungan",
+            "Deklarasi 35 Tembok Perlindungan",
+            "Sample declaration",
+            false
+        )
+
         val declarationList = arrayListOf<Declaration>()
         declarationList.add(mdfDeclaration)
         declarationList.add(bahteraDelcaration)
+        declarationList.add(tembokPerlindunganDeclaration)
 
         database.insertDeclaration(declarationList, getDatabaseSuccessListener(), errorListener())
     }
