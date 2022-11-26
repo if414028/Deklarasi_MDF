@@ -12,16 +12,16 @@ import com.mdf.deklarasi.R
 import com.mdf.deklarasi.database.DatabaseErrorListener
 import com.mdf.deklarasi.database.DatabaseSuccessListener
 import com.mdf.deklarasi.database.IDeclarationDatabase
-import com.mdf.deklarasi.databinding.ActivityDeclarationListBinding
+import com.mdf.deklarasi.databinding.ActivityFavDeclarationListBinding
 import com.mdf.deklarasi.databinding.ItemDeclarationBinding
 import com.mdf.deklarasi.model.Declaration
 import com.mdf.deklarasi.utilities.AppConfiguration
 import com.mdf.deklarasi.utilities.SimpleFilterRecyclerAdapter
 import com.mdf.deklarasi.utilities.SimpleRecyclerAdapter
 
-class DeclarationListActivity : AppCompatActivity() {
+class FavDeclarationListActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityDeclarationListBinding
+    private lateinit var binding: ActivityFavDeclarationListBinding
     private lateinit var database: IDeclarationDatabase
     private lateinit var adapter: SimpleFilterRecyclerAdapter<Declaration>
 
@@ -29,28 +29,24 @@ class DeclarationListActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_declaration_list)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_fav_declaration_list)
         database = AppConfiguration.getInstance().getDeclarationDatabase(this)
         supportActionBar?.hide()
 
         setupLayout()
-        getDeclarationList()
+        getFavDeclarationList()
     }
 
     private fun setupLayout() {
         binding.btnBack.setOnClickListener {
             onBackPressed()
         }
-        setupDeclarationRecyclerView()
+        setupFavDeclarationRecyclerView()
         binding.etSearch.addTextChangedListener(getTextWatcher())
-        binding.icFav.setOnClickListener {
-            val intent = Intent(applicationContext, FavDeclarationListActivity::class.java)
-            startActivity(intent)
-        }
     }
 
-    private fun getDeclarationList() {
-        database.getAllDeclaration(getDatabaseSuccessListener(), getDatabaseErrorListener())
+    private fun getFavDeclarationList() {
+        database.getFavDeclaration(getDatabaseSuccessListener(), getDatabaseErrorListener())
     }
 
     private fun getDatabaseSuccessListener(): DatabaseSuccessListener<List<Declaration>> {
@@ -72,10 +68,11 @@ class DeclarationListActivity : AppCompatActivity() {
         }
     }
 
-    private fun setupDeclarationRecyclerView() {
+    private fun setupFavDeclarationRecyclerView() {
         binding.rvDeclaration.layoutManager =
             LinearLayoutManager(applicationContext, RecyclerView.VERTICAL, false)
-        adapter = SimpleFilterRecyclerAdapter(listOf(),
+        adapter = SimpleFilterRecyclerAdapter(
+            listOf(),
             R.layout.item_declaration,
             SimpleRecyclerAdapter.OnViewHolder { holder, item ->
                 val itemBinding: ItemDeclarationBinding =
@@ -88,15 +85,21 @@ class DeclarationListActivity : AppCompatActivity() {
                     intent.putExtra("declarationId", item?.id)
                     startActivity(intent)
                 }
-            },
-            object : SimpleFilterRecyclerAdapter.OnSearchListener<Declaration?> {
+            }, object : SimpleFilterRecyclerAdapter.OnSearchListener<Declaration?> {
                 override fun onSearchRules(
-                    model: Declaration?, searchedText: String?
+                    model: Declaration?,
+                    searchedText: String?
                 ): Declaration? {
                     if (searchedText?.let {
-                            model?.title?.lowercase()?.contains(it, ignoreCase = true) == true
-                                    || model?.declaration?.lowercase()?.contains(it, ignoreCase = true) == true
-                        } == true) {
+                            model?.title
+                                ?.lowercase()
+                                ?.contains(
+                                    it,
+                                    ignoreCase = true
+                                ) == true || model?.declaration?.lowercase()
+                                ?.contains(it, ignoreCase = true) == true
+                        } == true
+                    ) {
                         binding.isEmpty = false
                         return model
                     }
@@ -107,7 +110,8 @@ class DeclarationListActivity : AppCompatActivity() {
                 override fun onSearchEmpty(searchedText: String?) {
                     binding.isEmpty = true
                 }
-            })
+            }
+        )
         binding.rvDeclaration.adapter = adapter
     }
 

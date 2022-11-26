@@ -6,6 +6,7 @@
     <string name="copyrights">Benih MDF 2020 V3.0 (Untuk Kalangan Sendiri)</string>
 
     <string name="declaration">Deklarasi</string>
+    <string name="fav_declaration">Deklarasi Favorit</string>
     <string name="spiritual_warfare">Peperangan Rohani</string>
     <string name="library">Pengajaran</string>
     <string name="setting">Pengaturan</string>
@@ -13,4 +14,9 @@
     <string name="search_declaration">Cari Deklarasi</string>
     <string name="ops">Oops...</string>
     <string name="search_declaration_not_found">Deklarasi yang kamu cari gak ketemu</string>
+
+    <string name="theme">Tema</string>
+    <string name="theme_decs">Atur tema pada aplikasi sesuai dengan keinginan anda.</string>
+    <string name="about">Tentang Aplikasi Ini</string>
+
 </resources>

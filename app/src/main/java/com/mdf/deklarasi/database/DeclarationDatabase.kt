@@ -59,4 +59,43 @@ class DeclarationDatabase(context: Context) : IDeclarationDatabase {
             currentActivity?.runOnUiThread(successListener)
         }
     }
+
+    override fun getDetailDeclaration(
+        declarationId: String,
+        successListener: DatabaseSuccessListener<Declaration>,
+        errorListener: DatabaseErrorListener
+    ) {
+        GlobalScope.launch {
+            successListener.setResult(database.declarationDao().getDeclarationDetail(declarationId))
+
+            currentActivity?.runOnUiThread(successListener)
+        }
+    }
+
+    override fun setFavDeclaration(
+        isFav: Int,
+        declarationId: String,
+        successListener: DatabaseSuccessListener<Boolean>,
+        errorListener: DatabaseErrorListener
+    ) {
+        GlobalScope.launch {
+            database.declarationDao().setIsFav(isFav, declarationId)
+            successListener.setResult(
+                database.declarationDao().getDeclarationDetail(declarationId).fav
+            )
+
+            currentActivity?.runOnUiThread(successListener)
+        }
+    }
+
+    override fun getFavDeclaration(
+        successListener: DatabaseSuccessListener<List<Declaration>>,
+        errorListener: DatabaseErrorListener
+    ) {
+        GlobalScope.launch {
+            successListener.setResult(database.declarationDao().getFavDeclaration())
+
+            currentActivity?.runOnUiThread(successListener)
+        }
+    }
 }

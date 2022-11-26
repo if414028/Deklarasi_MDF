@@ -20,4 +20,22 @@ interface IDeclarationDatabase {
         successListener: DatabaseSuccessListener<Void>,
         errorListener: DatabaseErrorListener
     )
+
+    fun getDetailDeclaration(
+        declarationId: String,
+        successListener: DatabaseSuccessListener<Declaration>,
+        errorListener: DatabaseErrorListener
+    )
+
+    fun setFavDeclaration(
+        isFav: Int,
+        declarationId: String,
+        successListener: DatabaseSuccessListener<Boolean>,
+        errorListener: DatabaseErrorListener
+    )
+
+    fun getFavDeclaration(
+        successListener: DatabaseSuccessListener<List<Declaration>>,
+        errorListener: DatabaseErrorListener
+    )
 }

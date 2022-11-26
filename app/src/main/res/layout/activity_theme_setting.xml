@@ -6,7 +6,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".settings.SettingsActivity">
+        tools:context=".settings.ThemeSettingActivity">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/app_bar"
@@ -34,7 +34,7 @@
                     style="@style/Manrope.SemiBold"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="@string/setting"
+                    android:text="@string/theme"
                     android:textAlignment="center"
                     android:textSize="@dimen/_14sdp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -61,51 +61,48 @@
                 android:orientation="vertical"
                 android:padding="@dimen/_16sdp">
 
-                <LinearLayout
-                    android:id="@+id/ly_theme"
+                <TextView
+                    style="@style/Manrope.Reguler"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
+                    android:text="@string/theme_decs" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_32sdp"
+                    android:gravity="center_horizontal"
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:layout_width="wrap_content"
+                        android:id="@+id/light_mode"
+                        android:layout_width="@dimen/_70sdp"
                         android:layout_height="wrap_content"
-                        android:padding="@dimen/_16sdp"
-                        android:src="@drawable/ic_theme" />
-
-                    <TextView
-                        style="@style/Manrope.SemiBold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/theme" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/ly_about"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal">
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/light_mode_checked" />
 
                     <ImageView
-                        android:layout_width="wrap_content"
+                        android:id="@+id/dark_mode"
+                        android:layout_width="@dimen/_70sdp"
                         android:layout_height="wrap_content"
-                        android:padding="@dimen/_16sdp"
-                        android:src="@drawable/ic_about" />
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/dark_mode_unchecked" />
 
-                    <TextView
-                        style="@style/Manrope.SemiBold"
-                        android:layout_width="wrap_content"
+                    <ImageView
+                        android:id="@+id/system_default"
+                        android:layout_width="@dimen/_70sdp"
                         android:layout_height="wrap_content"
-                        android:text="@string/about" />
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/system_mode_unchecked" />
 
                 </LinearLayout>
 
             </LinearLayout>
 
         </ScrollView>
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
