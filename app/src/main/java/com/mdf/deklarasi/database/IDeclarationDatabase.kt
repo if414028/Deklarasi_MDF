@@ -1,9 +1,11 @@
 package com.mdf.deklarasi.database
 
 import com.mdf.deklarasi.model.Declaration
+import com.mdf.deklarasi.model.SpiritualWarfareVerse
 
 interface IDeclarationDatabase {
 
+    //Declaration
     fun getAllDeclaration(
         successListener: DatabaseSuccessListener<List<Declaration>>,
         errorListener: DatabaseErrorListener
@@ -36,6 +38,24 @@ interface IDeclarationDatabase {
 
     fun getFavDeclaration(
         successListener: DatabaseSuccessListener<List<Declaration>>,
+        errorListener: DatabaseErrorListener
+    )
+
+    //Spiritual Warfare Verse
+    fun getAllSpiritualWarfareVerse(
+        successListener: DatabaseSuccessListener<List<SpiritualWarfareVerse>>,
+        errorListener: DatabaseErrorListener
+    )
+
+    fun insertSpiritualWarfareVerse(
+        spiritualWarfareVerse: List<SpiritualWarfareVerse>,
+        successListener: DatabaseSuccessListener<Void>,
+        errorListener: DatabaseErrorListener
+    )
+
+    fun deleteSpiritualWarfareVerse(
+        spiritualWarfareVerse: SpiritualWarfareVerse,
+        successListener: DatabaseSuccessListener<Void>,
         errorListener: DatabaseErrorListener
     )
 }

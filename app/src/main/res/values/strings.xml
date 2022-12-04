@@ -19,4 +19,9 @@
     <string name="theme_decs">Atur tema pada aplikasi sesuai dengan keinginan anda.</string>
     <string name="about">Tentang Aplikasi Ini</string>
 
+    <string name="shofar_sound">Suara Shofar</string>
+    <string name="supporting_verse_for_spiritual_warfare">Ayat Support Peperangan Rohani</string>
+    <string name="verse_for_spiritual_warfare">Ayat Peperangan Rohani</string>
+    <string name="search_spiritual_warfare_verse">Cari Ayat Peperangan</string>
+
 </resources>

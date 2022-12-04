@@ -15,6 +15,9 @@
         android:theme="@style/Theme.DeklarasiMDF"
         tools:targetApi="31">
         <activity
+            android:name=".spiritualwarfare.SpiritualWarfareVerseActivity"
+            android:exported="false" />
+        <activity
             android:name=".settings.ThemeSettingActivity"
             android:exported="false" />
         <activity

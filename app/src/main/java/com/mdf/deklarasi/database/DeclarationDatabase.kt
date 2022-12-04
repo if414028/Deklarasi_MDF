@@ -3,6 +3,7 @@ package com.mdf.deklarasi.database
 import android.app.Activity
 import android.content.Context
 import com.mdf.deklarasi.model.Declaration
+import com.mdf.deklarasi.model.SpiritualWarfareVerse
 import com.mdf.deklarasi.utilities.AppConfiguration
 import com.mdf.deklarasi.utilities.DeclarationDatabaseImplementation
 import kotlinx.coroutines.GlobalScope
@@ -94,6 +95,43 @@ class DeclarationDatabase(context: Context) : IDeclarationDatabase {
     ) {
         GlobalScope.launch {
             successListener.setResult(database.declarationDao().getFavDeclaration())
+
+            currentActivity?.runOnUiThread(successListener)
+        }
+    }
+
+    override fun getAllSpiritualWarfareVerse(
+        successListener: DatabaseSuccessListener<List<SpiritualWarfareVerse>>,
+        errorListener: DatabaseErrorListener
+    ) {
+        GlobalScope.launch {
+            successListener.setResult(
+                database.spiritualWarfareVerseDao().getAllSpiritualWarfareVerse()
+            )
+
+            currentActivity?.runOnUiThread(successListener)
+        }
+    }
+
+    override fun insertSpiritualWarfareVerse(
+        spiritualWarfareVerse: List<SpiritualWarfareVerse>,
+        successListener: DatabaseSuccessListener<Void>,
+        errorListener: DatabaseErrorListener
+    ) {
+        GlobalScope.launch {
+            database.spiritualWarfareVerseDao().insert(spiritualWarfareVerse)
+
+            currentActivity?.runOnUiThread(successListener)
+        }
+    }
+
+    override fun deleteSpiritualWarfareVerse(
+        spiritualWarfareVerse: SpiritualWarfareVerse,
+        successListener: DatabaseSuccessListener<Void>,
+        errorListener: DatabaseErrorListener
+    ) {
+        GlobalScope.launch {
+            database.spiritualWarfareVerseDao().delete(spiritualWarfareVerse)
 
             currentActivity?.runOnUiThread(successListener)
         }

@@ -4,19 +4,17 @@ import androidx.room.TypeConverter
 
 open class BooleanTypeConverter {
 
-    companion object {
-        @TypeConverter
-        fun booleanFromInteger(value: Int): Boolean {
-            return value != 0
-        }
+    @TypeConverter
+    fun booleanFromInteger(value: Int): Boolean {
+        return value != 0
+    }
 
-        @TypeConverter
-        fun intToBoolean(value: Boolean): Int {
-            return if (value) {
-                1
-            } else {
-                0
-            }
+    @TypeConverter
+    fun intToBoolean(value: Boolean): Int {
+        return if (value) {
+            1
+        } else {
+            0
         }
     }
 }

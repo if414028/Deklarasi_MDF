@@ -94,7 +94,6 @@
                     style="@style/Manrope.Reguler"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/_12ssp"
                     tools:text="@tools:sample/lorem/random" />
 
             </LinearLayout>
