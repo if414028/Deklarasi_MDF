@@ -3,8 +3,11 @@ package com.mdf.deklarasi.declaration
 import android.os.Bundle
 import android.view.MotionEvent
 import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.databinding.DataBindingUtil
+import com.github.barteksc.pdfviewer.util.FitPolicy
 import com.mdf.deklarasi.R
 import com.mdf.deklarasi.database.DatabaseErrorListener
 import com.mdf.deklarasi.database.DatabaseSuccessListener
@@ -12,6 +15,7 @@ import com.mdf.deklarasi.database.IDeclarationDatabase
 import com.mdf.deklarasi.databinding.ActivityDeclarationDetailBinding
 import com.mdf.deklarasi.model.Declaration
 import com.mdf.deklarasi.utilities.AppConfiguration
+import kotlin.properties.Delegates
 
 
 class DeclarationDetailActivity : AppCompatActivity(), View.OnTouchListener {
@@ -21,6 +25,7 @@ class DeclarationDetailActivity : AppCompatActivity(), View.OnTouchListener {
 
     private var declaration: Declaration? = Declaration()
     private lateinit var declarationId: String
+    private var isNightMode = false
 
     private val move = 200f
     private var ratio= 1.0f
@@ -34,43 +39,28 @@ class DeclarationDetailActivity : AppCompatActivity(), View.OnTouchListener {
         supportActionBar?.hide()
 
         getArguments()
+        checkAppliedTheme()
         setupLayout()
         getDeclarationDetail()
-    }
-
-    override fun onTouchEvent(event: MotionEvent?): Boolean {
-        if (event?.pointerCount == 2) {
-            val action = event.action
-            val mainaction = action and MotionEvent.ACTION_MASK
-            if (mainaction === MotionEvent.ACTION_POINTER_DOWN) {
-                bastDst = getDistance(event)
-                baseRatio = ratio
-            } else {
-                // if ACTION_POINTER_UP then after finding the distance
-                // we will increase the text size by 15
-                val scale = (getDistance(event) - bastDst) / move
-                val factor = Math.pow(2.0, scale.toDouble()).toFloat()
-                ratio = Math.min(1024.0f, Math.max(0.1f, baseRatio * factor))
-                binding.tvDeclaration.textSize = ratio + 15
-            }
-        }
-
-        return true
-    }
-
-    private fun getDistance(event: MotionEvent): Int {
-        val dx = (event.getX(0) - event.getX(1)).toInt()
-        val dy = (event.getY(0) - event.getY(1)).toInt()
-        return Math.sqrt((dx * dx + dy * dy).toDouble()).toInt()
     }
 
     private fun getArguments() {
         declarationId = intent.getStringExtra("declarationId").toString()
     }
 
+    private fun checkAppliedTheme() {
+        when (AppCompatDelegate.getDefaultNightMode()) {
+            AppCompatDelegate.MODE_NIGHT_NO -> {
+                isNightMode = false
+            }
+            AppCompatDelegate.MODE_NIGHT_YES -> {
+                isNightMode = true
+            }
+        }
+    }
+
     private fun setupLayout() {
-        binding.tvDeclaration.textSize = ratio + 15
-        binding.tvDeclaration.setTextIsSelectable(true)
+        binding.tvTitle.isSelected = true
         binding.btnBack.setOnClickListener {
             onBackPressed()
         }
@@ -84,9 +74,22 @@ class DeclarationDetailActivity : AppCompatActivity(), View.OnTouchListener {
         }
     }
 
+    private fun showPdfFromAssets(pdfName: String?) {
+        binding.pdvViewer.fromAsset(pdfName)
+            .password(null)
+            .defaultPage(0)
+            .nightMode(isNightMode)
+            .onPageError{
+                page, _ ->
+                Toast.makeText(this@DeclarationDetailActivity, "Error at page: $page", Toast.LENGTH_LONG).show()
+            }
+            .load()
+    }
+
     private fun fetchDataToLayout() {
         binding.tvTitle.text = declaration?.title
-        binding.tvDeclaration.text = declaration?.declaration
+        showPdfFromAssets(declaration?.declaration)
+
         if (declaration?.fav == true)
             binding.icFav.setImageDrawable(resources.getDrawable(R.drawable.ic_fav_selected))
         else binding.icFav.setImageDrawable(resources.getDrawable(R.drawable.ic_fav))

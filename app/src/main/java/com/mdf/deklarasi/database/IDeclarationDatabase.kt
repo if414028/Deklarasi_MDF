@@ -1,6 +1,7 @@
 package com.mdf.deklarasi.database
 
 import com.mdf.deklarasi.model.Declaration
+import com.mdf.deklarasi.model.ShofarSound
 import com.mdf.deklarasi.model.SpiritualWarfareVerse
 
 interface IDeclarationDatabase {
@@ -55,6 +56,24 @@ interface IDeclarationDatabase {
 
     fun deleteSpiritualWarfareVerse(
         spiritualWarfareVerse: SpiritualWarfareVerse,
+        successListener: DatabaseSuccessListener<Void>,
+        errorListener: DatabaseErrorListener
+    )
+
+    //Shofar Sound
+    fun getAllShofarSound(
+        successListener: DatabaseSuccessListener<List<ShofarSound>>,
+        errorListener: DatabaseErrorListener
+    )
+
+    fun insertShofarSound(
+        shofarSound: List<ShofarSound>,
+        successListener: DatabaseSuccessListener<Void>,
+        errorListener: DatabaseErrorListener
+    )
+
+    fun deleteShofarSound(
+        shofarSound: ShofarSound,
         successListener: DatabaseSuccessListener<Void>,
         errorListener: DatabaseErrorListener
     )
