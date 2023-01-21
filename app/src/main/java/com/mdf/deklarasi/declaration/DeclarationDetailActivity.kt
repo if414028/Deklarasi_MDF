@@ -1,13 +1,17 @@
 package com.mdf.deklarasi.declaration
 
+import android.content.ClipData
+import android.content.ClipboardManager
+import android.content.Context
 import android.os.Bundle
+import android.util.TypedValue
 import android.view.MotionEvent
 import android.view.View
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.databinding.DataBindingUtil
-import com.github.barteksc.pdfviewer.util.FitPolicy
 import com.mdf.deklarasi.R
 import com.mdf.deklarasi.database.DatabaseErrorListener
 import com.mdf.deklarasi.database.DatabaseSuccessListener
@@ -15,7 +19,7 @@ import com.mdf.deklarasi.database.IDeclarationDatabase
 import com.mdf.deklarasi.databinding.ActivityDeclarationDetailBinding
 import com.mdf.deklarasi.model.Declaration
 import com.mdf.deklarasi.utilities.AppConfiguration
-import kotlin.properties.Delegates
+import com.mdf.deklarasi.utilities.UIHelper
 
 
 class DeclarationDetailActivity : AppCompatActivity(), View.OnTouchListener {
@@ -26,11 +30,6 @@ class DeclarationDetailActivity : AppCompatActivity(), View.OnTouchListener {
     private var declaration: Declaration? = Declaration()
     private lateinit var declarationId: String
     private var isNightMode = false
-
-    private val move = 200f
-    private var ratio= 1.0f
-    private var bastDst = 0
-    private var baseRatio = 0.0f
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -72,27 +71,63 @@ class DeclarationDetailActivity : AppCompatActivity(), View.OnTouchListener {
                 getErrorListener()
             )
         }
-    }
+        binding.icTextCopy.setOnClickListener {
+            val clipboardManager = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+            val clipData = ClipData.newPlainText(declaration?.title, declaration?.declaration)
+            clipboardManager.setPrimaryClip(clipData)
+            Toast.makeText(applicationContext, "Deklarasi telah di salin", Toast.LENGTH_SHORT)
+                .show()
+        }
 
-    private fun showPdfFromAssets(pdfName: String?) {
-        binding.pdvViewer.fromAsset(pdfName)
-            .password(null)
-            .defaultPage(0)
-            .nightMode(isNightMode)
-            .onPageError{
-                page, _ ->
-                Toast.makeText(this@DeclarationDetailActivity, "Error at page: $page", Toast.LENGTH_LONG).show()
-            }
-            .load()
     }
 
     private fun fetchDataToLayout() {
         binding.tvTitle.text = declaration?.title
-        showPdfFromAssets(declaration?.declaration)
-
         if (declaration?.fav == true)
             binding.icFav.setImageDrawable(resources.getDrawable(R.drawable.ic_fav_selected))
         else binding.icFav.setImageDrawable(resources.getDrawable(R.drawable.ic_fav))
+
+        val layoutRes = resources.getIdentifier(declaration?.layout, "layout", packageName)
+        binding.layoutStub.viewStub?.layoutResource = layoutRes
+        val inflatedView = binding.layoutStub.viewStub?.inflate()
+
+        binding.icTextSetting.setOnClickListener {
+            UIHelper.getInstance().displayTextSizeChanger(this, {
+                decreaseTextSize(inflatedView!!)
+            }, {
+                increaseTextSize(inflatedView!!)
+            }, true)
+        }
+    }
+
+    private fun increaseTextSize(inflatedView: View) {
+        val layoutIds: List<String> = declaration?.layoutIds?.split(",")!!.map { it.trim() }
+        if (layoutIds.isNotEmpty()) {
+            layoutIds.forEach {
+                val id = resources.getIdentifier(it, "id", packageName)
+                val tv = inflatedView?.findViewById<TextView>(id)
+                var fontSize = tv?.textSize
+                fontSize = fontSize?.plus(4f)
+                tv?.setTextSize(TypedValue.COMPLEX_UNIT_PX, fontSize!!)
+            }
+        }
+    }
+
+    private fun decreaseTextSize(inflatedView: View) {
+        val layoutIds: List<String> = declaration?.layoutIds?.split(",")!!.map { it.trim() }
+        if (layoutIds.isNotEmpty()) {
+            layoutIds.forEach {
+                val id = resources.getIdentifier(it, "id", packageName)
+                val tv = inflatedView?.findViewById<TextView>(id)
+                var fontSize = tv?.textSize
+                fontSize = fontSize?.minus(4f)
+                tv?.setTextSize(TypedValue.COMPLEX_UNIT_PX, fontSize!!)
+            }
+        }
+    }
+
+    fun pxFromDp(dp: Float, mContext: Context): Float {
+        return dp * mContext.getResources().getDisplayMetrics().density
     }
 
     private fun getDeclarationDetail() {

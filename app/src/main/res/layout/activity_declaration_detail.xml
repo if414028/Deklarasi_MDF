@@ -34,58 +34,71 @@
                     style="@style/Manrope.SemiBold"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:textAlignment="textStart"
                     android:ellipsize="marquee"
-                    android:marqueeRepeatLimit="marquee_forever"
-                    android:textSize="@dimen/_12ssp"
                     android:focusable="true"
                     android:focusableInTouchMode="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:paddingEnd="@dimen/_8sdp"
                     android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textAlignment="textStart"
+                    android:textSize="@dimen/_12ssp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@id/ic_fav"
                     app:layout_constraintStart_toEndOf="@id/btn_back"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:paddingEnd="@dimen/_8sdp"
-                    android:singleLine="true"
                     tools:text="S.M.A (Bahtera)" />
 
                 <ImageView
                     android:id="@+id/ic_fav"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_fav"
                     android:layout_marginRight="@dimen/_16sdp"
+                    android:src="@drawable/ic_fav"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/ic_text_copy"
                     app:layout_constraintStart_toEndOf="@id/tv_title"
-                    app:layout_constraintEnd_toStartOf="@id/ic_text_config"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintBottom_toBottomOf="parent"/>
+                    app:layout_constraintTop_toTopOf="parent" />
 
-                <TextView
-                    android:id="@+id/ic_text_config"
+                <ImageView
+                    android:id="@+id/ic_text_copy"
                     style="@style/Manrope.ExtraBold"
                     android:layout_width="@dimen/_24sdp"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="@dimen/_16sdp"
+                    android:src="@drawable/ic_copy"
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/ic_text_setting"
+                    app:layout_constraintStart_toEndOf="@id/ic_fav"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/ic_text_setting"
+                    style="@style/Manrope.ExtraBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_16sdp"
                     android:text="Aa"
-                    android:visibility="gone"
                     android:textSize="@dimen/_14ssp"
+                    android:visibility="visible"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@id/ic_fav"
+                    app:layout_constraintStart_toEndOf="@id/ic_text_copy"
                     app:layout_constraintTop_toTopOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </com.google.android.material.card.MaterialCardView>
 
-        <com.github.barteksc.pdfviewer.PDFView
-            android:id="@+id/pdv_viewer"
+        <ViewStub
+            android:id="@+id/layout_stub"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginBottom="@dimen/_16sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/app_bar"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintTop_toBottomOf="@id/app_bar" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

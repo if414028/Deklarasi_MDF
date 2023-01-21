@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_16sdp">
+
+            <TextView
+                android:id="@+id/tv_1"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="Didalam Nama Tuhan Yesus; Jehova Zebaoth kami
+deklarasikan bahwa Tuhan Yesus dijadikan miskin
+agar kami menjadi kaya, Tuhan memberikan kami
+kekuatan untuk memperoleh kekayaan dgn maksud
+meneguhkan perjanjian yang Ia ikrarkan kpd nenek
+moyang kami.
+\n\nKami terus mendengarkan suara Tuhan dengan
+baik,terus memperkatakan Firman Tuhan,
+merenungkanya siang dan malam dan bertindak
+hati2 sesuai dengan segala yg tertulis didalamnya.
+Sehingga perjalanan kami berhasil dan kami
+beruntung. Kami diangkat atas segala bangsa
+dibumi. Kami diberkati kemanapun kami pergi.
+Apapun yang kami lakukan.
+\n\nKami menerima warisan Transfer of Wealth karena
+Perjanjian dengan Tuhan Yesus sebagaimana yang
+pernah terjadi dengan Abraham, Ishak, Yakub, Yusuf
+, bgs Israel, Daud dan Salomo.
+\n\nKarena Perjanjian dgn Abraham maka Tuhan
+memberikan seluruh dunia bagi kami untuk kami
+ambil alih. Kami memberi makan seluruh dunia
+seperti Yusuf. Kami menerima Hikmat untuk
+berdagang dgn seluruh dunia seperti Salomo. Kami
+menerima ide2 untuk berusaha karena tdk ada yang
+tersembunyi bagi kami. Kami menabur dengan
+sangat tepat sehingga kami menjadi kaya bahkan
+kian kaya sampai menjadi sangat kaya seperti Ishak.
+semua roh Haman sudah digantung sehingga
+kekayaan orang fasik dipindahkan kepada kami
+Gereja Tuhan.
+\n\nTuhan sedang menggoncangkan langit dan bumi,
+laut dan darat. segala bangsa sehingga barang2
+yang indah kepunyaan segala bangsa datang
+mengalir. kami gereja Tuhan sedang dipenuhi
+dengan kemegahan.
+\n\nTuhan berjalan didepan kami memberikan kepada
+kami harta benda yang terpendam dan harta
+kekayaan yang tersembunyi. segala harta kekayaan
+yg pernah ditimbun orang fasik harus diserahkan
+kepada kami yang dikenan Tuhan.
+\n\nsemua yang pernah dicuri iblis harus dikembalikan 7
+x lipat. ditambah iblis harus menyerahkan seisi
+rumahnya. hasil tanah orang fasik,segala laba
+mereka sedang pindah kpd kami dan menjadi
+kepunyaan kami.
+\n\nPintu2 gerbang kami selalu terbuka untuk bangsa2
+datang mengantar kekayaan dari seberang lautan.
+Karena sudah lewat 70 th maka laba dan upah
+sundal Kudus bagi Tuhan untuk memberi makan
+bangsa2 baik secara jasmani maupun rohani,
+memberitakan Injil sampai keujung bumi, terjadi
+pelipat gandaan dan terobosan.
+\n\nMasa puncak kejayaan,kelimpahan dan
+kemakmuran sedang terjadi. tidak ada lagi yg miskin
+diantara kami. Semua janji Tuhan yg baik terjadi dan
+digenapi. Hati kami tetap melekat dan tertuju kepada
+Tuhan. Didalam nama Tuhan Yesus terjadi."
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_2"
+                style="@style/Manrope.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="AMIN 3X"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

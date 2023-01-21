@@ -100,7 +100,6 @@
             android:id="@+id/ly_not_found"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:background="@color/white"
             android:gravity="center"
             android:orientation="vertical"
             android:visibility="@{isEmpty ? View.VISIBLE : View.GONE, default = visible}"

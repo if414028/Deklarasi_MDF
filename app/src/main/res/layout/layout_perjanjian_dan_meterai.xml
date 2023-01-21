@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_16sdp">
+
+            <TextView
+                android:id="@+id/tv_1"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="Pada hari ini di hadapan Elohim, Yeshua
+Hamashiach dan Ruach Hakodesh kami
+mengangkat dan mengaktifkan:"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_2"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="1. PERJANJIAN DANIEL dan METERAI
+PENANGGUHAN merekayasa dan menjamin
+kami Mahanaim, Bahtera dan Pasukan
+Terdahsyat terluput pada waktu kesesakan besar
+terjadi, dan masa kesesakan itu
+DITANGGUHKAN sampai kami diangkat di
+awan-awan.
+\n\n2. PERJANJIAN EVERLASTING LOVE dan
+METERAI CINTA merekayasa dan menjamin
+kami Mahanaim, Bahtera dan Pasukan
+Terdahsyat diikat dan ditarik dengan cinta Tuhan,
+punya api gelora cinta yang terus menyala yang
+menggerakkan kami menyatu dengan Elohim,
+Yeshua Hamashiach dan Ruach Hakodesh
+selamanya.
+\n\n3. PERJANJIAN MATAHARI dan METERAI
+SEMESTA merekayasa dan menjamin kami
+Mahanaim, Bahtera dan Pasukan Terdahsyat
+tetap bersinar di setiap musim, membakar
+semua yang bukan dari Tuhan, membawa
+kehidupan dan kesembuhan, menahan setiap
+penguasa kegelapan di zaman kami dan
+menerima kelimpahan di setiap dimensi hidup
+kami.
+\n\n4. PERJANJIAN LAWATAN dan METERAI
+KEPUTUSAN PERANG merekayasa dan
+menjamin kami Mahanaim, Bahtera dan Pasukan
+Terdahsyat menjadi wadah, penggerak dan
+penggenap lawatan di Indonesia dan
+bangsa-bangsa dengan kuasa Ruakh Elohim
+yang membuat kami memenangkan setiap
+peperangan dan mendapat kemenangan di
+setiap langkah kami.
+\n\n5. PERJANJIAN DARAH dan METERAI RUANG
+MAHA KUDUS merekayasa dan menjamin kami
+Mahanaim, Bahtera dan Pasukan Terdahsyat
+dibenarkan dalam segala hal, dilayakkan,
+diciptakan ulang dan menerima akses bebas dan
+mudah untuk masuk dan bertemu face to face
+dengan Tuhan dan keilahianNya di ruang Maha
+KudusNya.
+\n\n6. PERJANJIAN PENGANGKATAN dan METERAI
+PERJANJIAN merekayasa dan menjamin kami
+Mahanaim, Bahtera dan Pasukan Terdahsyat
+diangkat dan bertemu dengan Yeshua di
+awan-awan, dan tetap berdiri kuat di atas
+perjanjian Tuhan selamanya.
+\n\n7. PERJANJIAN GLORIOUS FINISH dan METERAI
+PENETAPAN LEGAL merekayasa dan menjamin
+kami Mahanaim, Bahtera dan Pasukan
+Terdahsyat memulai, mengakhiri dan
+menuntaskan dengan kuat, tepat dan mulia
+setiap tugas, panggilan dan destiny, dan kami
+diangkat menjadi cincin meteraiNya sebagai
+tanda kedaulatan kehadiran dan otoritasNya
+sehingga di seluruh Indonesia hanya boleh
+bergerak, bertindak, memutuskan sesuatu
+dengan persetujuan kami."
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_3"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="Inilah kami pemegang perjanjianMu berdiri.
+Perjanjian dan meteraiMu dengan kami kekal.
+Sampai Engkau berkenan menurunkan sumpahMu.
+Mahanaim, Bahtera, MDF dan Pasukan
+TerdahsyatMu di Indonesia dan seluruh bumi tidak
+terputus dari hadiratMu selamanya. Jadi dan
+genaplah semua."
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_4"
+                style="@style/Manrope.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="AMIN 9X"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

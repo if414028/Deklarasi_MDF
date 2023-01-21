@@ -8,11 +8,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="darkGrey">#FFFFFFFF</color>
+    <color name="darkGrey">#303030</color>
     <color name="color_primary">#72033B</color>
-    <color name="purple72033B">#72033B</color>
-    <color name="purple_transparent">#1E72033B</color>
+    <color name="purple72033B">#fdafd7</color>
     <color name="greyAAAAAA">#AAAAAA</color>
-    <color name="black333333">#333333</color>
+    <color name="black333333">#DEDEDE</color>
     <color name="greyDEDEDE">#DEDEDE</color>
 </resources>

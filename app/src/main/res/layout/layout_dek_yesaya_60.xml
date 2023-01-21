@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_16sdp">
+
+            <TextView
+                android:id="@+id/tv_1"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="Dalam nama Tuhan Yesus Kristus kami percaya
+Yesaya 60 terjadi :
+\n\nKami sudah bangkit menjadi terang, sebab terang
+kami sudah datang dan kemuliaan Tuhan sudah
+terbit atas kami. Sebab sesungguhnya, kegelapan
+menutupi bumi, dan kekelaman menutupi
+bangsa-bangsa; tetapi terang Tuhan terbit atas kami,
+dan kemuliaan Tuhan menjadi nyata atas kami.
+Bangsa-bangsa berduyun-duyun datang kepada
+terang kami dan raja-raja kepada cahaya yang terbit
+bagi kami.
+\n\nKami mengangkat muka dan melihat ke sekeliling,
+mereka semua datang berhimpun kepada kami;
+anak-anak kami laki-laki datang dari jauh, dan
+anak-anak kami perempuan digendong.
+Pada waktu ini kami heran melihat dan berseri-seri,
+kami tercengang dan berbesar hati, sebab
+kelimpahan dari seberang laut telah beralih kepada
+kami, dan kekayaan bangsa-bangsa sedang dan
+sudah datang kepada kami.
+\n\nSejumlah besar unta sedang dan sudah menutupi
+daerah kami, unta-unta muda dari Midian dan Efa.
+Mereka semua sedang dan sudah datang dari
+Syeba, sedang dan sudah membawa emas dan
+kemenyan, serta memberitakan perbuatan masyur
+Tuhan.
+\n\nSegala kambing domba kedar sedang dan sudah
+berhimpun kepada kami, domba-domba jantan
+nebayot sudah tersedia untuk ibadah kami;
+semuanya sedang dan sudah dipersembahkan di
+atas mezbah Tuhan sebagai korban yang berkenan
+kepada Tuhan, dan Tuhan sedang menyemarakkan
+rumah keagungan Tuhan.
+\n\nSiapakah mereka ini yang melayang seperti awan
+dan seperti burung merpati ke pintu kandangnya?
+Kamilah orangnya, sungguh Tuhan Yesuslah yang
+dinanti-nantikan pulau-pulau yang jauh;
+Kapal-kapal Tarsis berlayar di depan untuk
+membawa anak-anak kami laki-laki dari jauh, perak
+dan emasnya dibawa serta, untuk nama Tuhan,
+Allah kami, dan oleh karena yang Maha Kudus,
+Allah Israel, sebab Tuhan mengagungkan kami.
+Orang-orang asing sedang dan sudah membangun
+tembok kami, dan raja-raja mereka sedang dan
+sudah melayani kami; sebab dalam murka-Nya
+Tuhan telah menghajar kami, namun Tuhan telah
+berkenan untuk mengasihani kami.
+\n\nPintu-pintu gerbang kami sedang dan sudah terbuka
+senantiasa, baik siang maupun malam tidak akan
+pernah tertutup, supaya orang dapat membawa
+kekayaan bangsa-bangsa kepada kami, sedang
+raja-raja mereka ikut digiring sebagai tawanan.
+Sungguh, bangsa dan kerajaan yang tidak mau
+mengabdi kepada kami sedang dan sudah lenyap;
+bangsa-bangsa itu dirusak-binasakan. Kemuliaan
+Libanon, yaitu pohon sanobar, pohon berangan dan
+pohon cemara, sedang dan sudah dibawa
+bersama-sama kepada kami, untuk
+mempersemarakkan tempat kaki-Nya berjejak.
+Anak-anak orang-orang yang menindas kami datang
+kepada kami dan tunduk, dan semua orang yang
+menista kami sujud menyembah telapak kaki kami;
+mereka menyebutkan kami Kota Tuhan
+, Sion, milik
+yang Maha Kudus, Allah Israel.
+\n\nSebagai ganti keadaan kami dahulu, ketika kami
+ditinggalkan, dibenci dan tidak disinggahi seorang
+pun, sekarang Tuhan sedang dan sudah membuat
+kami menjadi kebanggaan abadi, menjadi
+kegirangan turun-temurun.
+\n\nKami sedang dan sudah menghisap susu
+bangsa-bangsa dan sedang dan sudah meminum
+susu kerajaan-kerajaan maka kami mengetahui,
+bahwa Tuhan Yesuslah, juruselamat kami dan
+penebus kami, yang Maha Kuasa, Allah Yakub.
+Sebagai ganti tembaga Tuhan sedang dan sudah
+membawa emas, dan sebagai ganti besi Tuhan
+sedang dan sudah membawa perak, sebagai ganti
+kayu, tembaga, dan sebagai ganti batu, besi; Tuhan
+memberikan damai sejahtera dan keadilan yang
+melindungi dan mengatur hidup kami.
+\n\nTidak akan ada lagi kabar tentang perbuatan
+kekerasan di negeri kami, tentang kebinasaan atau
+keruntuhan di daerah kami; kami menyebutkan
+tembok kami selamat dan pintu-pintu gerbang kami
+pujian.
+\n\nBagi kami matahari tidak lagi menjadi penerang
+pada siang hari dan cahaya bulan tidak lagi memberi
+terang pada malam hari, tetapi Tuhan Yesus menjadi
+penerang abadi bagi kami dan Allah kami menjadi
+keagungan kami.
+\n\nBagi kami sudah ada matahari yang tidak pernah
+terbenam dan bulan tidak surut, sebab Tuhan
+menjadi penerang abadi bagi kami dan hari-hari
+perkabungan kami sudah berakhir. Penduduk kami
+semuanya orang-orang benar, kami memiliki negeri
+untuk selama-lamanya; kami sebagai cangkokan
+yang Tuhan tanam sendiri untuk memperlihatkan
+keagungan Tuhan.
+\n\nKaum yang kecil menjadi kaum besar, dan kaum
+yang lemah menjadi bangsa yang kuat; sekarang
+Tuhan Yesus sedang dan sudah melaksanakannya."
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_2"
+                style="@style/Manrope.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="AMIN 3X"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

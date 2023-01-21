@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_16sdp">
+
+            <TextView
+                android:id="@+id/tv_1"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="Di Dalam Nama TUHAN YESUS KRISTUS, NAMA
+diatas segala nama, NAMA yang Berkuasa!
+PRIBADI yang kami dapat percayai dan andalkan,
+Gunung Batu Keselamatan, kami perkatakan bahwa:
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_2"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="1. Ada TEMBOK DARAH TUHAN YESUS
+KRISTUS dalam hidup kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_3"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="Darah yang menutup setiap celah dan dosa yang
+kami lakukan, sehingga tidak ada tuntutan iblis
+dalam hidup kami. (Kolose 2:13-14)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_4"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="2. Ada TEMBOK BERAPI di sekeliling kami
+"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_5"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="sebab ada tertulis: Tuhan sendiri adalah Tembok
+Berapi bagi kami di sekeliling kami, dan Tuhan
+menjadi Kemuliaan di dalam kami. (Zakaria 2:5)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_6"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="3. Ada TEMBOK MALAIKAT di sekeliling kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_7"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="malaikat-malaikatNya telah dikirimkan-Nya
+kepada kami untuk menjagai jalan kami,
+berkemah di sekeliling kami, berjaga dan
+berperang bersama kami. (Maz 91:11; 34:7)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_8"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="4. Ada TEMBOK PENGAKUAN di sekeliling kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_9"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="sebab ada tertulis: Barangsiapa mengaku,
+bahwa Yesus adalah Anak Allah, Allah tetap
+berada di dalam dia dan dia di dalam Allah, dan
+karena kami percaya, sebab itu kami
+berkata-kata. (2 Kor 4:13)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_10"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="5. Ada TEMBOK FIRMAN ALLAH di sekeliling
+kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_11"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="sebab ada tertulis: Firman Allah adalah Murni. Ia
+adalah Perisai bagi orang-orang yang berlindung
+pada Nya. (Mazmur 19:8; Amsal 30:5)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_12"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="6. Ada TEMBOK GELAR-GELAR ALLAH di
+sekeliling kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_13"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="sebab ada tertulis: Nama-nama Allah Yakub
+membentengi kami, dan barangsiapa berseru
+kepada Nama Tuhan akan diselamatkan.
+(Mazmur 20:1,5,7; Mazmur 91)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_14"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="7. Ada TEMBOK PUJIAN PENYEMBAHAN di
+sekeliling kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_15"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="sebab ada tertulis: Ketika mereka mulai
+bersorak-sorai dan menyanyikan nyanyian
+pujian, dibuat Tuhanlah penghadangan terhadap
+musuh-musuhNya, sehingga mereka terpukul
+kalah. (Roma 10:13)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_16"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="8. Ada TEMBOK KASIH SETIA TUHAN di
+sekeliling kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_17"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="sebab Allah adalah Kota Benteng kami, Allah
+kami dengan Kasih-SetiaNya. (Mazmur 59:17;
+91:4)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_18"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="9. Ada TEMBOK UNITY di sekeliling kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_19"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="Kami seia sekata dan tidak ada perpecahan di
+antara kami, kami erat bersatu dan sehati sepikir
+dengan Tuhan dan saudara-saudara kami.
+(Efesus 4, 1 Korintus 1:10)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_20"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="10. Ada TEMBOK ANUGERAH TUHAN di
+sekeliling kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_21"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="sebab Tuhan memagari kami dengan
+Anugerah-Nya seperti Perisai. (Mazmur 5:12)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_22"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="11. Ada TEMBOK KARUNIA TUHAN di sekeliling
+kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_23"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="Atas Karunia Tuhan, kami mendapat
+Perlindungan. (Ruth 1:9)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_24"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="12. Ada TEMBOK GUNUNG BATU di sekeliling
+kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_25"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="sebab Engkau Tuhan bukit batu, kubu
+pertahanan dan penyelamat, gunung batu
+tempat kami berlindung, perisai, tanduk
+keselamatan, kota benteng! Terpujilah Tuhan !
+Maka kami pun selamat dari musuh-musuh kami.
+(Mazmur 18:2, 31:2, 144:2)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+
+            <TextView
+                android:id="@+id/tv_26"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="13. Ada TEMBOK SAYAP TUHAN di sekeliling
+kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_27"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="Dengan kepak-Nya, Tuhan menudungi kami, di
+bawah sayap-Nya kami berlindung dan
+disembuhkan. (Mazmur 9, Ruth 3:9)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_28"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="14. Ada TEMBOK SUKACITA TUHAN di sekeliling
+kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_29"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="Kami tidak bersusah hati, sebab Sukacita karena
+Tuhan itulah Perlindungan kami. (Nehemia 8:10)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_30"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="15. Ada TEMBOK PERJANJIAN TUHAN di
+sekeliling kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_31"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="Karena Perjanjian dengan Tuhan kami, maka
+tidak ada serangan iblis yang dapat menyentuh
+dan mendekat kepada kami, suatu PERJANJIAN
+yang mengalahkan hukum dan kutuk. (Kejadian
+15; Galatia 3:17)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_32"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="16. Ada TEMBOK KUASA di sekeliling kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_33"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="karena Tuhan telah memberikan kuasa kepada
+kami untuk menginjak ular dan kalajengking dan
+kuasa untuk menahan kekuatan musuh,
+sehingga tidak ada yang membahayakan kami.
+(Lukas 10:19)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_34"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="17. Ada TEMBOK KELIMPAHAN MINYAK DAN
+ANGGUR di sekeliling kami
+"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_35"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="karena ada tertulis 'janganlah rusakkan minyak
+dan anggur itu.' (Wahyu 6:6)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_36"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="18. Ada TEMBOK KEBENARAN TUHAN di
+sekeliling kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_37"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="karena setiap senjata yang ditempa terhadap
+kami tidak berhasil, dan setiap orang yang
+melontarkan tuduhan melawan kami dalam
+pengadilan, kami buktikan salah. (Yesaya 54:17)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_38"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="19. Ada TEMBOK KEMENANGAN di sekeliling
+kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_39"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="sebab tidak ada mantera yang mempan terhadap
+Yakub, ataupun tenungan yang mempan
+terhadap Israel. (Bilangan 23:23)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_40"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="20. Ada TEMBOK BAHASA ROH disekeliling kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_41"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="karena kami berkata-kata dengan bahasa roh.
+Sesuai Firman-Nya, dengan bahasa Roh kami
+membangun diri kami sendiri.(1 Korintus 14:4)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_42"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="21. Ada TEMBOK BUAH ROH KUDUS DAN
+KARAKTER KRISTUS di sekeliling kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_43"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="sebab kami telah menjadi milik Kristus, hidup
+kami bukan lagi kami sendiri yang hidup,
+melainkan Kristus yang hidup didalam kami. Dan
+kami memberikan diri kami dipimpin oleh Roh
+Kudus, maka kami menyalibkan daging kami
+dengan segala hawa nafsu dan keinginannya,
+dan kami dipenuhi didalam seluruh kepenuhàn
+Allah.
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_44"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="22. Ada TEMBOK KESEJAHTERAAN DAN
+SENTOSA disekeliling kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_45"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="sebab tertulis di Mazmur 122:7,
+'Biarlah
+kesejahteraan ada di lingkungan tembokmu dan
+sentosa di dalam purimu!'
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_46"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="23. Ada TEMBOK KEDAMAIAN dari TUHAN
+disekeliling kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_47"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="yang melampaui seluruh pengertian manusia,
+menjaga dan melindungi hati dan pikiran kami
+melalui Kristus. (Filipi 4:7)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_48"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="24. Ada TEMBOK JAMINAN TUHAN di sekeliling
+kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_49"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="ada tertulis Tuhanlah yang menguatkan
+perkataan kami hamba- hamba-Nya dan
+melaksanakan keputusan-keputusan yang
+diberitakan / dideklarasikan oleh kami
+utusan-utusan-Nya. (Yesaya 44:26)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_50"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="25. Ada TEMBOK KEADILAN TUHAN di sekeliling
+kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_51"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="sebab Tuhan kiranya menjadi Hakim yang
+memutuskan perkara kami; Dia kiranya
+memperhatikan, memperjuangkan dan memberi
+Keadilan kepada kami dengan melepaskan kami
+dari tangan musuh-musuh kami. (1 Samuel
+24:15)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_52"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="26. Ada TEMBOK TERANG KEMULIAAN TUHAN
+di sekeliling kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_53"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="sesungguhnya, Tuhan mengembangkan
+TerangNya di sekelilingNya; Ia telah
+membebaskan nyawaku dari perjalanan ke liang
+kubur dan hidupku telah melihat Terang! Hidup
+kami di terangi oleh Cahaya Hidup (Ayub 33:28,
+Ayub 36:30, Ayub 33:30 )
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_54"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="27. Ada TUHAN sebagai SINGA dari YEHUDA
+dalam hidup kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_55"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black333333"
+                android:text="seperti seekor Singa atau Singa Muda yang
+menggeram untuk mempertahankan mangsanya
+dan tidak terkejut mendengar teriakan,
+demikianlah Tuhan Semesta Alam akan turun
+Berperang untuk Mempertahankan Gunung Sion
+dan Bukitnya. (Yesaya 31:4)
+"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_56"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="28. Ada TEMBOK PERTOBATAN di dalam hidup
+kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_57"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="sebab beginilah Firman Tuhan. ' dengan bertobat
+dan tinggal diam kami diselamatkan, Tuhan
+datang sebagai Penebus untuk Sion dan untuk
+orang-orang Yakub yang bertobat. (Yesaya
+30:15, 59:20)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_58"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="29. Ada TEMBOK KEINTIMAN di dalam hidup
+kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_59"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="karena ada Firman Tuhan tertulis 'hanya dekat
+Allah saja kami tenang, dari pada-Nyalah
+Keselamatan kami. Sungguh hati kami melekat
+kepada Tuhan, maka Tuhan meluputkan kami,
+Tuhan membentengi kami, sebab kami mengenal
+Nama Tuhan! (Mazmur 62:1,91:14)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_60"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="30. Ada TEMBOK PERKENANAN TUHAN di
+dalam hidup kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_61"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="ketika Raja di atas segala raja melihat kami,
+berkenanlah Raja kepada kami dan diulurkanNya
+Tongkat Emas kepada kami. Pada waktu Tuhan
+berkenan, Tuhan menjawab kami, dan pada hari
+Tuhan menyelamatkan, Tuhan menolong kami.
+(Yesaya 49:8, Ester 5:2 )
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_62"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="31. Ada TEMBOK PERSEPULUHAN atas hidup
+kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_63"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="sebab kami mengembalikan persepuluhan ke
+rumah perbendaharaan Tuhan, maka Tuhan
+menghalau dan menghardik segala belalang
+pelahap atas hidup kami, sehingga pohon
+anggur kami berbuah (Maleakhi 3:10-11)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_64"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="32. Ada TEMBOK KEBAIKAN di sekelilng kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_65"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="seperti ada tertulis : Mereka merencanakan yang
+jahat terhadap kami, tetapi Allah telah
+mereka-rekakannya untuk kebaikan kami, Tuhan
+melimpahi kami dengan kebaikan dalam segala
+pekerjaan kami. KebaikanNya mengikuti kami
+seumur hidup kami, membuat kami besar, dan
+kami melihat kebaikan Tuhan di negeri kami. (Kej
+50:20, Ulangan 30:9, 2 Samuel 22:36)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_66"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="33. Ada TEMBOK CINTA di sekelilng kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_67"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="cintaNya yang lebih kuat dari maut dan lebih
+nikmat dari anggur, sehingga kami mencintai
+Tuhan dan semua orang, kasih Kristus dialirkan
+dan dinyatakan melalui kami. Kami selalu puas
+dan dipuaskan dengan cintaNya, tidak ada cinta
+akan dunia dan manusia yang dapat memikat
+kami (Kidung 1:2, 8:6)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_68"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="34. Ada TEMBOK KETENANGAN di sekelilng kami"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_69"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="ada shalom dalam pikiran – jiwa – hati kami, ada
+pengendalian diri, tidak ada kemarahan dan
+tembok-tembok kami tidak dapat dirobohkan
+(Amsal 25:28)
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_70"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="35. Ada TEMBOK PASUKAN TUHAN yang berdiri
+mempertahankan negeri ini di hadapan Tuhan"
+                android:textColor="@color/purple72033B"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_71"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="Pasukan yang sehati sederap seritme dengan
+Panglima Agung kami yaitu Tuhan Yesus.
+Mengangkat Perjanjian Ilahi, senjata rohani dan
+Doa. Saling rapatkan barisan dan saling
+bersahutan dan sepakat dalam Lawatan
+terbesar. (Yoel 2:11. Yeh 22:30)"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_72"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="Semua yang kami deklarasikan, terjadi – genap –
+tuntas, oleh sebab TUHAN yang menyempurnakan,
+memeteraikan dan menjadikan : Tembok-tembok
+yang kokoh, kuat, tebal dan tinggi. Tembok-tembok
+perlindungan yang tidak bisa ditembus musuh !"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_73"
+                style="@style/Manrope.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="AMIN 12X"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

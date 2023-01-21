@@ -33,9 +33,7 @@
                     style="@style/Manrope.SemiBold"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ellipsize="end"
                     android:padding="@dimen/_16sdp"
-                    android:singleLine="true"
                     android:textSize="@dimen/_12ssp"
                     tools:text="@string/declaration" />
 

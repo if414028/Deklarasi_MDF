@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_16sdp">
+
+            <TextView
+                android:id="@+id/tv_1"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="Di dalam nama Yeshua Hamashiach, Tuhan dan
+Raja"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_2"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="1. Kami kendalikan atmosfer dan koyakkan
+semua tudung kegelapan atas hidup kami,
+keluarga kami dan semua orang yang
+berhubungan darah dengan kami, di lingkungan
+tempat tinggal kami, juga atas Mahanaim,
+Bahtera, MDF dan Indonesia.
+\n\n2. Kami perangi semua yang berusaha
+mengganggu, mencuri, membunuh,
+membinasakan kami dan semua jiwa2 yang kami
+layani. Kami tolak semua apapun yang iblis
+rencanakan hari ini, serangan, umpan, jebakan
+dipatahkan dan dibatalkan.
+\n\n3. Kami sapu bersih, semua tipu muslihat, semua
+jebakan, semua yang iblis coba sodorkan: cinta
+akan uang, keinginan mata, keinginan daging
+serta keangkuhan hidup. Kami kebaskan setiap
+tuduhan, tekanan, intimidasi, ilusi, iri hati,
+kemarahan, dendam, sakit penyakit, kelemahan
+tubuh, kecenderungan dosa, kemalasan,
+pemberontakan, kebekuan, kegagalan, kerugian,
+kecelakaan, bencana, kematian sia-sia.
+\n\n4. Kami ambil semua yang Tuhan kehendaki :
+cinta yang baru, semangat yang baru, unity,
+pengertian dan pengenalan yang baru akan
+Tuhan, kekuatan baru yang supranatural,
+kelimpahan roh jiwa tubuh. Kami terima semua
+yang ilahi, Hikmat, Beyond Human, Perkenanan,
+Powerful Skills, Ide-ide kreatif dan ajaib, efektif,
+efisien, percepatan,ke 7 roh Allah memenuhi
+kami, ketepatan, karunia mencipta dan
+mengelola, serta semua senjata-senjata dan
+jubah-jubah dan warisan rohani.
+\n\n5. Kami aktifkan pasukan malaikat untuk mereka
+bicara, mengajar, membuka jalan, mengambil
+berkat, menopang dan menolong kami, melayani
+kami, mengerjakan apa yang tidak dapat lakukan
+\n\n6. Ada cover Darah Yeshua Hamashiach atas
+para pemimpin di atas kami, dan semua orang
+yang memberkati, mengcover, yang berjaga-jaga
+atas hidup kami, seluruh pelayanan kami,
+pekerjaan kami dan usaha kami.
+\n\n7. Kami kendalikan semua emosi sampah dan
+kecenderungan dosa, memotong semua sifat
+karakter jahat, menghabisi semua penghalang
+dan pemotong destiny. Kami membiarkan
+tangan-Nya memproses serta membersihkan
+jiwa kami agar dilayakkan untuk memberi
+kecupan ilahi dan mencium KakiNya dengan
+passion dan cinta.
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_3"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:justificationMode="inter_word"
+                android:text="Oleh anugerah-Nya - Semua genap, tuntas, segera
+dan sempurna terjadi, di dalam nama Bapa Yahweh,
+Tuhan Yeshua Hamashiach, Ruach Hakodesh."
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_4"
+                style="@style/Manrope.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="AMIN 3X"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

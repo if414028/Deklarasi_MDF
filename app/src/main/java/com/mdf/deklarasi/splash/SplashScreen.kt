@@ -47,204 +47,266 @@ class SplashScreen : AppCompatActivity() {
         val mdfDeclaration = Declaration(
             "declaration_sma_mdf",
             "S.M.A (MDF)",
-            "sma_mdf.pdf",
-            true
+            resources.getString(R.string.dek_sma_mdf),
+            true,
+            "layout_dek_sma_mdf",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13, tv_14, tv_15, tv_16, tv_17, tv_18, tv_19"
         )
 
         val bahteraDelcaration = Declaration(
             "declaration_bahtera_mdf",
             "S.M.A (Bahtera)",
-            "sma_bahtera.pdf",
-            false
+            resources.getString(R.string.dek_sma_bahtera),
+            false,
+            "layout_dek_sma_bahtera",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13, tv_14, tv_15, tv_16"
         )
 
         val kendalikanAtmosferTiapPagi = Declaration(
             "kendalikan_atmosfer_setiap_pagi",
             "Deklarasi Kendalikan Atmosfer Setiap Pagi",
-            "deklarasi_kendalikan_atmosfer_setiap_pagi.pdf",
-            false
+            resources.getString(R.string.kendalikan_atmosfer_tiap_pagi),
+            false,
+            "layout_kendalikan_atmosfer_tiap_pagi",
+            "tv_1, tv_2, tv_3, tv_4"
         )
 
         val tembokPerlindunganDeclaration = Declaration(
             "declaration_tembok_perlindungan",
             "Deklarasi 35 Tembok Perlindungan",
-            "tembok_perlindungan.pdf",
-            false
+            resources.getString(R.string.dek_tembok_perlindungan),
+            false,
+            "layout_tembok_perlindungan",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13, tv_14, tv_15, tv_16, tv_17," +
+                    " tv_18, tv_19, tv_20, tv_21, tv_22, tv_22, tv_23, tv_24, tv_25, tv_26, tv_27, tv_28, tv_29, tv_30, tv_31, tv_32," +
+                    " tv_33, tv_34, tv_35, tv_36, tv_37, tv_38, tv_39, tv_40, tv_41, tv_42, tv_43, tv_44, tv_45, tv_46, tv_47, tv_48," +
+                    " tv_49, tv_50, tv_51, tv_52, tv_53, tv_54, tv_55, tv_56, tv_57, tv_58, tv_59, tv_60, tv_61, tv_62, tv_63, tv_64, tv_65," +
+                    " tv_66, tv_67, tv_68, tv_69, tv_70, tv_71, tv_72, tv_73,"
         )
 
         val perjanjianDarah = Declaration(
             "perjanjian_darah",
             "Deklarasi Perjanjian Darah",
-            "perjanjian_darah.pdf",
-            false
+            resources.getString(R.string.dek_perjanjian_darah),
+            false,
+            "layout_dek_perjanjian_darah",
+            "tv_1, tv_2"
         )
 
         val perjanjianGaram = Declaration(
             "perjanjian_garam",
             "Deklarasi Perjanjian Garam",
-            "perjanjian_garam.pdf",
-            false
+            resources.getString(R.string.dek_perjanjian_garam),
+            false,
+            "layout_dek_perjanjian_garam",
+            "tv_1, tv_2"
         )
 
         val perjanjianPelangi1 = Declaration(
             "perjanjian_pelangi_1",
             "Deklarasi Perjanjian Pelangi 1",
-            "perjanjian_pelangi_1",
-            false
+            resources.getString(R.string.dek_perjanjian_pelangi_1),
+            false,
+            "layout_dek_perjanjian_pelangi_1",
+            "tv_1, tv_2"
         )
 
         val perjanjianPelangi2 = Declaration(
             "perjanjian_pelangi_2",
             "Deklarasi Perjanjian Pelangi 2",
-            "perjanjian_pelangi_2",
-            false
+            resources.getString(R.string.dek_perjanjian_pelangi_2),
+            false,
+            "layout_dek_perjanjian_pelangi_2",
+            "tv_1, tv_2"
         )
 
         val deklarasiMazmur91 = Declaration(
             "mazmur_91",
             "Deklarasi Mazmur 91 (Perlindungan)",
-            "mazmur_91.pdf",
-            false
+            resources.getString(R.string.dek_mazmur_91),
+            false,
+            "layout_dek_mazmur_91",
+            "tv_1, tv_2"
         )
 
         val perpindahanKekayaan = Declaration(
             "perpindahan_kekayaan",
             "Deklarasi Perpindahan Kekayaan",
-            "perpindahan_kekayaan.pdf",
-            false
+            resources.getString(R.string.dek_perpindahan_kekayaan),
+            false,
+            "layout_dek_perpindahan_kekayaan",
+            "tv_1, tv_2"
         )
 
         val deklarasi7Meterai = Declaration(
             "7_meterai",
             "Deklarasi 7 Perjanjian & Meterai",
-            "perjanjian_7_perjanjian_dan_meterai.pdf",
-            false
+            resources.getString(R.string.dek_perjanjian_dan_meterai),
+            false,
+            "layout_perjanjian_dan_meterai",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
         )
 
         val yesaya60 = Declaration(
             "yesaya_60",
             "Deklarasi Yesaya 60 Pemulihan Dan Kelimpahan",
-            "yesaya_60.pdf",
-            false
+            resources.getString(R.string.dek_yesaya_60),
+            false,
+            "layout_dek_yesaya_60",
+            "tv_1, tv_2"
         )
 
         val perjanjianMatahari = Declaration(
             "perjanjian_matahari",
             "Deklarasi Perjanjian Matahari",
             "perjanjian_matahari.pdf",
-            false
+            false,
+            "",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
         )
 
         val perjanjianBintang = Declaration(
             "perjanjian_bintang",
             "Deklarasi Perjanjian Bintang",
             "perjanjian_bintang.pdf",
-            false
+            false,
+            "",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
         )
 
         val everlastingCovenant = Declaration(
             "everlasting_covenant",
             "Everlasting Covenant (Kasih Setia Tuhan) - 2022",
             "everlasting_covenant.pdf",
-            false
+            false,
+            "",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
         )
 
         val membangunTembokIlahi = Declaration(
             "membangun_tembok_ilahi",
             "Deklarasi Membangun Tembok Ilahi",
             "membangun_tembok_ilahi.pdf",
-            false
+            false,
+            "",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
         )
 
         val mematahkanKutuk = Declaration(
             "mematahkan_kutuk",
             "Deklarasi Mematahkan Kutuk",
             "mematahkan_kutuk.pdf",
-            false
+            false,
+            "",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
         )
 
         val perlindunganKesehatan = Declaration(
             "perlindungan_kesehatan",
             "Deklarasi Perlindungan Kesehatan",
             "perlindungan_kesehatan.pdf",
-            false
+            false,
+            "",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
         )
 
         val perjanjianPersepuluhan = Declaration(
             "perjanjian_persepuluhan",
             "Deklarasi Perjanjian Persepuluhan",
             "perjanjian_persepuluhan.pdf",
-            false
+            false,
+            "",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
         )
 
         val pelayananMalaikat = Declaration(
             "pelayanan_malaikat",
             "Deklarasi Pelayanan Malaikat",
             "pelayanan_malaikat.pdf",
-            false
+            false,
+            "",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
         )
 
         val pengakuanPanggilanImam = Declaration(
             "panggilan_imam",
             "Deklarasi Pengakuan Panggilan Imam",
             "pengakuan_panggilan_imam.pdf",
-            false
+            false,
+            "",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
         )
 
         val pengakuanPanggilanMempelai = Declaration(
             "panggilan_mempelai",
             "Deklarasi Pengakuan Panggilan Mempelai",
             "pengakuan_panggilan_mempelai.pdf",
-            false
+            false,
+            "",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
         )
 
         val pengakuanPanggilanPekerja = Declaration(
             "panggilan_pekerja",
             "Deklarasi Pengakuan Panggilan Pekerja",
             "pengakuan_panggilan_pekerja.pdf",
-            false
+            false,
+            "",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
         )
 
         val pengakuanPanggilanPilar = Declaration(
             "panggilan_pilar",
             "Deklarasi Pengakuan Panggilan Pilar",
             "pengakuan_panggilan_pilar.pdf",
-            false
+            false,
+            "",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
         )
 
         val pengakuanPanggilanRaja = Declaration(
             "panggilan_raja",
             "Deklarasi Pengakuan Panggilan Raja",
             "pengakuan_panggilan_raja.pdf",
-            false
+            false,
+            "",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
         )
 
         val pengakuanPanggilanTentara = Declaration(
             "panggilan_tentara",
             "Deklarasi Pengakuan Panggilan Tentara",
             "pengakuan_panggilan_tentara.pdf",
-            false
+            false,
+            "",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
         )
 
         val kutukBulanApril = Declaration(
             "kutuk_bulan_april",
             "Deklarasi Mematahkan Kutuk Bulan April",
             "kutuk_bulan_april.pdf",
-            false
+            false,
+            "",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
         )
 
         val kutukBulanAgustus = Declaration(
             "kutuk_bulan_agustus",
             "Deklarasi Mematahkan Kutuk Bulan Agustus",
             "kutuk_bulan_agustus.pdf",
-            false
+            false,
+            "",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
         )
 
         val perjanjianAbraham = Declaration(
             "perjanjian_abraham",
             "Deklarasi Perjanjian Abraham",
             "perjanjian_abraham.pdf",
-            false
+            false,
+            "",
+            "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
         )
 
 

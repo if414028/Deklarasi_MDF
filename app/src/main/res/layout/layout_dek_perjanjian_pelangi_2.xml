@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_16sdp">
+
+            <TextView
+                android:id="@+id/tv_1"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="Didalam nama Tuhan Yesus, kami naikkan
+Perjanjian Pelangi, kami dimampukan utk bekerja
+keras di jam-jam terakhir, kami ini akan menjadi
+pelaksana Firman untuk setiap KehendakNya.
+Membangun sebuah Bahtera keselamatan sampai
+seluruh ujung bumi, Seperti yang ada tertulis bumi
+tidak akan dikutuk lagi oleh karena penduduk nya,
+sekalipun yang timbul kan hati manusia adalah jahat
+dari sejak lahirnya, Tuhan menepati apa yg
+dijanjikanNya kepada kami. Dari segala yg baik yang
+Tuhan janjikan kepada kami, tidak ada yg tidak ada
+yg digenapinya.
+\n\nKami berdiri diatas Perjanjian Pelangi, kami
+dimampukan untuk menahan semua, bencana,
+semua asteroid, semua yg iblis rencanakan, semua
+yg jahat karena kami mau perkatakan, semuanya
+didalam kendali Tuhan. Seperti ada tertulis, Tuhan
+menopang segala yang ada dengan FirmanNya yg
+penuh kekuasan, tidak ada lagi generasi yg akan
+musnah dan dibinasakan.
+\n\nDengan mandat dan otoritas yang Tuhan berikan,
+kami tutup setiap lubang-lubang maut yang timbul di
+darat dan laut, serta tidak akan ada lagi
+lubang-lubang maut yang muncul. Setiap makhluk
+dan roh-roh yang dari dalam bumi kami kurung
+sehingga tidak bisa muncul sampai waktu yang
+ditentukan Tuhan sendiri yaitu sampai kami
+terangkat ke awan-awan.
+\n\nKami menyuarakan dan menggemakan Guruh
+Kenabian. Tuhan menaruh perkataan-perkataanNya
+ke dalam mulut kami. Tuhan telah mengangkat kami
+atas bangsa-bangsa dan atas kerajaan-kerajaan
+untuk mencabut dan merobohkan, untuk
+membinasakan dan meruntuhkan, untuk
+membangun dan menanam.
+\n\nKami mengisi Cawan Doa: kami menaikkan doa-doa
+yang berkenan kepada Tuhan dengan Roh Kudus
+yang berdoa untuk kami kepada Allah, Tuhan yg
+mendengar dan menjawab doa kami. Kami berdoa
+setiap waktu di dalam Roh dan berjaga-jaga di
+dalam doa kami.
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_2"
+                style="@style/Manrope.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="AMIN 7X"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

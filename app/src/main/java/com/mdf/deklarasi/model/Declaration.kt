@@ -20,7 +20,13 @@ data class Declaration(
 
     @ColumnInfo(name = "fav")
     @TypeConverters(BooleanTypeConverter::class)
-    var fav: Boolean
+    var fav: Boolean,
+
+    @ColumnInfo(name= "layout")
+    var layout: String,
+
+    @ColumnInfo
+    var layoutIds: String
 ) {
-    constructor() : this("", "", "", false)
+    constructor() : this("", "", "", false, "", "")
 }

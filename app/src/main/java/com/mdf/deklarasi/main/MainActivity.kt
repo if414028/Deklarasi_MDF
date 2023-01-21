@@ -82,4 +82,9 @@ class MainActivity : AppCompatActivity() {
         val sdf = SimpleDateFormat("dd MMMM yyyy")
         return sdf.format(Date())
     }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        finishAffinity()
+    }
 }

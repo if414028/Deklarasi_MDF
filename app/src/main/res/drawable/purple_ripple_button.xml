@@ -1,0 +1,4 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/purple72033B"><!-- ripple color -->
+    <item android:drawable="@drawable/purple_primary_button" /> <!-- normal color -->
+</ripple>

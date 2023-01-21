@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <com.mdf.deklarasi.utilities.ZoomLinearLayout
+        android:id="@+id/zoom_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_16sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_1"
+                style="@style/Manrope.Reguler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="Dalam nama Tuhan Yesus Kristus kami percaya
+Mazmur 91 terjadi:
+\n\nKami yang duduk dalam lindungan yang Maha
+Tinggi, dan bermalam dalam naungan yang Maha
+Kuasa, kami berkata kepada Tuhan: 'tempat
+perlindungan kami dan kubu pertahanan kami, Allah
+kami yang kami percayai'.
+\n\nSungguh Tuhanlah yang melepaskan kami, dari jerat
+penangkap burung, dari penyakit sampar yang
+busuk, dengan kepakNya Tuhan menudungi kami,
+dibawah sayapNya kami berlindung, kesetiaan
+Tuhan ialah perisai dan pagar tembok.
+Kami tidak usah takut terhadap kedahsyatan malam,
+terhadap panah yang terbang di waktu siang,
+terhadap penyakit sampar yang berjalan di dalam
+gelap, terhadap penyakit menular yang mengamuk
+di waktu petang.
+\n\nWalau seribu orang rebah di sisi kami dan sepuluh
+ribu di sebelah kanan kami, tetapi itu tidak akan
+menimpa kami. kami hanya menontonnya dengan
+mata kami sendiri, dan melihat pembalasan
+terhadap orang-orang fasik.
+Sebab Tuhan ialah tempat perlindungan kami, yang
+Maha tinggi telah kami buat menjadi tempat
+perteduhan kami. malapetaka tidak akan menimpa
+kami, dan tulah tidak akan mendekat kepada kemah
+kami.
+\n\nSebab malaikat-malaikat Tuhan diperintahkannya
+kepada kami untuk menjaga kami di segala jalan
+kami, mereka akan menatang kami di atas
+tanganNya, supaya kaki kami jangan terantuk
+kepada batu. singa dan ular tedung pasti kami
+langkahi, kami menginjak-injak anak singa dan ular
+naga.
+\n\nSungguh hati kami melekat kepada Tuhan, maka
+Tuhan pasti meluputkan kami, Tuhan pasti
+membentengi kami sebab kami mengenal nama
+Tuhan.
+\n\nBila kami berseru kepada Tuhan, Tuhan menjawab,
+Tuhan menyertai kami dalam kesesakan Tuhan
+meluputkan kami dan memuliakan kami. dengan
+panjang umur Tuhan akan kenyangkan kami, dan
+memperlihatkan kepada kami keselamatan yang
+daripada Tuhan.
+"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tv_2"
+                style="@style/Manrope.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:justificationMode="inter_word"
+                android:text="AMIN 3X"
+                android:textColor="@color/black333333"
+                android:textIsSelectable="true" />
+
+        </LinearLayout>
+
+    </com.mdf.deklarasi.utilities.ZoomLinearLayout>
+</ScrollView>
