@@ -3,11 +3,12 @@ package com.mdf.deklarasi.declaration
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
+import android.os.Build
 import android.os.Bundle
+import android.text.Html
 import android.util.TypedValue
 import android.view.MotionEvent
 import android.view.View
-import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
@@ -73,7 +74,16 @@ class DeclarationDetailActivity : AppCompatActivity(), View.OnTouchListener {
         }
         binding.icTextCopy.setOnClickListener {
             val clipboardManager = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
-            val clipData = ClipData.newPlainText(declaration?.title, declaration?.declaration)
+            val clipData = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                ClipData.newPlainText(
+                    declaration?.title, Html.fromHtml(
+                        declaration?.declaration,
+                        Html.FROM_HTML_MODE_LEGACY
+                    )
+                )
+            } else {
+                TODO("VERSION.SDK_INT < N")
+            }
             clipboardManager.setPrimaryClip(clipData)
             Toast.makeText(applicationContext, "Deklarasi telah di salin", Toast.LENGTH_SHORT)
                 .show()
@@ -87,47 +97,33 @@ class DeclarationDetailActivity : AppCompatActivity(), View.OnTouchListener {
             binding.icFav.setImageDrawable(resources.getDrawable(R.drawable.ic_fav_selected))
         else binding.icFav.setImageDrawable(resources.getDrawable(R.drawable.ic_fav))
 
-        val layoutRes = resources.getIdentifier(declaration?.layout, "layout", packageName)
-        binding.layoutStub.viewStub?.layoutResource = layoutRes
-        val inflatedView = binding.layoutStub.viewStub?.inflate()
-
         binding.icTextSetting.setOnClickListener {
             UIHelper.getInstance().displayTextSizeChanger(this, {
-                decreaseTextSize(inflatedView!!)
+                decreaseTextSize()
             }, {
-                increaseTextSize(inflatedView!!)
+                increaseTextSize()
             }, true)
         }
-    }
 
-    private fun increaseTextSize(inflatedView: View) {
-        val layoutIds: List<String> = declaration?.layoutIds?.split(",")!!.map { it.trim() }
-        if (layoutIds.isNotEmpty()) {
-            layoutIds.forEach {
-                val id = resources.getIdentifier(it, "id", packageName)
-                val tv = inflatedView?.findViewById<TextView>(id)
-                var fontSize = tv?.textSize
-                fontSize = fontSize?.plus(4f)
-                tv?.setTextSize(TypedValue.COMPLEX_UNIT_PX, fontSize!!)
-            }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            binding.tvDeclaration.text =
+                Html.fromHtml(
+                    declaration?.declaration,
+                    Html.FROM_HTML_MODE_LEGACY
+                )
         }
     }
 
-    private fun decreaseTextSize(inflatedView: View) {
-        val layoutIds: List<String> = declaration?.layoutIds?.split(",")!!.map { it.trim() }
-        if (layoutIds.isNotEmpty()) {
-            layoutIds.forEach {
-                val id = resources.getIdentifier(it, "id", packageName)
-                val tv = inflatedView?.findViewById<TextView>(id)
-                var fontSize = tv?.textSize
-                fontSize = fontSize?.minus(4f)
-                tv?.setTextSize(TypedValue.COMPLEX_UNIT_PX, fontSize!!)
-            }
-        }
+    private fun increaseTextSize() {
+        var fontSize = binding.tvDeclaration.textSize
+        fontSize = fontSize.plus(4f)
+        binding.tvDeclaration.setTextSize(TypedValue.COMPLEX_UNIT_PX, fontSize!!)
     }
 
-    fun pxFromDp(dp: Float, mContext: Context): Float {
-        return dp * mContext.getResources().getDisplayMetrics().density
+    private fun decreaseTextSize() {
+        var fontSize = binding.tvDeclaration.textSize
+        fontSize = fontSize.minus(4f)
+        binding.tvDeclaration.setTextSize(TypedValue.COMPLEX_UNIT_PX, fontSize!!)
     }
 
     private fun getDeclarationDetail() {

@@ -159,7 +159,7 @@ class SplashScreen : AppCompatActivity() {
         val perjanjianMatahari = Declaration(
             "perjanjian_matahari",
             "Deklarasi Perjanjian Matahari",
-            "perjanjian_matahari.pdf",
+            resources.getString(R.string.perjanjian_matahari),
             false,
             "",
             "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
@@ -168,7 +168,7 @@ class SplashScreen : AppCompatActivity() {
         val perjanjianBintang = Declaration(
             "perjanjian_bintang",
             "Deklarasi Perjanjian Bintang",
-            "perjanjian_bintang.pdf",
+            resources.getString(R.string.perjanjian_bintang),
             false,
             "",
             "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
@@ -177,7 +177,7 @@ class SplashScreen : AppCompatActivity() {
         val everlastingCovenant = Declaration(
             "everlasting_covenant",
             "Everlasting Covenant (Kasih Setia Tuhan) - 2022",
-            "everlasting_covenant.pdf",
+            resources.getString(R.string.everlasting_covenant),
             false,
             "",
             "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
@@ -186,7 +186,7 @@ class SplashScreen : AppCompatActivity() {
         val membangunTembokIlahi = Declaration(
             "membangun_tembok_ilahi",
             "Deklarasi Membangun Tembok Ilahi",
-            "membangun_tembok_ilahi.pdf",
+            resources.getString(R.string.membangun_tembok_ilahi),
             false,
             "",
             "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
@@ -195,7 +195,7 @@ class SplashScreen : AppCompatActivity() {
         val mematahkanKutuk = Declaration(
             "mematahkan_kutuk",
             "Deklarasi Mematahkan Kutuk",
-            "mematahkan_kutuk.pdf",
+            resources.getString(R.string.mematahkan_kutuk),
             false,
             "",
             "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
@@ -204,7 +204,7 @@ class SplashScreen : AppCompatActivity() {
         val perlindunganKesehatan = Declaration(
             "perlindungan_kesehatan",
             "Deklarasi Perlindungan Kesehatan",
-            "perlindungan_kesehatan.pdf",
+            resources.getString(R.string.perlindungan_kesehatan),
             false,
             "",
             "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
@@ -213,7 +213,7 @@ class SplashScreen : AppCompatActivity() {
         val perjanjianPersepuluhan = Declaration(
             "perjanjian_persepuluhan",
             "Deklarasi Perjanjian Persepuluhan",
-            "perjanjian_persepuluhan.pdf",
+            resources.getString(R.string.perjanjian_persepuluhan),
             false,
             "",
             "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
@@ -222,7 +222,7 @@ class SplashScreen : AppCompatActivity() {
         val pelayananMalaikat = Declaration(
             "pelayanan_malaikat",
             "Deklarasi Pelayanan Malaikat",
-            "pelayanan_malaikat.pdf",
+            resources.getString(R.string.pelayanan_malaikat),
             false,
             "",
             "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
@@ -231,7 +231,7 @@ class SplashScreen : AppCompatActivity() {
         val pengakuanPanggilanImam = Declaration(
             "panggilan_imam",
             "Deklarasi Pengakuan Panggilan Imam",
-            "pengakuan_panggilan_imam.pdf",
+            resources.getString(R.string.panggilan_imam),
             false,
             "",
             "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
@@ -240,7 +240,7 @@ class SplashScreen : AppCompatActivity() {
         val pengakuanPanggilanMempelai = Declaration(
             "panggilan_mempelai",
             "Deklarasi Pengakuan Panggilan Mempelai",
-            "pengakuan_panggilan_mempelai.pdf",
+            resources.getString(R.string.panggilan_mempelai),
             false,
             "",
             "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
@@ -249,7 +249,7 @@ class SplashScreen : AppCompatActivity() {
         val pengakuanPanggilanPekerja = Declaration(
             "panggilan_pekerja",
             "Deklarasi Pengakuan Panggilan Pekerja",
-            "pengakuan_panggilan_pekerja.pdf",
+            resources.getString(R.string.panggilan_pekerja),
             false,
             "",
             "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
@@ -258,7 +258,7 @@ class SplashScreen : AppCompatActivity() {
         val pengakuanPanggilanPilar = Declaration(
             "panggilan_pilar",
             "Deklarasi Pengakuan Panggilan Pilar",
-            "pengakuan_panggilan_pilar.pdf",
+            resources.getString(R.string.panggilan_pilar),
             false,
             "",
             "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
@@ -267,7 +267,7 @@ class SplashScreen : AppCompatActivity() {
         val pengakuanPanggilanRaja = Declaration(
             "panggilan_raja",
             "Deklarasi Pengakuan Panggilan Raja",
-            "pengakuan_panggilan_raja.pdf",
+            resources.getString(R.string.panggilan_raja),
             false,
             "",
             "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
@@ -276,7 +276,7 @@ class SplashScreen : AppCompatActivity() {
         val pengakuanPanggilanTentara = Declaration(
             "panggilan_tentara",
             "Deklarasi Pengakuan Panggilan Tentara",
-            "pengakuan_panggilan_tentara.pdf",
+            resources.getString(R.string.panggilan_tentara),
             false,
             "",
             "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
@@ -285,7 +285,7 @@ class SplashScreen : AppCompatActivity() {
         val kutukBulanApril = Declaration(
             "kutuk_bulan_april",
             "Deklarasi Mematahkan Kutuk Bulan April",
-            "kutuk_bulan_april.pdf",
+            resources.getString(R.string.kutuk_bulan_april),
             false,
             "",
             "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
@@ -294,7 +294,7 @@ class SplashScreen : AppCompatActivity() {
         val kutukBulanAgustus = Declaration(
             "kutuk_bulan_agustus",
             "Deklarasi Mematahkan Kutuk Bulan Agustus",
-            "kutuk_bulan_agustus.pdf",
+            resources.getString(R.string.kutuk_bulan_agustus),
             false,
             "",
             "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
@@ -303,7 +303,7 @@ class SplashScreen : AppCompatActivity() {
         val perjanjianAbraham = Declaration(
             "perjanjian_abraham",
             "Deklarasi Perjanjian Abraham",
-            "perjanjian_abraham.pdf",
+            resources.getString(R.string.perjanjian_abraham),
             false,
             "",
             "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13,"
