@@ -1,5 +1,6 @@
 package com.mdf.deklarasi.spiritualwarfare
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -79,6 +80,19 @@ class SpiritualWarfareVerseActivity : AppCompatActivity() {
                 val itemBinding: ItemDeclarationBinding =
                     holder.layoutBinding as ItemDeclarationBinding
                 if (item != null) itemBinding.tvDeclarationName.text = item.category
+                itemBinding.root.setOnClickListener {
+                    if (item?.subCategory?.isNotEmpty() == true) {
+                        val intent = Intent(
+                            applicationContext, SpiritualWarfareSubCategoryActivity::class.java)
+                        intent.putExtra("spiritualWarfare", item)
+                        startActivity(intent)
+                    } else {
+                        val intent = Intent(
+                            applicationContext, SpiritualWarfareDetailActivity::class.java)
+                        intent.putExtra("spiritualWarfare", item)
+                        startActivity(intent)
+                    }
+                }
             },
             object : SimpleFilterRecyclerAdapter.OnSearchListener<SpiritualWarfareVerse?> {
                 override fun onSearchRules(

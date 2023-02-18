@@ -4,7 +4,7 @@ import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import com.mdf.deklarasi.converter.BooleanTypeConverter
-import com.mdf.deklarasi.converter.VerseTypeConverter
+import com.mdf.deklarasi.converter.SubCategoryTypeConverter
 import com.mdf.deklarasi.dao.DeclarationDao
 import com.mdf.deklarasi.dao.ShofarSoundDao
 import com.mdf.deklarasi.dao.SpiritualWarfareVerseDao
@@ -18,7 +18,7 @@ import com.mdf.deklarasi.model.SpiritualWarfareVerse
         SpiritualWarfareVerse::class,
         ShofarSound::class], version = 1
 )
-@TypeConverters(BooleanTypeConverter::class, VerseTypeConverter::class)
+@TypeConverters(BooleanTypeConverter::class, SubCategoryTypeConverter::class)
 abstract class DeclarationDatabaseImplementation : RoomDatabase() {
 
     abstract fun declarationDao(): DeclarationDao

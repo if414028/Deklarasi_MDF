@@ -25,5 +25,9 @@ class SpiritualWarfareActivity : AppCompatActivity() {
             val intent = Intent(applicationContext, ShofarShoundActivity::class.java)
             startActivity(intent)
         }
+        binding.cardSpiritualWarfareVerse.setOnClickListener {
+            val intent = Intent(applicationContext, SpiritualWarfareVerseActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

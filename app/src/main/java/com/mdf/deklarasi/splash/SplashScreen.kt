@@ -14,8 +14,8 @@ import com.mdf.deklarasi.databinding.ActivitySplashScreenBinding
 import com.mdf.deklarasi.main.MainActivity
 import com.mdf.deklarasi.model.Declaration
 import com.mdf.deklarasi.model.ShofarSound
+import com.mdf.deklarasi.model.SpiritualWarfareSubCategory
 import com.mdf.deklarasi.model.SpiritualWarfareVerse
-import com.mdf.deklarasi.model.Verse
 import com.mdf.deklarasi.utilities.AppConfiguration
 import com.mdf.deklarasi.utilities.UserConfiguration
 
@@ -345,28 +345,109 @@ class SplashScreen : AppCompatActivity() {
     }
 
     private fun insertSpiritualWarfareVerseData() {
-        val yeremia10_11MILT = Verse(
-            "YEREMIA 10:11 (MILT)",
-            "Seperti inilah harus kamu katakan kepada mereka, 'ilah-ilah' yang" +
-                    "tidak menjadikan langit dan bumi, akan lenyap dari bumi, dan dari kolong langit ini."
+        val mintaOtoritasKerajaanSorga = SpiritualWarfareVerse(
+            "ayat_minta_otoritas_kerajaan_sorga",
+            "Minta Otoritas Kerajaan Sorga",
+            emptyList(),
+            resources.getString(R.string.ayat_minta_otoritas_kerajaan_sorga)
         )
-        val petrus2_4MILT = Verse(
-            "2 PETRUS 2:4 (MILT)",
-            "Sebab, jika Allah tidak berbelaskasihan atas malaikat-malaikat yang telah berdosa," +
-                    "sebaliknya, Dia malah menyerahkan ke dalam belenggu kegelapan dengan melemparkannya ke dalam tartarus untuk ditahan sampai pengakiman"
-        )
-        val melawanMalaikatJatuhVerses = arrayListOf<Verse>()
-        melawanMalaikatJatuhVerses.add(yeremia10_11MILT)
-        melawanMalaikatJatuhVerses.add(petrus2_4MILT)
-        val melawanMalaikatJatuh = SpiritualWarfareVerse(
-            "1",
-            "Melawan Malaikat Jatuh",
-            melawanMalaikatJatuhVerses
 
+        val malaikatPerang = SpiritualWarfareSubCategory(
+            "malaikat_perang",
+            "Malaikat Perang",
+            resources.getString(R.string.malaikat_perang)
         )
+
+        val malaikatPenerobos = SpiritualWarfareSubCategory(
+            "malaikat_penerobos",
+            "Malaikat Penerobos",
+            resources.getString(R.string.malaikat_penerobos)
+        )
+
+        val malaikatMujizat = SpiritualWarfareSubCategory(
+            "malaikat_mujizat",
+            "Malaikat Mujizat",
+            resources.getString(R.string.malaikat_mujizat)
+        )
+
+        val malaikatPengawalBerkat = SpiritualWarfareSubCategory(
+            "malaikat_berkat",
+            "Malaikat Pengawal Berkat",
+            resources.getString(R.string.malaikat_berkat)
+        )
+
+        val malaikatPenuaian = SpiritualWarfareSubCategory(
+            "malaikat_penuaian_jiwa",
+            "Malaikat Penuaian dan Lawatan Jiwa-Jiwa",
+            resources.getString(R.string.malaikat_penuaian_jiwa)
+        )
+
+        val malaikatBenih = SpiritualWarfareSubCategory(
+            "malaikat_benih",
+            "Malaikat Pembawa Benih",
+            resources.getString(R.string.malaikat_benih)
+        )
+
+        val malaikatKekudusan = SpiritualWarfareSubCategory(
+            "malaikat_kekudusan",
+            "Malaikat Kekudusan",
+            resources.getString(R.string.malaikat_kekudusan)
+        )
+
+        val malaikatKeadilan = SpiritualWarfareSubCategory(
+            "malaikat_keadilan",
+            "Malaikat Keadilan",
+            resources.getString(R.string.malaikat_keadilan)
+        )
+
+        val malaikatPenyembahan = SpiritualWarfareSubCategory(
+            "malaikat_pujian",
+            "Malaikat Penyembahan",
+            resources.getString(R.string.malaikat_pujian)
+        )
+
+        val malaikatKarakter = SpiritualWarfareSubCategory(
+            "malaikat_karakter",
+            "Malaikat Karakter dan Kabod",
+            resources.getString(R.string.malaikat_karakter)
+        )
+
+        val malaikatPerjanjian = SpiritualWarfareSubCategory(
+            "malaikat_perjanjian",
+            "Malaikat Perjanjian",
+            resources.getString(R.string.malaikat_perjanjian)
+        )
+
+        val malaikatPengangkatan = SpiritualWarfareSubCategory(
+            "malaikat_pengangkatan",
+            "Malaikat Pengangkatan",
+            resources.getString(R.string.malaikat_pengangkatan)
+        )
+        val mintaLayananMalaikatSubCategory = arrayListOf<SpiritualWarfareSubCategory>()
+        mintaLayananMalaikatSubCategory.add(malaikatPerang)
+        mintaLayananMalaikatSubCategory.add(malaikatPenerobos)
+        mintaLayananMalaikatSubCategory.add(malaikatMujizat)
+        mintaLayananMalaikatSubCategory.add(malaikatPengawalBerkat)
+        mintaLayananMalaikatSubCategory.add(malaikatPenuaian)
+        mintaLayananMalaikatSubCategory.add(malaikatBenih)
+        mintaLayananMalaikatSubCategory.add(malaikatKekudusan)
+        mintaLayananMalaikatSubCategory.add(malaikatKeadilan)
+        mintaLayananMalaikatSubCategory.add(malaikatPenyembahan)
+        mintaLayananMalaikatSubCategory.add(malaikatKarakter)
+        mintaLayananMalaikatSubCategory.add(malaikatPerjanjian)
+        mintaLayananMalaikatSubCategory.add(malaikatPengangkatan)
+
+        val mintaLayananMalaikat = SpiritualWarfareVerse(
+            "ayat_minta_layanan_malaikat",
+            "Minta Layanan Malaikat",
+            mintaLayananMalaikatSubCategory,
+            ""
+        )
+
 
         val spiritualWarfareVerses = arrayListOf<SpiritualWarfareVerse>()
-        spiritualWarfareVerses.add(melawanMalaikatJatuh)
+        spiritualWarfareVerses.add(mintaOtoritasKerajaanSorga)
+        spiritualWarfareVerses.add(mintaLayananMalaikat)
         database.insertSpiritualWarfareVerse(
             spiritualWarfareVerses,
             getSpiritualWarfareVerseDatabaseSuccessListener(),
