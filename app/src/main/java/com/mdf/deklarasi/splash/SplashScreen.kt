@@ -12,10 +12,7 @@ import com.mdf.deklarasi.database.DatabaseSuccessListener
 import com.mdf.deklarasi.database.IDeclarationDatabase
 import com.mdf.deklarasi.databinding.ActivitySplashScreenBinding
 import com.mdf.deklarasi.main.MainActivity
-import com.mdf.deklarasi.model.Declaration
-import com.mdf.deklarasi.model.ShofarSound
-import com.mdf.deklarasi.model.SpiritualWarfareSubCategory
-import com.mdf.deklarasi.model.SpiritualWarfareVerse
+import com.mdf.deklarasi.model.*
 import com.mdf.deklarasi.utilities.AppConfiguration
 import com.mdf.deklarasi.utilities.UserConfiguration
 
@@ -444,10 +441,113 @@ class SplashScreen : AppCompatActivity() {
             ""
         )
 
+        val mintaKekuatanDariTuhan = SpiritualWarfareVerse(
+            "ayat_minta_kekuatan_dari_tuhan",
+            "Minta Kekuatan Dari Tuhan",
+            emptyList(),
+            resources.getString(R.string.ayat_minta_kekuatan_dari_tuhan)
+        )
+
+        val mintaPerlindunganDariTuhan = SpiritualWarfareVerse(
+            "ayat_minta_perlindungan_dari_tuhan",
+            "Minta Perlindungan Dari Tuhan",
+            emptyList(),
+            resources.getString(R.string.ayat_minta_perlindungan_dari_tuhan)
+        )
+
+        val ketetapanTuhan = SpiritualWarfareVerse(
+            "ayat_ketetapan_tuhan",
+            "Ketetapan Tuhan",
+            emptyList(),
+            resources.getString(R.string.ayat_ketetapan_tuhan)
+        )
+
+        val tarikBerkat = SpiritualWarfareVerse(
+            "ayat_tarik_berkat",
+            "Tarik Berkat",
+            emptyList(),
+            resources.getString(R.string.ayat_tarik_berkat)
+        )
+
+        val melawanMalaikatJatuh = SpiritualWarfareVerse(
+            "ayat_melawan_malaikat_jatuh",
+            "Melawan Malaikat Jatuh",
+            emptyList(),
+            resources.getString(R.string.ayat_melawan_malaikat_jatuh)
+        )
+
+        val melawanRohPenyesat = SpiritualWarfareVerse(
+            "ayat_melawan_roh_penyesat",
+            "Melawan Roh Penyesat",
+            emptyList(),
+            resources.getString(R.string.ayat_melawan_roh_penyesat)
+        )
+
+        val melawanRohMaut = SpiritualWarfareVerse(
+            "ayat_melawan_roh_maut",
+            "Melawan Roh Maut",
+            emptyList(),
+            resources.getString(R.string.ayat_melawan_roh_maut)
+        )
+
+        val melawanBerhala = SpiritualWarfareVerse(
+            "ayat_melawan_berhala",
+            "Melawan Berhala",
+            emptyList(),
+            resources.getString(R.string.ayat_melawan_berhala)
+        )
+
+        val melawanRohKedar = SpiritualWarfareVerse(
+            "ayat_melawan_roh_kedar",
+            "Melawan Roh Kedar",
+            emptyList(),
+            resources.getString(R.string.ayat_melawan_roh_kedar)
+        )
+
+        val melawanTenung = SpiritualWarfareVerse(
+            "ayat_melawan_tenung",
+            "Melawan Mentera/Tenung",
+            emptyList(),
+            resources.getString(R.string.ayat_melawan_tenung)
+        )
+
+        val melawanPembinasaKeji = SpiritualWarfareVerse(
+            "ayat_melawan_pembinasa_keji",
+            "Melawan Pembinasa Keji",
+            emptyList(),
+            resources.getString(R.string.ayat_melawan_pembinasa_keji)
+        )
+
+        val melawanRohMamon = SpiritualWarfareVerse(
+            "ayat_melawan_roh_mamon",
+            "Melawan Roh Mamon",
+            emptyList(),
+            resources.getString(R.string.ayat_melawan_roh_mamon)
+        )
+
+        val melawanRohUlar = SpiritualWarfareVerse(
+            "ayat_melawan_roh_ular",
+            "Melawan Roh Ular/Naga",
+            emptyList(),
+            resources.getString(R.string.melawan_roh_ular)
+        )
 
         val spiritualWarfareVerses = arrayListOf<SpiritualWarfareVerse>()
         spiritualWarfareVerses.add(mintaOtoritasKerajaanSorga)
         spiritualWarfareVerses.add(mintaLayananMalaikat)
+        spiritualWarfareVerses.add(mintaKekuatanDariTuhan)
+        spiritualWarfareVerses.add(mintaPerlindunganDariTuhan)
+        spiritualWarfareVerses.add(ketetapanTuhan)
+        spiritualWarfareVerses.add(tarikBerkat)
+        spiritualWarfareVerses.add(melawanMalaikatJatuh)
+        spiritualWarfareVerses.add(melawanRohPenyesat)
+        spiritualWarfareVerses.add(melawanRohMaut)
+        spiritualWarfareVerses.add(melawanBerhala)
+        spiritualWarfareVerses.add(melawanRohKedar)
+        spiritualWarfareVerses.add(melawanTenung)
+        spiritualWarfareVerses.add(melawanPembinasaKeji)
+        spiritualWarfareVerses.add(melawanRohMamon)
+        spiritualWarfareVerses.add(melawanRohUlar)
         database.insertSpiritualWarfareVerse(
             spiritualWarfareVerses,
             getSpiritualWarfareVerseDatabaseSuccessListener(),
@@ -464,6 +564,115 @@ class SplashScreen : AppCompatActivity() {
         shofarSounds.add(shofarLong)
 
         database.insertShofarSound(shofarSounds, getShofarSoundDatabaseListener(), errorListener())
+    }
+
+    private fun insertLibraryData() {
+        val proseduralDoling = Library(
+            "prosedural_doling",
+            "Prosedural Doling",
+            emptyList(),
+            resources.getString(R.string.prosedural_doling),
+            ""
+        )
+
+        val namaNamaTuhan = Library(
+            "nama_nama_tuhan",
+            "Nama Nama Tuhan",
+            emptyList(),
+            resources.getString(R.string.nama_nama_tuhan),
+            ""
+        )
+
+        val perjanjianDaniel = SubLibrary(
+            "perjanjian_daniel",
+            "Perjanjian Daniel",
+            resources.getString(R.string.perjanjian_daniel),
+            "daniel"
+        )
+
+        val perjanjianGaram = SubLibrary(
+            "perjanjian_garam",
+            "Perjanjian Garam",
+            resources.getString(R.string.perjanjian_garam),
+            "garam"
+        )
+
+        val perjanjianPersepuluhan = SubLibrary(
+            "perjanjian_perpuluhan",
+            "Perjanjian Persepuluhan",
+            resources.getString(R.string.perjanjian_perpuluhan),
+            "perpuluhan"
+        )
+
+        val perjanjianDarah = SubLibrary(
+            "perjanjian_darah",
+            "Perjanjian Darah",
+            resources.getString(R.string.perjanjian_darah),
+            "darah"
+        )
+
+        val perjanjianAnakSulung = SubLibrary(
+            "perjanjian_anak_sulung",
+            "Perjanjian Anak Sulung",
+            resources.getString(R.string.perjanjian_anak_sulung),
+            "kesulungan"
+        )
+
+        val perjanjianPelangi = SubLibrary(
+            "perjanjian_pelangi",
+            "Perjanjian Pelangi",
+            resources.getString(R.string.perjanjian_pelangi),
+            "pelangi"
+        )
+
+        val perjanjiaAbraham = SubLibrary(
+            "perjanjian_abraham",
+            "Perjanjian Abaraham",
+            resources.getString(R.string.pengajaran_perjanjian_abraham),
+            "abraham"
+        )
+
+        val subLibraries = arrayListOf<SubLibrary>()
+        subLibraries.add(perjanjianDaniel)
+        subLibraries.add(perjanjianGaram)
+        subLibraries.add(perjanjianPersepuluhan)
+        subLibraries.add(perjanjianDarah)
+        subLibraries.add(perjanjianAnakSulung)
+        subLibraries.add(perjanjianPelangi)
+        subLibraries.add(perjanjiaAbraham)
+
+        val tujuhPerjanjian = Library(
+            "tujuh_perjanjian",
+            "7 Perjanjian (Legalitas dan Cawan)",
+            subLibraries,
+            resources.getString(R.string.nama_nama_tuhan),
+            ""
+        )
+
+        val pengertianTumen = Library(
+            "tumen",
+            "Pengertian 7 Elemen (TUMEN)",
+            emptyList(),
+            resources.getString(R.string.pengertian_tumen),
+            ""
+        )
+
+        val layananMalaikat = Library(
+            "layanan_malaikat",
+            "12 Layanan Malaikat Tuhan",
+            emptyList(),
+            resources.getString(R.string.layanan_malaikat),
+            ""
+        )
+
+        val libraries = arrayListOf<Library>()
+        libraries.add(proseduralDoling)
+        libraries.add(namaNamaTuhan)
+        libraries.add(tujuhPerjanjian)
+        libraries.add(pengertianTumen)
+        libraries.add(layananMalaikat)
+
+        database.insertLibrary(libraries, getLibraryDatabaseListener(), errorListener())
     }
 
     private fun getDatabaseSuccessListener(): DatabaseSuccessListener<Void> {
@@ -483,6 +692,14 @@ class SplashScreen : AppCompatActivity() {
     }
 
     private fun getShofarSoundDatabaseListener(): DatabaseSuccessListener<Void> {
+        return object : DatabaseSuccessListener<Void>() {
+            override fun onSuccessResponse(results: Void?) {
+                insertLibraryData()
+            }
+        }
+    }
+
+    private fun getLibraryDatabaseListener(): DatabaseSuccessListener<Void> {
         return object : DatabaseSuccessListener<Void>() {
             override fun onSuccessResponse(results: Void?) {
                 UserConfiguration.getInstance().setCompleteFillData()

@@ -27,6 +27,9 @@
     <string name="search_verse">Cari Ayat Peperangan Rohani</string>
     <string name="search_verse_not_found">Ayat yang kamu cari gak ketemu</string>
 
+    <string name="search_library">Cari Pengajaran</string>
+    <string name="search_library_not_found">Pengajaran yang kami cari gak ketemu</string>
+
     <string name="dek_sma_bahtera">
         &lt;p>Di dalam nama Tuhan Yesus Kristus, kami sapu
 bersih, sikat habis semua yang mau mengganggu,
@@ -2377,7 +2380,7 @@ menurunkan kepada mereka hujan manna untuk dimakan, dan memberikan kepada mereka
 langit; &lt;br>setiap orang telah makan roti malaikat, Ia mengirimkan perbekalan kepada mereka berlimpah-limpah.
 &lt;br> &lt;br>
     </string>
-    
+
     <string name="malaikat_penuaian_jiwa">
 &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>LAYANAN MALAIKAT PENGAWAL PENUAIAN&lt;br>DAN LAWATAN
 JIWA-JIWA&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
@@ -2390,7 +2393,7 @@ Maka keluarlah seorang malaikat lain dari Bait Suci; dan ia berseru dengan suara
 Dia yang duduk di atas awan itu: \'Ayunkanlah sabit-Mu itu dan tuailah, karena sudah tiba saatnya untuk menuai; sebab
 tuaian di bumi sudah masak.\' &lt;br>&lt;br>
     </string>
-    
+
     <string name="malaikat_benih">
 &lt;font color=#247BA0> &lt;b> &lt;big> &lt;strong>LAYANAN MALAIKAT PEMBAWA BENIH &lt;/strong> &lt;/big> &lt;/b>
 &lt;/font> &lt;br> &lt;br>
@@ -2425,7 +2428,7 @@ kepahlawanan bagi orang yang memukul mundur peperangan ke arah pintu gerbang. &l
 Dan seketika itu juga ia ditampar malaikat Tuhan karena ia tidak memberi hormat kepada Allah; ia
 mati dimakan cacing-cacing. &lt;br>&lt;br>
     </string>
-    
+
     <string name="malaikat_pujian">
 &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>LAYANAN MALAIKAT PUJIAN
 PENYEMBAHAN&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
@@ -2436,7 +2439,7 @@ tua-tua itu; jumlah mereka berlaksa-laksa dan beribu-ribu laksa,&lt;br>katanya d
 disembelih itu layak untuk menerima kuasa, dan kekayaan, dan hikmat, dan kekuatan, dan hormat, dan kemuliaan, dan
 puji-pujian!\' &lt;br>&lt;br>
     </string>
-    
+
     <string name="malaikat_karakter">
 &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>LAYANAN MALAIKAT KARAKTER DAN
 KABOD&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
@@ -2456,7 +2459,7 @@ Lihat, Aku menyuruh utusan-Ku, supaya ia mempersiapkan jalan di hadapan-Ku! Deng
 yang kamu cari itu akan masuk ke bait-Nya! Malaikat Perjanjian yang kamu kehendaki itu, sesungguhnya, Ia datang, firman
 TUHAN semesta alam.&lt;/font> &lt;br>&lt;br>
     </string>
-    
+
     <string name="malaikat_pengangkatan">
 &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>LAYANAN MALAIKAT PENGANGKATAN&lt;/strong>&lt;/big>&lt;/b>&lt;/font>
 &lt;br>&lt;br>
@@ -2466,5 +2469,856 @@ Sebab pada waktu tanda diberi, yaitu pada waktu penghulu malaikat berseru dan sa
 berbunyi, maka Tuhan sendiri akan turun dari sorga dan mereka yang mati dalam Kristus akan lebih dahulu
 bangkit;&lt;br>sesudah itu, kita yang hidup, yang masih tinggal, akan diangkat bersama-sama dengan mereka dalam awan
 menyongsong Tuhan di angkasa. Demikianlah kita akan selama-lamanya bersama-sama dengan Tuhan. &lt;br>&lt;br>
+    </string>
+
+    <string name="ayat_minta_kekuatan_dari_tuhan">
+         &lt;font color=#247BA0>  &lt;b> &lt;big> &lt;strong>MINTA KEKUATAN DARI TUHAN &lt;/strong> &lt;/big> &lt;/b> &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>YOSUA 1:9 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   Bukankah telah Kuperintahkan kepadamu: kuatkan dan teguhkanlah hatimu? Janganlah kecut dan tawar hati, sebab TUHAN, Allahmu, menyertai engkau, ke manapun engkau pergi.\' &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>MAZMUR 2:9 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   Engkau akan meremukkan mereka dengan gada besi, memecahkan mereka seperti tembikar tukang periuk.\' &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>MAZMUR 9:9-10 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   \'Dialah yang menghakimi dunia dengan keadilan dan mengadili bangsa-bangsa dengan kebenaran. &lt;br>Demikianlah TUHAN adalah tempat perlindungan bagi orang yang terinjak, tempat perlindungan pada waktu kesesakan.\' &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>MAZMUR 16:8 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   \'Aku senantiasa memandang kepada TUHAN;karena Ia berdiri di sebelah kananku, aku tidak goyah.\' &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>MAZMUR 23:4 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   Sekalipun aku berjalan dalam lembah kekelaman, aku tidak takut bahaya, sebab Engkau besertaku; gada-Mu dan tongkat-Mu, itulah yang menghibur aku. &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>MAZMUR 119:105 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   Firman-Mu itu pelita bagi kakiku dan terang bagi jalanku. &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>MAZMUR 138:7-8 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   \'Jika aku berada dalam kesesakan, Engkau mempertahankan hidupku; terhadap amarah musuhku Engkau mengulurkan tangan-Mu, dan tangan kanan-Mu menyelamatkan aku. &lt;br>TUHAN akan menyelesaikannya bagiku! Ya TUHAN, kasih setia-Mu untuk selama-lamanya; janganlah Kautinggalkan perbuatan tangan-Mu!\' &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>AMSAL 3:5-6 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   \'Percayalah kepada TUHAN dengan segenap hatimu,dan janganlah bersandar kepada pengertianmu sendiri. &lt;br>Akuilah Dia dalam segala lakumu,maka Ia akan meluruskan jalanmu.\' &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>AMSAL 18:10 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   \'Nama TUHAN adalah menara yang kuat,ke sanalah orang benar berlari dan ia menjadi selamat.\' &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>YESAYA 40:28-30 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   \'Tidakkah kautahu,dan tidakkah kaudengar? TUHAN ialah Allah kekal yang menciptakan bumi dari ujung ke ujung; Ia tidak menjadi lelah dan tidak menjadi lesu, tidak terduga pengertian-Nya. &lt;br>Dia memberi kekuatan kepada yang lelah dan menambah semangat kepada yang tiada berdaya. &lt;br>Orang-orang muda menjadi lelah dan lesu dan teruna-teruna jatuh tersandung. &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>YESAYA 40:31 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   tetapi orang-orang yang menanti-nantikan TUHAN mendapat kekuatan baru: mereka seumpama rajawali yang naik terbang dengan kekuatan sayapnya; mereka berlari dan tidak menjadi lesu, mereka berjalan dan tidak menjadi lelah. &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>YESAYA 41:10 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   janganlah takut, sebab Aku menyertai engkau, janganlah bimbang, sebab Aku ini Allahmu; Aku akan meneguhkan, bahkan akan menolong engkau; Aku akan memegang engkau dengan tangan kanan-Ku yang membawa kemenangan. &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>YESAYA 54:14 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   engkau akan ditegakkan di atas kebenaran. Engkau akan jauh dari pemerasan, sebab engkau tidak usah lagi takut, dan engkau akan jauh dari kekejutan, sebab ia tidak akan mendekat kepadamu. &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>MIKHA 7:8 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   Janganlah bersukacita atas aku, hai musuhku! Sekalipun aku jatuh, aku akan bangun pula, sekalipun aku duduk dalam gelap, TUHAN akan menjadi terangku. &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>MATIUS 16:19 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   Kepadamu akan Kuberikan kunci Kerajaan Sorga. Apa yang kauikat di dunia ini akan terikat di sorga dan apa yang kaulepaskan di dunia ini akan terlepas di sorga.\' &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>ROMA 8:31 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   \'Sebab itu apakah yang akan kita katakan tentang semuanya itu? Jika Allah di pihak kita, siapakah yang akan melawan kita?\' &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>ROMA 8:38-39 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   \'Sebab aku yakin, bahwa baik maut, maupun hidup, baik malaikat-malaikat, maupun pemerintah-pemerintah, baik yang ada sekarang, maupun yang akan datang, &lt;br>atau kuasa-kuasa, baik yang di atas, maupun yang di bawah, ataupun sesuatu makhluk lain, tidak akan dapat memisahkan kita dari kasih Allah, yang ada dalam Kristus Yesus, Tuhan kita.\' &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>1 KORINTUS 10:13 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   \'Pencobaan-pencobaan yang kamu alami ialah pencobaan-pencobaan biasa, yang tidak melebihi kekuatan manusia. Sebab Allah setia dan karena itu Ia tidak akan membiarkan kamu dicobai melampaui kekuatanmu. Pada waktu kamu dicobai Ia akan memberikan kepadamu jalan ke luar, sehingga kamu dapat menanggungnya.\' &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>1 KORINTUS 16:13 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   \'Berjaga-jagalah! Berdirilah dengan teguh dalam iman! Bersikaplah sebagai laki-laki! Dan tetap kuat!.\' &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>2 KORINTUS 1:3-4 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   \'Terpujilah Allah, Bapa Tuhan kita Yesus Kristus, Bapa yang penuh belas kasihan dan Allah sumber segala penghiburan, &lt;br>yang menghibur kami dalam segala penderitaan kami, sehingga kami sanggup menghibur mereka, yang berada dalam bermacam-macam penderitaan dengan penghiburan yang kami terima sendiri dari Allah. &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>2 KORINTUS 4:8-10 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   \'Dalam segala hal kami ditindas, namun tidak terjepit; kami habis akal, namun tidak putus asa; &lt;br>kami dianiaya, namun tidak ditinggalkan sendirian, kami dihempaskan, namun tidak binasa. &lt;br>Kami senantiasa membawa kematian Yesus di dalam tubuh kami, supaya kehidupan Yesus juga menjadi nyata di dalam tubuh kami.\' &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>2 KORINTUS 4:16-18 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   \'Sebab itu kami tidak tawar hati, tetapi meskipun manusia lahiriah kami semakin merosot, namun manusia batiniah kami dibaharui dari sehari ke sehari. &lt;br>Sebab penderitaan ringan yang sekarang ini, mengerjakan bagi kami kemuliaan kekal yang melebihi segala-galanya, jauh lebih besar dari pada penderitaan kami. &lt;br>Sebab kami tidak memperhatikan yang kelihatan, melainkan yang tak kelihatan, karena yang kelihatan adalah sementara, sedangkan yang tak kelihatan adalah kekal.\' &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>GALATIA 3:13 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   Kristus telah menebus kita dari kutuk hukum Taurat dengan jalan menjadi kutuk karena kita, sebab ada tertulis: \'Terkutuklah orang yang digantung pada kayu salib!\' &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>FILIPI 1:6 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   Akan hal ini aku yakin sepenuhnya, yaitu Ia, yang memulai pekerjaan yang baik di antara kamu, akan meneruskannya sampai pada akhirnya pada hari Kristus Yesus. &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>FILIPI 4:6-7 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   \'Janganlah hendaknya kamu kuatir tentang apa pun juga, tetapi nyatakanlah dalam segala hal keinginanmu kepada Allah dalam doa dan permohonan dengan ucapan syukur. &lt;br>Damai sejahtera Allah, yang melampaui segala akal, akan memelihara hati dan pikiranmu dalam Kristus Yesus.\' &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>FILIPI 4:13 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   Segala perkara dapat kutanggung di dalam Dia yang memberi kekuatan kepadaku. &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>KOLOSE 1:13-14 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   Ia telah melepaskan kita dari kuasa kegelapan dan memindahkan kita ke dalam Kerajaan Anak-Nya yang kekasih; &lt;br>di dalam Dia kita memiliki penebusan kita, yaitu pengampunan dosa.. &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>KOLOSE 2:10 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   dan kamu telah dipenuhi di dalam Dia. Dialah kepala semua pemerintah dan penguasa. &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>YAKOBUS 1:2-4 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   \'Saudara-saudaraku, anggaplah sebagai suatu kebahagiaan, apabila kamu jatuh ke dalam berbagai-bagai pencobaan, &lt;br>sebab kamu tahu, bahwa ujian terhadap imanmu itu menghasilkan ketekunan. &lt;br>Dan biarkanlah ketekunan itu memperoleh buah yang matang, supaya kamu menjadi sempurna dan utuh dan tak kekurangan suatu apa pun.\' &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>YAKOBUS 4:7 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   Karena itu tunduklah kepada Allah, dan lawanlah Iblis, maka ia akan lari dari padamu! &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>1 PETRUS 2:9-11 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   \'Tetapi kamulah bangsa yang terpilih, imamat yang rajani, bangsa yang kudus, umat kepunyaan Allah sendiri, supaya kamu memberitakan perbuatan-perbuatan yang besar dari Dia, yang telah memanggil kamu keluar dari kegelapan kepada terang-Nya yang ajaib: &lt;br>kamu, yang dahulu bukan umat Allah,tetapi yang sekarang telah menjadi umat-Nya,yang dahulu tidak dikasihani tetapi yang sekarang telah beroleh belas kasihan. &lt;br>Saudara-saudaraku yang kekasih, aku menasihati kamu, supaya sebagai pendatang dan perantau, kamu menjauhkan diri dari keinginan-keinginan daging yang berjuang melawan jiwa.\' &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>1 YOHANES 4:4 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   Kamu berasal dari Allah, anak-anakku, dan kamu telah mengalahkan nabi-nabi palsu itu; sebab Roh yang ada di dalam kamu, lebih besar dari pada roh yang ada di dalam dunia. &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>WAHYU 12:5 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   Maka ia melahirkan seorang Anak laki-laki, yang akan menggembalakan semua bangsa dengan gada besi; tiba-tiba Anaknya itu dirampas dan dibawa lari kepada Allah dan ke takhta-Nya. &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>WAHYU 12:11 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   Dan mereka mengalahkan dia oleh darah Anak Domba, dan oleh perkataan kesaksian mereka. Karena mereka tidak mengasihi nyawa mereka sampai ke dalam maut. &lt;/font>  &lt;br> &lt;br>
+
+                  &lt;font color=#F25F5C>  &lt;u> &lt;b>WAHYU 19:15 &lt;/b> &lt;/u>  &lt;/font>  &lt;br>
+                   Dan dari mulut-Nya keluarlah sebilah pedang yang akan memukul segala bangsa. Dan Ia akan menggembalakan mereka dengan gada besi dan Ia akan memeras anggur dalam kilangan anggur, yaitu kegeraman murka Allah, Yang Mahakuasa. &lt;/font>  &lt;br> &lt;br>
+    </string>
+
+    <string name="ayat_minta_perlindungan_dari_tuhan">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>MINTA PERLINDUNGAN DARI TUHAN&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>ULANGAN 33:27&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah yang abadi adalah tempat perlindunganmu, dan di bawahmu ada lengan-lengan yang kekal. Ia mengusir musuh dari depanmu dan berfirman: Punahkanlah!&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>2 SAMUEL 22:3&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allahku, gunung batuku, tempat aku berlindung, perisaiku, tanduk keselamatanku, kota bentengku, tempat pelarianku, juruselamatku; Engkau menyelamatkan aku dari kekerasan.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YOEL 3:16&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  TUHAN mengaum dari Sion, dari Yerusalem Ia memperdengarkan suara-Nya, dan langit dan bumi bergoncang. Tetapi TUHAN adalah tempat perlindungan bagi umat-Nya, dan benteng bagi orang Israel.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 9:9&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Demikianlah TUHAN adalah tempat perlindungan bagi orang yang terinjak, tempat perlindungan pada waktu kesesakan.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 27:5&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Sebab Ia melindungi aku dalam pondok-Nya pada waktu bahaya; Ia menyembunyikan aku dalam persembunyian di kemah-Nya, Ia mengangkat aku ke atas gunung batu.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 31:2&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  sendengkanlah telinga-Mu kepadaku, bersegeralah melepaskan aku! Jadilah bagiku gunung batu tempat perlindungan, kubu pertahanan untuk menyelamatkan aku!&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 31:4&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Engkau akan mengeluarkan aku dari jaring yang dipasang orang terhadap aku, sebab Engkaulah tempat perlindunganku.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 32:7&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  \'Engkaulah persembunyian bagiku, terhadap kesesakan Engkau menjaga aku, Engkau mengelilingi aku, sehingga aku luput dan bersorak. Sela&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 37:39&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Orang-orang benar diselamatkan oleh TUHAN; Ia adalah tempat perlindungan mereka pada waktu kesesakan;&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 46:1&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Untuk pemimpin biduan. Dari bani Korah. Dengan lagu: Alamot. Nyanyian. (46-2) Allah itu bagi kita tempat perlindungan dan kekuatan, sebagai penolong dalam kesesakan sangat terbukti.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 61:3&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Sungguh Engkau telah menjadi tempat perlindunganku, menara yang kuat terhadap musuh.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 62:7&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Pada Allah ada keselamatanku dan kemuliaanku; gunung batu kekuatanku, tempat perlindunganku ialah Allah.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 62:8&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Percayalah kepada-Nya setiap waktu, hai umat, curahkanlah isi hatimu di hadapan-Nya; Allah ialah tempat perlindungan kita. Sela&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 71:7&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Bagi banyak orang aku seperti tanda ajaib, karena Engkaulah tempat perlindunganku yang kuat.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 73:28&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tetapi aku, aku suka dekat pada Allah; aku menaruh tempat perlindunganku pada Tuhan ALLAH, supaya dapat menceritakan segala pekerjaan-Nya.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 91:2&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  akan berkata kepada TUHAN: \'Tempat perlindunganku dan kubu pertahananku, Allahku, yang kupercayai.\'&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 91:9-10&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Sebab TUHAN ialah tempat perlindunganmu, Yang Mahatinggi telah kaubuat tempat perteduhanmu,&lt;br>malapetaka tidak akan menimpa kamu, dan tulah tidak akan mendekat kepada kemahmu;&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 119:114&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  \'Engkaulah persembunyianku dan perisaiku; aku berharap kepada firman-Mu.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 142:5&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Aku berseru-seru kepada-Mu, ya TUHAN, kataku: \'Engkaulah tempat perlindunganku, bagianku di negeri orang-orang hidup!\'&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 144:2&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  yang menjadi tempat perlindunganku dan kubu pertahananku, kota bentengku dan penyelamatku, perisaiku dan tempat aku berlindung, yang menundukkan bangsa-bangsa ke bawah kuasaku!&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 34:8&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Kecaplah dan lihatlah, betapa baiknya TUHAN itu! Berbahagialah orang yang berlindung pada-Nya!&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 37:5&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Serahkanlah hidupmu kepada TUHAN dan percayalah kepada-Nya, dan Ia akan bertindak;&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 46:2&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  \'Allah itu bagi kita tempat perlindungan dan kekuatan, sebagai penolong dalam kesesakan sangat terbukti.\'&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 62:2&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Hanya Dialah gunung batuku dan keselamatanku, kota bentengku, aku tidak akan goyah.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 91:3-7&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  \'Sungguh, Dialah yang akan melepaskan engkau dari jerat penangkap burung, dari penyakit sampar yang busuk.&lt;br>Dengan kepak-Nya Ia akan menudungi engkau, di bawah sayap-Nya engkau akan berlindung, kesetiaan-Nya ialah perisai dan pagar tembok.&lt;br>Engkau tak usah takut terhadap kedahsyatan malam, terhadap panah yang terbang di waktu siang,&lt;br>terhadap penyakit sampar yang berjalan di dalam gelap, terhadap penyakit menular yang mengamuk di waktu petang.&lt;br>Walau seribu orang rebah di sisimu, dan sepuluh ribu di sebelah kananmu, tetapi itu tidak akan menimpamu.\'&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 91:10&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  \'malapetaka tidak akan menimpa kamu, dan tulah tidak akan mendekat kepada kemahmu;&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>ROMA 10:9-10&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Sebab jika kamu mengaku dengan mulutmu, bahwa Yesus adalah Tuhan, dan percaya dalam hatimu, bahwa Allah telah membangkitkan Dia dari antara orang mati, maka kamu akan diselamatkan.&lt;br>Karena dengan hati orang percaya dan dibenarkan, dan dengan mulut orang mengaku dan diselamatkan.&lt;/font> &lt;br>&lt;br>
+    </string>
+
+    <string name="ayat_ketetapan_tuhan">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>KETETAPAN TUHAN&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>IMAMAT 19:37&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Demikianlah kamu harus berpegang pada segala ketetapan-Ku dan segala peraturan-Ku serta melakukan semuanya itu; Akulah TUHAN.\'&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>IMAMAT 20:22&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Demikianlah kamu harus berpegang pada segala ketetapan-Ku dan segala peraturan-Ku serta melakukan semuanya itu, supaya jangan kamu dimuntahkan oleh negeri ke mana Aku membawa kamu untuk diam di sana.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>IMAMAT 25:18&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Demikianlah kamu harus melakukan ketetapan-Ku dan tetap berpegang pada peraturan-Ku serta melakukannya, maka kamu akan diam di tanahmu dengan aman tenteram.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>ULANGAN 8:11&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Hati-hatilah, supaya jangan engkau melupakan TUHAN, Allahmu, dengan tidak berpegang pada perintah, peraturan dan ketetapan-Nya, yang kusampaikan kepadamu pada hari ini;&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>2 RAJA-RAJA 23:3&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Sesudah itu berdirilah raja dekat tiang dan diadakannyalah perjanjian di hadapan TUHAN untuk hidup dengan mengikuti TUHAN, dan tetap menuruti perintah-perintah-Nya, peraturan-peraturan-Nya dan ketetapan-ketetapan-Nya dengan segenap hati dan dengan segenap jiwa dan untuk menepati perkataan perjanjian yang tertulis dalam kitab itu. Dan seluruh rakyat turut mendukung perjanjian itu.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>2 TAWARIKH 7:17&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Mengenai engkau, jika engkau hidup di hadapan-Ku sama seperti Daud, ayahmu, dan berbuat sesuai dengan segala yang Kuperintahkan kepadamu, dan jika engkau tetap mengikuti segala ketetapan dan peraturan-Ku,&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>2 TAWARIKH 19:10&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Dalam setiap perkara, yang disampaikan kepada kamu oleh rekan-rekanmu yang tinggal di kota-kota, yakni perkara-perkara mengenai penumpahan darah atau mengenai hukum, perintah, ketetapan-ketetapan dan peraturan-peraturan, hendaklah kamu memperingatkan mereka, supaya mereka jangan bersalah terhadap TUHAN, sehingga murka-Nya menimpa kamu dan rekan-rekanmu. Hendaklah kamu berbuat demikian, dan kamu tidak akan bersalah.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YEHEZKIEL 18:9&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  hidup menurut ketetapan-Ku dan tetap mengikuti peraturan-Ku dengan berlaku setia — ialah orang benar, dan ia pasti hidup, demikianlah firman Tuhan ALLAH.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YEHEZKIEL 20:11&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Di sana Aku memberikan kepada mereka ketetapan-ketetapan-Ku dan memberitahukan peraturan-peraturan-Ku, dan manusia yang melakukannya, akan hidup.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YEHEZKIEL 36:27&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Roh-Ku akan Kuberikan diam di dalam batinmu dan Aku akan membuat kamu hidup menurut segala ketetapan-Ku dan tetap berpegang pada peraturan-peraturan-Ku dan melakukannya.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 119:89&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Untuk selama-lamanya, ya TUHAN, firman-Mu tetap teguh di sorga.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>ROMA 8:1-2&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Demikianlah sekarang tidak ada penghukuman bagi mereka yang ada di dalam Kristus Yesus. Roh,&lt;br>yang memberi hidup telah memerdekakan kamu dalam Kristus dari hukum dosa dan hukum maut.&lt;/font> &lt;br>&lt;br>
+    </string>
+
+    <string name="ayat_tarik_berkat">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>TARIK BERKAT&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>KELUARAN 15:26&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  firman-Nya: \'Jika kamu sungguh-sungguh mendengarkan suara TUHAN, Allahmu, dan melakukan apa yang benar di mata-Nya, dan memasang telingamu kepada perintah-perintah-Nya dan tetap mengikuti segala ketetapan-Nya, maka Aku tidak akan menimpakan kepadamu penyakit mana pun, yang telah Kutimpakan kepada orang Mesir; sebab Aku TUHANlah yang menyembuhkan engkau.\'&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>BILANGAN 6:24-26&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  TUHAN memberkati engkau dan melindungi engkau; TUHAN menyinari engkau dengan wajah-Nya dan memberi engkau kasih karunia; TUHAN menghadapkan wajah-Nya kepadamu dan memberi engkau damai sejahtera.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>ULANGAN 28:2&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Segala berkat ini akan datang kepadamu dan menjadi bagianmu, jika engkau mendengarkan suara TUHAN, Allahmu:&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>ULANGAN 28:12&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuhan akan membuka bagimu perbendaharaan-Nya yang melimpah, yakni langit, untuk memberi hujan bagi tanahmu pada masanya dan memberkati segala pekerjaanmu, sehingga engkau memberi pinjaman kepada banyak bangsa, tetapi engkau sendiri tidak meminta pinjaman.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YOSUA 1:8&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Janganlah engkau lupa memperkatakan kitab Taurat ini, tetapi renungkanlah itu siang dan malam, supaya engkau bertindak hati-hati sesuai dengan segala yang tertulis di dalamnya, sebab dengan demikian perjalananmu akan berhasil dan engkau akan beruntung.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YOSUA 21:45&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Dari segala yang baik yang dijanjikan TUHAN kepada kaum Israel, tidak ada yang tidak dipenuhi; semuanya terpenuhi.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>1 TAWARIKH 4:10&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Yabes berseru kepada Allah Israel , katanya: \'Kiranya Engkau memberkati aku berlimpah-limpah dan memperluas daerahku, dan kiranya tangan-Mu menyertai aku, dan melindungi aku dari pada malapetaka , sehingga kesakitan tidak menimpa aku!\' Dan Allah mengabulkan permintaannya itu&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>1 TAWARIKH 17:27&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Kiranya Engkau sekarang berkenan memberkati keluarga hamba-Mu ini, supaya tetap ada di hadapan-Mu untuk selama-lamanya. Sebab apa yang Engkau berkati, ya TUHAN, diberkati untuk selama-lamanya.\'.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>2 TAWARIKH 7:14&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Dan umat-Ku, yang atasnya nama-Ku disebut, merendahkan diri, berdoa dan mencari wajah-Ku, lalu berbalik dari jalan-jalannya yang jahat, maka Aku akan mendengar dari sorga dan mengampuni dosa mereka, serta memulihkan negeri mereka.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YEREMIA 29:11&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Sebab Aku ini mengetahui rancangan-rancangan apa yang ada pada-Ku mengenai kamu, demikianlah firman TUHAN, yaitu rancangan damai sejahtera dan bukan rancangan kecelakaan, untuk memberikan kepadamu hari depan yang penuh harapan.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>AYUB 22:18&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Namun Dialah juga yang memenuhi rumah mereka dengan segala yang baik — tetapi rancangan orang fasik adalah jauh dari padaku.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 23:1-6&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Mazmur Daud. Tuhan adalah gembalaku, takkan kekurangan aku.&lt;br>Ia membaringkan aku di padang yang berumput hijau, Ia membimbing aku ke air yang tenang;&lt;br>Ia menyegarkan jiwaku. Ia menuntun aku di jalan yang benar oleh karena nama-Nya.&lt;br>Sekalipun aku berjalan dalam lembah kekelaman, aku tidak takut bahaya, sebab Engkau besertaku; gada-Mu dan tongkat-Mu, itulah yang menghibur aku.&lt;br>Engkau menyediakan hidangan bagiku, di hadapan lawanku; Engkau mengurapi kepalaku dengan minyak; pialaku penuh melimpah.&lt;br>Kebajikan dan kemurahan belaka akan mengikuti aku, seumur hidupku; dan aku akan diam dalam rumah Tuhan sepanjang masa.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 34:8&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Kecaplah dan lihatlah, betapa baiknya TUHAN itu! Berbahagialah orang yang berlindung pada-Nya!&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 36:7-9&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Betapa berharganya kasih setia-Mu, ya Allah! Anak-anak manusia berlindung dalam naungan sayap-Mu.&lt;br>Mereka mengenyangkan dirinya dengan lemak di rumah-Mu; Engkau memberi mereka minum dari sungai kesenangan-Mu.&lt;br>Sebab pada-Mu ada sumber hayat, di dalam terang-Mu kami melihat terang.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 37:4&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  dan bergembiralah karena TUHAN; maka Ia akan memberikan kepadamu apa yang diinginkan hatimu.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 37:11&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tetapi orang-orang yang rendah hati akan mewarisi negeri dan bergembira karena kesejahteraan yang berlimpah-limpah&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 65:4&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Berbahagialah orang yang Engkau pilih dan yang Engkau suruh mendekat untuk diam di pelataran-Mu! Kiranya kami menjadi kenyang dengan segala yang baik di rumah-Mu, di bait-Mu yang kudus.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 68:10&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  sehingga kawanan hewan-Mu menetap di sana; dalam kebaikan-Mu Engkau memenuhi kebutuhan orang yang tertindas, ya Allah.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 103:5&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Dia yang memuaskan hasratmu dengan kebaikan, sehingga masa mudamu menjadi baru seperti pada burung rajawali.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 118:26&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Diberkatilah dia yang datang dalam nama TUHAN! Kami memberkati kamu dari dalam rumah TUHAN.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 126:5&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Orang-orang yang menabur dengan mencucurkan air mata, akan menuai dengan bersorak-sorai.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 126:6&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Orang yang berjalan maju dengan menangis sambil menabur benih, pasti pulang dengan sorak-sorai sambil membawa berkas-berkasnya.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>RATAPAN 3:22-23&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  \'Tak berkesudahan kasih setia TUHAN,tak habis-habisnya rahmat-Nya,&lt;br>selalu baru tiap pagi;besar kesetiaan-Mu!.\'&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>AMSAL 2:6&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Karena TUHAN lah yang memberikan hikmat, dari mulut-Nya datang pengetahuan dan kepandaian.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>AMSAL 3:9-10&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Muliakanlah Tuhan dengan hartamu dan dengan hasil pertama dari segala penghasilanmu,&lt;br>maka lumbung-lumbungmu akan diisi penuh sampai melimpah-limpah, dan bejana pemerahanmu akan meluap dengan air buah anggurnya.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YESAYA 43:5-6&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Janganlah takut, sebab Aku ini menyertai engkau, Aku akan mendatangkan anak cucumu dari timur, dan Aku akan menghimpun engkau dari barat.&lt;br>Aku akan berkata kepada utara: Berikanlah! dan kepada selatan: Janganlah tahan-tahan! Bawalah anak-anak-Ku laki-laki dari jauh, dan anak-anak-Ku perempuan dari ujung-ujung bumi,&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MALEAKHI 3:10&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Bawalah seluruh persembahan persepuluhan itu ke dalam rumah perbendaharaan, supaya ada persediaan makanan di rumah-Ku dan ujilah Aku, firman TUHAN semesta alam, apakah Aku tidak membukakan bagimu tingkap-tingkap langit dan mencurahkan berkat kepadamu sampai berkelimpahan.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MATIUS 6:33&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tetapi carilah dahulu Kerajaan Allah dan kebenarannya, maka semuanya itu akan ditambahkan kepadamu.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>LUKAS 6:38&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Berilah dan kamu akan diberi: suatu takaran yang baik, yang dipadatkan, yang digoncang dan yang tumpah ke luar akan dicurahkan ke dalam ribaanmu. Sebab ukuran yang kamu pakai untuk mengukur, akan diukurkan kepadamu.\'&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>2 KORINTUS 9:8&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Dan Allah sanggup melimpahkan segala kasih karunia kepada kamu, supaya kamu senantiasa berkecukupan di dalam segala sesuatu dan malah berkelebihan di dalam pelbagai kebajikan.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>EFESUS 1:3&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Terpujilah Allah dan Bapa Tuhan kita Yesus Kristus yang dalam Kristus telah mengaruniakan kepada kita segala berkat rohani di dalam surga.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>EFESUS 3:16-17&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Aku berdoa supaya Ia, menurut kekayaan kemuliaan-Nya, menguatkan dan meneguhkan kamu oleh Roh-Nya di dalam batinmu, sehingga oleh imanmu Kristus diam di dalam hatimu dan berakar serta berdasar di dalam Kasih.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>FILIPI 4:19&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allahku akan memenuhi segala keperluanmu menurut kekayaan dan kemuliaan-Nya dalam Kristus Yesus.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>ROMA 8:28&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  \'Kita tahu sekarang, bahwa Allah turut bekerja dalam segala sesuatu untuk mendatangkan kebaikan bagi mereka yang mengasihi Dia, yaitu bagi mereka yang terpanggil sesuai dengan rencana Allah.\'&lt;/font> &lt;br>&lt;br>
+    </string>
+
+    <string name="ayat_melawan_malaikat_jatuh">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>MELAWAN MALAIKAT JATUH&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YEREMIA 10:11 (MILT)&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Seperti inilah harus kamu katakan kepada mereka, \'Ilah-ilah yang tidak menjadikan langit dan bumi, akan lenyap dari bumi, dan dari kolong langit ini.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>2 PETRUS 2:4 (MILT)&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                   Sebab, jika Allah tidak berbelaskasihan atas malaikat-malaikat yang telah berdosa, sebaliknya, Dia malah menyerahkan ke dalam belenggu kegelapan dengan melemparkannya ke dalam tartarus untuk ditahan sampai penghakiman;&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YUDAS 1:6 (MILT)&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Juga para malaikat, mereka yang tidak menjaga asal-usul mereka sendiri, malah telah meninggalkan kediamannya sendiri, Dia telah menahan mereka dengan belenggu abadi di bawah kekelaman, sampai pada penghakiman pada hari yang besar.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MATIUS 4:10&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Yesus yg berkata kepadamu Setan: \'Enyahlah, Iblis! Sebab ada tertulis: Engkau harus menyembah Tuhan, Allahmu, dan hanya kepada Dia sajalah kami berbakti!\'&lt;/font> &lt;br>&lt;br>
+    </string>
+
+    <string name="ayat_melawan_roh_penyesat">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>MELAWAN ROH PENYESAT&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>KELUARAN 15:6&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tangan kanan-Mu, TUHAN, mulia karena kekuasaan-Mu, tangan kanan-Mu, TUHAN, menghancurkan musuh.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>ULANGAN 30:6&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Dan TUHAN, Allahmu, akan menyunat hatimu dan hati keturunanmu, sehingga engkau mengasihi TUHAN, Allahmu, dengan segenap hatimu dan dengan segenap jiwamu, supaya engkau hidup.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 99:4&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Raja yang kuat, yang mencintai hukum, Engkaulah yang menegakkan kebenaran; hukum dan keadilan di antara keturunan Yakub, Engkaulah yang melakukannya.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YESAYA 27:1&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Pada waktu itu TUHAN akan melaksanakan hukuman dengan pedang-Nya yang keras, besar dan kuat atas Lewiatan, ular yang meluncur, atas Lewiatan, ular yang melingkar, dan Ia akan membunuh ular naga yang di laut.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YEHEZKIEL 28:18-19&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Dengan banyaknya kesalahanmu dan kecurangan dalam dagangmu engkau melanggar kekudusan tempat kudusmu. Maka Aku menyalakan api dari tengahmu yang akan memakan habis engkau. Dan Kubiarkan engkau menjadi abu di atas bumi di hadapan semua yang melihatmu.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YAKOBUS 1:18&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Atas kehendak-Nya sendiri Ia telah menjadikan kita oleh firman kebenaran, supaya kita pada tingkat yang tertentu menjadi anak sulung di antara semua ciptaan-Nya.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>WAHYU 20:10&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  dan Iblis, yang menyesatkan mereka, dilemparkan ke dalam lautan api dan belerang, yaitu tempat binatang dan nabi palsu itu, dan mereka disiksa siang malam sampai selama-lamanya.&lt;/font> &lt;br>&lt;br>
+    </string>
+
+    <string name="ayat_melawan_roh_maut">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>MELAWAN ROH MAUT&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YESAYA 28:18&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Perjanjianmu dengan maut itu akan ditiadakan, dan persetujuanmu dengan dunia orang mati itu tidak akan tetap berlaku; apabila cemeti berdesik-desik dengan kerasnya, kamu akan hancur diinjak-injak.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>NAHUM 1:13&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Sekarang, Aku akan mematahkan gandarnya yang memberati engkau, dan akan memutuskan belenggu-belenggu yang mengikat engkau.\'&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>1 KORINTUS 15:54b-55&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  maka akan genaplah firman Tuhan yang tertulis: \'Maut telah ditelan dalam kemenangan. Hai maut  dimanakah  kemenanganmu, hai maut dimanakah sengatmu&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>ROMA 8:2&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Roh (Roh Kudus), yang memberi hidup telah memerdekakan kamu dalam Kristus dari hukum dosa dan hukum maut.&lt;/font> &lt;br>&lt;br>
+    </string>
+
+    <string name="ayat_melawan_berhala">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>MELAWAN BERHALA&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>KELUARAN 34:13&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Sebaliknya, mezbah-mezbah mereka haruslah kamu rubuhkan, tugu-tugu berhala mereka kamu remukkan, dan tiang-tiang berhala mereka kamu tebang.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YEREMIA 10:5&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Berhala itu sama seperti orang-orangan di kebun mentimun, tidak dapat berbicara; orang harus mengangkatnya, sebab tidak dapat melangkah. Janganlah takut kepadanya, sebab berhala itu tidak dapat berbuat jahat, dan berbuat baik pun tidak dapat.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YEREMIA 10:8&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Berhala itu semuanya bodoh dan dungu; petunjuk dewa itu sia-sia, karena ia hanya kayu belaka.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YEREMIA 10:11&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Beginilah harus kamu katakan kepada mereka: ‘Para allah yang tidak menjadikan langit dan bumi akan lenyap dari bumi dan dari kolong langit ini’&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>ZAKHARIA 13:2&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Maka pada waktu itu, demikianlah firman TUHAN semesta alam, Aku akan melenyapkan nama-nama berhala dari negeri itu, sehingga orang tidak menyebutnya lagi. Juga para nabi dan roh najis akan Kusingkirkan dari negeri itu.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>ZEFANYA 2:11&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  TUHAN akan mendahsyatkan mereka, sebab Ia akan melenyapkan para allah di bumi, dan kepada-Nya akan sujud menyembah setiap bangsa daerah pesisir, masing-masing dari tempatnya&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 97:7&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Semua orang yang beribadah kepada patung akan mendapat malu, orang yang memegahkan diri karena berhala-berhala; segala allah sujud menyembah kepada-Nya. (Tuhan)&lt;/font> &lt;br>&lt;br>
+    </string>
+
+    <string name="ayat_melawan_roh_kedar">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>MELAWAN ROH KEDAR&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YESAYA 60:7&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Segala kambing domba Kedar akan berhimpun kepadamu, domba-domba jantan Nebayot akan tersedia untuk ibadahmu; semuanya akan dipersembahkan di atas mezbah-Ku sebagai korban yang berkenan kepada-Ku, dan Aku akan menyemarakkan rumah keagungan-Ku.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>FILIPI 2:10-11&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Supaya dalam nama Yesus bertekuk lutut segala yang ada di langit dan yang ada di atas bumi dan yang ada di bawah bumi, dan segala lidah mengaku: ‘Yesus Kristus adalah Tuhan,’ bagi kemuliaan Allah, Bapa!&lt;/font> &lt;br>&lt;br>
+    </string>
+
+    <string name="ayat_melawan_tenung">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>MELAWAN MANTERA/TENUNG&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>BILANGAN 23:23a&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  sebab tidak ada mantera yang mempan terhadap Yakub, ataupun tenungan yang mempan terhadap Israel.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YESAYA 44:25&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Akulah yang meniadakan tanda-tanda peramal pembohong dan mempermain-mainkan tukang-tukang tenung; yang membuat orang-orang bijaksana mundur ke belakang, dan membalikkan pengetahuan mereka menjadi kebodohan&lt;/font> &lt;br>&lt;br>
+    </string>
+
+    <string name="ayat_melawan_pembinasa_keji">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>MELAWAN PEMBINASA KEJI&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>2 TESALONIKA 2:4, 6-8&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  yaitu lawan yang meninggikan diri di atas segala yang disebut atau yang disembah sebagai Allah. Bahkan ia duduk di Bait Allah dan mau menyatakan diri sebagai Allah. Dan sekarang kamu tahu apa yang menahan dia, sehingga ia baru akan menyatakan diri pada waktu yang telah ditentukan baginya. Karena secara rahasia kedurhakaan telah mulai bekerja, tetapi sekarang masih ada yang menahan. Kalau yang menahannya itu telah disingkirkan, pada waktu itulah si pendurhaka baru akan menyatakan dirinya, tetapi Tuhan Yesus akan membunuhnya dengan nafas mulut-Nya dan akan memusnahkannya, kalau Ia datang kembali&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>WAHYU 12:11&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Dan mereka mengalahkan dia oleh darah Anak Domba, dan oleh perkataan kesaksian mereka. Karena mereka tidak mengasihi nyawa mereka sampai ke dalam maut.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YOHANES 12:31&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Sekarang berlangsung penghakiman atas dunia ini: sekarang juga penguasa dunia ini akan dilemparkan ke luar&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>ULANGAN 9:3&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Maka ketahuilah pada hari ini, bahwa TUHAN, Allahmu, Dialah yang berjalan di depanmu laksana api yang menghanguskan; Dia akan memunahkan mereka dan Dia akan menundukkan mereka di hadapanmu. Demikianlah engkau akan menghalau dan membinasakan mereka dengan segera, seperti yang dijanjikan kepadamu oleh TUHAN.&lt;/font> &lt;br>&lt;br>
+    </string>
+
+    <string name="ayat_melawan_roh_mamon">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>MELAWAN ROH MAMON&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>ULANGAN 8:3&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Jadi Ia merendahkan hatimu, membiarkan engkau lapar dan memberi engkau makan manna, yang tidak kaukenal dan yang juga tidak dikenal oleh nenek moyangmu, untuk membuat engkau mengerti, bahwa manusia hidup bukan dari roti saja, tetapi manusia hidup dari segala yang diucapkan TUHAN.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MATIUS 6:20-21 &lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tetapi kumpulkanlah bagimu harta di sorga; di sorga ngengat dan karat tidak merusakkannya dan pencuri tidak membongkar serta mencurinya. Karena di mana hartamu berada, di situ juga hatimu berada.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>LUKAS 16:13&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Seorang hamba tidak dapat mengabdi kepada dua tuan. Karena jika demikian ia akan membenci yang seorang dan mengasihi yang lain, atau ia akan setia kepada yang seorang dan tidak mengindahkan yang lain. Kamu tidak dapat mengabdi kepada Allah dan kepada Mamon.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MATIUS 22:37&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Jawab Yesus kepadanya: \'Kasihilah Tuhan, Allahmu, dengan segenap hatimu dan dengan segenap jiwamu dan dengan segenap akal budimu\'&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>WAHYU 18:2 &lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Dan ia berseru dengan suara yang kuat, katanya: \ Sudah rubuh, sudah rubuh Babel, kota besar itu, dan ia telah menjadi tempat kediaman roh-roh jahat dan tempat bersembunyi semua roh najis dan tempat bersembunyi segala burung yang najis dan yang dibenci&lt;/font> &lt;br>&lt;br>
+    </string>
+
+    <string name="melawan_roh_ular">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>MELAWAN ROH ULAR/NAGA&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>YESAYA 51:9&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Terjagalah, terjagalah! Kenakanlah kekuatan, hai tangan TUHAN! Terjagalah seperti pada zaman purbakala, pada zaman keturunan yang dahulu kala! Bukankah Engkau yang meremukkan Rahab, yang menikam naga sampai mati? &lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 74:13-14&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Engkaulah TUHAN yang membelah laut dengan kekuatan-Mu, yang memecahkan kepala ular-ular naga di atas muka air. Dengan kekuatan yang dahsyat Engkau TUHAN membelah laut, dan memecahkan kepala naga-naga laut. Engkaulah yang meremukkan kepala-kepala Lewiatan, yang memberikannya menjadi makanan penghuni-penghuni padang belantara.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MAZMUR 91:13&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Singa dan ular tedung akan ku langkahi, aku akan menginjak anak singa dan ular naga.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>LUKAS 10:19&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Sesungguhnya TUHAN telah memberikan kuasa kepada kami untuk menginjak ular dan kalajengking dan kuasa untuk menahan kekuatan musuh, sehingga tidak ada yang akan membahayakan kami&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MARKUS 16:17,18&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tanda-tanda ini akan menyertai orang-orang yang percaya: mereka akan mengusir setan-setan demi nama-Ku, mereka akan berbicara dalam bahasa-bahasa yang baru bagi mereka, mereka akan memegang ular, dan sekalipun mereka minum racun maut, mereka tidak akan mendapat celaka; mereka akan meletakkan tangannya atas orang sakit, dan orang itu akan sembuh.&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>WAHYU 20:1-2&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Lalu aku melihat seorang malaikat turun dari sorga memegang anak kunci jurang maut dan suatu rantai besar di tangannya; ia menangkap naga, si ular tua itu, yaitu Iblis dan Satan. Dan ia mengikatnya seribu tahun lamanya,&lt;/font> &lt;br>&lt;br>
+    </string>
+
+    <string name="prosedural_doling">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>PROSEDURAL DOLING&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+        1.  Doa dan tutup semua celah dalam hidup kita dan minta penyertaan Tuhan, aktifkan layanan malaikat.&lt;br>&lt;br>
+        2.  Perjamuan kudus dan pengurapan.&lt;br>&lt;br>
+        3.  Sebelum berangkat tuangkan anggur dan garam dan injak tanda berdiri atas perjanjian darah Yesus dan perjanjian Garam yaitu kasih setia Tuhan.&lt;br>&lt;br>
+        4.  Urapi kendaraan yang kita pakai untuk doling dengan minyak dan anggur.&lt;br>&lt;br>
+        5.  Saat doling patahkan semua yang bukan dari Tuhan, bereskan semua yang jahat dengan otoritas dr Tuhan.&lt;br>&lt;br>
+        6.  Ambil setiap berkat dan blessing area tersebut.&lt;br>&lt;br>
+        7.  Bila Tuhan suruh patok area2 tertentu dan tuangkan anggur di area yg dipatok tanda pemeteraian dan pendudukan pemerintahan Tuhan atas area tersebut.&lt;br>&lt;br>
+        8.  Bila sdh selesai keluar dr area doling tapi jangan di rumah kita.&lt;br>&lt;br>
+        9.  Pentahiran dengan air basuh badan dan kebaskan semua yang bukan dari Tuhan tidak boleh ikut, hapus jejak dan tidak ada serangan balik.&lt;br>&lt;br>
+        10. Injak anggur dan garam kembali (lihat no 3).&lt;br>&lt;br>
+        11. Sampai di rumah mandi keramas dan urapi bagian kepala dengan minyak urapan atau minyak anggur.&lt;br>&lt;br>
+        12. Selesai.&lt;br> &lt;br> &lt;br>
+
+        &lt;b>Doa mengucap syukur.&lt;/b>
+    </string>
+
+    <string name="nama_nama_tuhan">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>NAMA-NAMA TUHAN&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>ADONAI&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuhan Pemimpinku/Tuhan/Tuan [Kejadian 15:2]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>ELOHIM&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Pencipta [Kejadian 1:1]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH SABAOTH&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuhan Semesta Alam / Allah dari Bala Tentara [Mazmur 59:6, Mazmur 80:8]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>EL ELYON&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Yang Maha Tinggi [Kejadian 14:18-19]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>EL GIBHOR&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuhan Kekuatan / Perkasa [Yesaya9:5]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH JIREH&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Yang Menyediakan [Kejadian 22:14]&lt;/font> &lt;br>
+                  Allah Yang Mencukupi [Filipi 4:19]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH MAKADESH&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Yang Menguduskan [Keluaran 31:13]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH NISSI&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Panji Keselamatan [Keluaran 17:15]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH TSIDKENU&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Kebenaranku [Yeremia 23:6]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>EL OLAM&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Yang Kekal [Kejadian 21:33]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>EL SHADDAI&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Maha Kuasa [Kejadian 17:1-2]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH ROHI&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuhan Gembalaku [Mazmur 23:1]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH RAPHA&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Penyembuh [Keluaran 15:26]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>EL ROI&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Yang Melihat Kita [Kejadian 16:13]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>EL BETHEL&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuhan Atas Rumahnya [Kejadian 35:7]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH SHALOM&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuhan Sumber Damai / Allah Pokok Keselamatan [Hakim-Hakim 6:24]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH SHAMMAH&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Maha Hadir Tuhan Hadir Di Situ [Yehezkiel 48:35]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>EMMANU EL&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Beserta Kita&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH MAGEN&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Perisai Pertolongan [Ulangan 33:19]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>MASTER OF BREAKTHROUGH&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuan Penerobos [Mikha 2:13]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>ABBA BAPA&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Bapa [Markus 14:36, Roma 8:15, Galatia 4:6]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>ALFA SAMPAI OMEGA&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Yang Awal Sampai Yang AKhir [Wahyu 1:8, Wahyu 21:6, Wahyu 22:13]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH IMMEKA&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuhan Menyertai Engkau [Hakim-Hakim 6:12]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH GOELEKH&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuhan Penebusmu [Yesaya 49:26, Yesaya 60:16]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>EL ELMUNA&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Yang Setia [Ulangan 7:9]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH SHAPHAT&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Hakim Yang Besar&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>EL NOSE&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Pengampun / Allah Yang Mengampuni [Mazmur 99:8]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH HOSENNU&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Kebenaranku&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH ROPEKHA&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuhan Pemulih Jiwaku&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH GIBBOR MILCHAMAH&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuhan Perkasa Dalam Peperangan [Mazmur 24:8]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH KABODHI&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Kemuliaanku [Mazmur 3:4]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>EL SIMCHATH GILI&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Sukacitaku Dan Kegembiraanku [Mazmur 43:4]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>EL ELOHE ISRAEL&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  The Mighty God Of Israel [Kejadian 33:20]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>ELOHIM OZER LI&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Penolongku [Mazmur 54:6]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH ELOHAY&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuhan Allahku&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH KEREN YISHI&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuhan Tanduk Keselamatanku [Mazmur 18:3]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH MELEK&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuhan Raja Kita [Mazmur 98:6]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH SALI&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuhan Bukit Batuku [Mazmur 18:3]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH MOSHEIKH&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuhan Juru Selamatku [Yesaya 49:26]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH MAKKEH&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuhan Yang Memusnahkan [Yehezkiel 7:9]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH MAUZZAM&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuhan Penyelamat Mereka [Mazmur 37:40]&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>ELOHEENU&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Tuhan Allahku&lt;/font> &lt;br>&lt;br>
+
+                 &lt;font color=#F25F5C> &lt;u>&lt;b>JEHOVAH BASDOSHIM&lt;/b>&lt;/u> &lt;/font> &lt;br>
+                  Allah Yang Kudus&lt;/font> &lt;br>&lt;br>
+    </string>
+
+    <string name="perjanjian_daniel">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>PERJANJIAN DANIEL  &lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+        &lt;font color=#F25F5C>&lt;b>GURUH : AKHIR JAMAN &lt;/b> &lt;/font> &lt;br>&lt;br>
+        1.   Terluput dari masa kesesakan &lt;br>&lt;br>
+        2.   Hidup kekal, namanya tertulis dalam kitab kehidupan  &lt;br>&lt;br>
+        3.   Bercahaya seperti cakrawala   &lt;br>&lt;br>
+
+        &lt;font color=#F25F5C>&lt;b>CAWAN : KEBAIKAN &lt;font color=#F25F5C> &lt;/b>&lt;/font>&lt;br>&lt;br>
+        1.   Tidak menahan kebaikan dari pada orang-orang yang berhak menerimanya, &lt;br>&lt;br>
+        2.   Mengalahkan kejahatan dengan kebaikan. &lt;br>&lt;br>
+        3.   Menuntun banyak orang kepada kebenaran &lt;br>&lt;br>
+        4.   Menggenapkan keputusan rahasia Allah, seperti yang telah Tuhan beritakan melalui para nabi-Nya &lt;br>&lt;br>
+    </string>
+
+    <string name="perjanjian_garam">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>PERJANJIAN GARAM (2 TAW 13:5; MAT 5:13)&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+        &lt;font color=#F25F5C>&lt;b>GURUH : CINTA&lt;/b> &lt;/font> &lt;br>&lt;br>
+        •   Terima Kuasa kerajaan atas dunia&lt;br>&lt;br>
+        •   Kasih setia Tuhan tak pernah berakhir&lt;br>&lt;br>
+        •   Berada dalam perlindungan Tuhan yang sempurna&lt;br>&lt;br>
+        •   Menjadi garam yang menggarami dunia&lt;br>&lt;br>
+        •   Intim dengan Tuhan, termeterai dengan cinta Tuhan&lt;br>&lt;br>
+
+        &lt;font color=#F25F5C>&lt;b>CAWAN: UNITY&lt;/b> &lt;/font> &lt;br>&lt;br>
+        •   Terima Kuasa kerajaan atas dunia&lt;br>&lt;br>
+        •   Melakukan bagian kami di dalam Tubuh Kristus&lt;br>&lt;br>
+        •   Sederap selangkah, satu hati dengan Tuhan dan dengan saudara-saudara kami
+    </string>
+
+    <string name="perjanjian_perpuluhan">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>PERJANJIAN PERSEPULUHAN&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+        &lt;font color=#F25F5C>&lt;b>GURUH : KEMANISAN&lt;/b> &lt;/font> &lt;br>&lt;br>
+        •   Tingkap langit dibukakan berkat Tuhan dicurahkan&lt;br>&lt;br>
+        •   Masuk masa kelimpahan&lt;br>&lt;br>
+        •   Tuhan menghardik belalang-belalang dari sijahat&lt;br>&lt;br>
+        •   4 belalang dari si jahat :&lt;br>&lt;br>
+              -   Belalang Pengerip = Sakit penyakit&lt;br>&lt;br>
+              -   Belalang Pelahap =  Ekonomi&lt;br>&lt;br>
+              -   Belalang Lompatan = Percekcokan keluarga&lt;br>&lt;br>
+              -   Belalang Pindahan  jatuh bangun dalam dosa&lt;br>&lt;br>
+
+        &lt;font color=#F25F5C>&lt;b>CAWAN : UCAPAN SYUKUR&lt;/b> &lt;/font> &lt;br>&lt;br>
+        Mengembalikan apa yang jadi hak Tuhan (perpuluhan)&lt;br>&lt;br>
+        •   Persekutuan dengan darah Kristus&lt;br>&lt;br>
+        •   Bersyukur atas segala yang Tuhan sudah dan akan berikan, tidak bersungut-sungut&lt;br>&lt;br>
+        •   Tetap percaya, bahwa Tuhan selalu memberikan yang terbaik&lt;br>&lt;br>
+    </string>
+
+    <string name="perjanjian_darah">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>PERJANJIAN DARAH (MAT 26-28)&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+        &lt;font color=#F25F5C>&lt;b>GURUH : KEHIDUPAN&lt;/b> &lt;/font> &lt;br>&lt;br>
+        •   Pengampunan dosa karena darah Yesus Kristus&lt;br>&lt;br>
+        •   Memiliki Gen dan Karakter Kristus&lt;br>&lt;br>
+        •   Tercover Roh, Jiwa, Tubuh&lt;br>&lt;br>
+        •   Menerima semua warisan dari Tuhan sendiri&lt;br>&lt;br>
+
+        &lt;font color=#F25F5C>&lt;b>CAWAN : DESTINY&lt;/b> &lt;/font> &lt;br>&lt;br>
+        •   Menjadi saksi Kristus&lt;br>&lt;br>
+        •   Tidak menyayangkan nyawa sampai ke dalam mau&lt;br>&lt;br>
+        •   Tidak mengasihani diri sendiri&lt;br>&lt;br>
+        •   Pilih pekerjaan  terberat yang orang lain tidak mau&lt;br>&lt;br>
+        •   Menyelesaikan tugas sampai garis akhir&lt;br>&lt;br>
+
+        Wahyu 12:11&lt;br>
+        Dan mereka mengalahkan dia (iblis) oleh darah Anak Domba dan oleh perkataan kesaksian mereka.
+        Karena mereka tidak mengasihi nyawa mereka sampai ke dalam maut.
+    </string>
+    <string name="perjanjian_anak_sulung">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>PERJANJIAN ANAK SULUNG (BIL 3:13, KEJ 49:3, UL 21:15-17)&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+        &lt;font color=#F25F5C>&lt;b>GURUH : PERTOBATAN&lt;/b> &lt;/font> &lt;br>&lt;br>
+        •   Berkat double portion&lt;br>&lt;br>
+        •   Menjadi teladan dan punya kesanggupan mengerjakan segala sesuatu dengan penuh tanggung jawab&lt;br>&lt;br>
+        •   Terima kegagahan dan keperkasaan&lt;br>&lt;br>
+        •   Menjadi yang terutama dalam keluhuran&lt;br>&lt;br>
+
+        &lt;font color=#F25F5C>&lt;b>CAWAN : JIWA-JIWA&lt;/b> &lt;/font> &lt;br>&lt;br>
+        •   Mengambil tanggung jawab (seperti Yehuda, Kej 44:18-34)&lt;br>&lt;br>
+        •   Memberi makan bangsa (seperti Yusuf, Kej 41:56-57)&lt;br>&lt;br>
+        •   Membawa bangsa-bangsa dan raja-raja menyembah Tuhan Yesus&lt;br>&lt;br>
+    </string>
+
+    <string name="perjanjian_pelangi">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>PERJANJIAN PELANGI&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+        &lt;font color=#F25F5C>&lt;b>GURUH : KENABIAN&lt;/b> &lt;/font> &lt;br>&lt;br>
+        •   Tuhan menaruh perkataan-perkataan-Nya ke dalam mulut kami&lt;br>&lt;br>
+        •   Kuasa  menahan bencana dan menghentikan kejahatan&lt;br>&lt;br>
+        •   Tuhan mengangkat kami atas bangsa-bangsa dan kerajaan-kerajaan untuk mencabut dan merobohkan, untuk membinasakan dan meruntuhkan, untuk membangun dan menanam&lt;br>&lt;br>
+
+        &lt;font color=#F25F5C>&lt;b>CAWAN : DOA&lt;/b> &lt;/font> &lt;br>&lt;br>
+        •   Keintiman dan bergaul karib dengan Tuhan (Kej 6:9)&lt;br>&lt;br>
+        •   Ketaatan (Ibrani 11:7)&lt;br>&lt;br>
+        •   Pemberita Kebenaran (Lukas 14:23)&lt;br>&lt;br>
+        •   Korban yang harum dan menyenangkan Tuhan (Kejadian 8:21)&lt;br>&lt;br>
+    </string>
+
+    <string name="pengajaran_perjanjian_abraham">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>PERJANJIAN ABRAHAM&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+
+        &lt;font color=#F25F5C>&lt;b>GURUH : KERASULAN&lt;/b> &lt;/font> &lt;br>&lt;br>
+        •   Perjanjian menguasai dunia, menduduki kota-2 musuh&lt;br>&lt;br>
+        •   Terima kuasa untuk mengusir setan-setan demi Nama Yesus,&lt;br>&lt;br>
+        •   Berbicara dalam bahasa-bahasa yang baru, memegang ular, minum racun maut tidak celaka&lt;br>&lt;br>
+        •   Terima karunia kesembuhan,&lt;br>&lt;br>
+        •   Membangkitkan orang mati,&lt;br>&lt;br>
+        •   Kuasa menutup langit, supaya jangan turun hujan selama kami bernubuat&lt;br>&lt;br>
+        •   Kuasa atas segala air&lt;br>&lt;br>
+        •   Terima Kunci Kerajaan Sorga&lt;br>&lt;br>
+        •   Memberitakan Injil kepada segala makhluk sampai ke ujung bumi&lt;br>&lt;br>
+
+        &lt;font color=#F25F5C>&lt;b>CAWAN : KEHENDAK BAPA&lt;/b> &lt;/font> &lt;br>&lt;br>
+        •   Meletakkan  yang paling dicintai (Kej 22:1-19)&lt;br>&lt;br>
+        •   Meninggalkan kenyamanan untuk memilih ikut Tuhan&lt;br>&lt;br>
+        •   Kami hanya mengingini apa yang Bapa kehendaki, kami menyerahkan kehendak bebas kami, hanya kehendak-Nya saja yang terjadi
+    </string>
+
+    <string name="pengertian_tumen">
+        Ada ayat-ayat yang berkaitan dan menjelaskan tentang penggunaan 7 elemen ini di Alkitab&lt;br>&lt;br>
+
+        Berikut kami lampirkan sebagian dari ayat-ayat tersebut&lt;br>&lt;br>
+
+        &lt;font color=#247BA0>&lt;b>I. AIR &lt;/b> &lt;/font> &lt;br>
+        membersihkan, mentahirkan, menyegarkan, menyejukkan, memberikan kehidupan. &lt;br>
+        &lt;font color=#F25F5C>(Yohanes 4:14) &lt;/font> &lt;br>
+        Tetapi barangsiapa minum air yang akan Kuberikan kepadanya, ia tidak akan haus untuk selama-lamanya. Sebaliknya air yang akan Kuberikan kepadanya, akan menjadi mata air di dalam dirinya, yang terus-menerus memancar sampai kepada hidup yang kekal. \'  &lt;br>&lt;br>
+
+        &lt;font color=#247BA0>&lt;b>II. ANGGUR &lt;/b> &lt;/font> &lt;br>
+        Menguduskan, menyucikan, tanda penebusan, gelora cinta, darah Yesus. &lt;br>
+        &lt;font color=#F25F5C>(Kidung Agung 1:2) &lt;/font> &lt;br>
+        Kiranya ia mencium aku dengan kecupan! Karena cintamu lebih nikmat dari pada anggur (ayat ini berbicara tentang gelora cinta, keintiman dan kerinduan kepada TUHAN)
+        Darah Yesus sudah membayar semuanya, tidak ada kematian dan tuntutan darah lagi atas tempat ini. &lt;br>
+        (Dideklarasikan di tempat yang terjadi pertumpahan darah/bencana/kecelakaan,untuk menutup lubang maut dan tidak ada tuntutan darah lagi).  &lt;br>&lt;br>
+
+        &lt;font color=#247BA0>&lt;b>III. GARAM &lt;/b> &lt;/font> &lt;br>
+        Mentahirkan, menyehatkan, tanda perjanjian. &lt;br>
+        &lt;font color=#F25F5C>(Imamat 2:13) &lt;/font> &lt;br>
+        Dan tiap-tiap persembahanmu yang berupa korban sajian haruslah kau bubuhi garam, janganlah kaulalaikan garam perjanjian Allahmu dari korban sajianmu; beserta segala persembahanmu haruslah kau persembahkan garam.
+        (Setiap tempat yang kita bubuhi garam, tempat itu ditahirkan dan kita persembahkan menjadi milik TUHAN). &lt;br>&lt;br>
+        &lt;font color=#F25F5C>(2 Raja 2:21) &lt;/font> &lt;br>
+        Kemudian pergilah ia ke mata air mereka dan melemparkan garam itu ke dalamnya serta berkata:  \'Beginilah firman TUHAN: Telah Kusehatkan air ini, maka tidak akan terjadi lagi olehnya kematian atau keguguran bayi. \'  &lt;br>&lt;br>
+
+        &lt;font color=#247BA0>&lt;b>IV. TEPUNG &lt;/b> &lt;/font> &lt;br>
+        kebangkitan dan kehidupan, menetralisir racun, juga sebagai tanda penyediaan. &lt;br>
+        &lt;font color=#F25F5C>(1 Raja 17:14) &lt;/font> &lt;br>
+        Sebab beginilah firman TUHAN, Allah Israel: Tepung dalam tempayan itu tidak akan habis dan minyak dalam buli-buli itupun tidak akan berkurang sampai pada waktu TUHAN memberi hujan ke atas muka bumi. \' (Penyediaan TUHAN selalu ada/kelimpahan). &lt;br>&lt;br>
+        &lt;font color=#F25F5C>(2 Raja-raja 4:41) &lt;/font> &lt;br>
+        Tetapi berkatalah Elisa:  \'Ambillah tepung! \' Dilemparkannyalah itu ke dalam kuali serta berkat:  \'Cedoklah sekarang bagi orang-orang ini, supaya mereka makan! \' Maka tidak ada lagi sesuatu bahaya dalam kuali itu.
+        (Untuk menetralisir racun/penyesat/kesuaman, sehingga tidak ada kematian rohani/jasmani atas tempat tsb).  &lt;br>&lt;br>
+
+        &lt;font color=#247BA0>&lt;b>V. MINYAK &lt;/b> &lt;/font> &lt;br>
+        pengurapan, memeteraikan, mengusir banyak setan. &lt;br>
+        &lt;font color=#F25F5C>(Keluaran 29:7) &lt;/font> &lt;br>
+        Sesudah itu kauambillah minyak urapan dan kautuang ke atas kepalanya, dan kau urapilah dia. &lt;br>&lt;br>
+        &lt;font color=#F25F5C>(Markus 6:13) &lt;/font> &lt;br>
+        Dan mereka mengusir banyak setan, dan mengoles banyak orang sakit dengan minyak dan menyembuhkan mereka.  &lt;br>&lt;br>
+
+        &lt;font color=#247BA0>&lt;b>VI. SUSU &lt;/b> &lt;/font> &lt;br>
+        kemurnian, ketulusan, memberi pertumbuhan, kelimpahan, kekuatan. &lt;br>
+        &lt;font color=#F25F5C>(Keluaran 3:8) &lt;/font> &lt;br>
+        Sebab itu Aku telah turun untuk melepaskan mereka dari tangan orang Mesir dan menuntun mereka keluar dari negeri itu ke suatu negeri yang baik dan luas, suatu negeri yang berlimpah-limpah susu dan madunya, ke tempat orang Kanaan, orang Het, orang Amori, orang Feris, orang Hewi dan orang Yebus. &lt;br>&lt;br>
+        &lt;font color=#F25F5C>(Yoel 3:18) &lt;/font> &lt;br>
+        Pada waktu itu akan terjadi, bahwa gunung-gunung akan meniriskan anggur baru, bukit-2 akan mengalirkan susu, dan segala sungai Yehuda akan mengalirkan air; mata air akan terbit dari rumah TUHAN dan akan membasahi lembah Sitim. &lt;br>&lt;br>
+        &lt;font color=#F25F5C>(1 Petrus 2:2) &lt;/font> &lt;br>
+        Dan jadilah sama seperti bayi yang baru lahir, yang selalu ingin akan air susu yang murni dan yang rohani, supaya olehnya kamu bertumbuh dan beroleh keselamatan. (Haus dan lapar akan kebenaran Firman TUHAN, merindukan dan mengejar TUHAN).&lt;br>&lt;br>
+
+        &lt;font color=#247BA0>&lt;b>VII. MADU &lt;/b> &lt;/font> &lt;br>
+        kelimpahan, kemanisan, kekuatan, membalikan keadaan.&lt;br>
+        &lt;font color=#F25F5C>(Keluaran 3:8) &lt;/font> &lt;br>
+        Sebab itu Aku telah turun untuk melepaskan mereka dari tangan orang Mesir dan menuntun mereka keluar dari negeri itu ke suatu negeri yang baik dan luas, suatu negeri yang berlimpah-limpah susu dan madunya, ke tempat orang Kanaan, orang Het, orang Amori, orang Feris, orang Hewi dan orang Yebus.&lt;br>&lt;br>
+        &lt;font color=#F25F5C>(Yesaya 7:15) &lt;/font> &lt;br>
+        Ia akan makan dadih dan madu sampai ia tahu menolak yang jahat dan memilih yang baik&lt;br>&lt;br>
+        &lt;font color=#F25F5C>(Amsal 24:13-14) &lt;/font> &lt;br>
+        Anakku, makanlah madu, sebab itu baik. Sebagaimana madu dari sarang lebah, manis untuk dimakan, begitu pula hikmat baik untuk jiwamu. Jika engkau bijaksana, cerahlah masa depanmu.&lt;br>&lt;br>
+        &lt;font color=#F25F5C>(1 Samuel 14:27) &lt;/font> &lt;br>
+        Tetapi Yonatan tidak mendengar, bahwa ayahnya telah menyuruh rakyat bersumpah. Ia mengulurkan tongkat yang ada di tangannya dan mencelupkan ujungnya ke dalam sarang madu; kemudian ia mencedoknya ke mulutnya dengan tangan, lalu matanya menjadi terang lagi.
+        (Madu memulihkan kekuatan fisik, juga mencelikkan mata rohani, selubung dikoyakkan supaya bisa melihat kebenaran).
+    </string>
+
+    <string name="layanan_malaikat">
+        &lt;font color=#247BA0> &lt;b>&lt;big>&lt;strong>12 LAYANAN MALAIKAT TUHAN&lt;/strong>&lt;/big>&lt;/b>&lt;/font> &lt;br>&lt;br>
+        1.   Malaikat Perang &lt;font color=#F25F5C>(Daniel 10:10)&lt;/font>&lt;br>
+        2.   Malaikat Penerobos &lt;font color=#F25F5C>(1 Tawarikh 14:11)&lt;/font>&lt;br>
+        3.   Malaikat Mujizat &lt;font color=#F25F5C>(Yohanes 5:4)&lt;/font>&lt;br>
+        4.   Malaikat Pengawal Berkat &lt;font color=#F25F5C>(Mazmur78:24-25)&lt;/font>&lt;br>
+        5.   Malaikat Pembawa Benih &lt;font color=#F25F5C>(2 Korintus 9:10)&lt;/font>&lt;br>
+        6.   Malaikat Pengawal Tuaian dan Lawatan jiwa-jiwa &lt;font color=#F25F5C>(Matius 13:39b, Wahyu14:15)&lt;/font>&lt;br>
+        7.   Malaikat Kekudusan &lt;font color=#F25F5C>(Yesaya 6:5-7)&lt;/font>&lt;br>
+        8.   Malaikat Keadilan &lt;font color=#F25F5C>(Yesaya 28:5-6;Kis12:23)&lt;/font>&lt;br>
+        9.   Malaikat Pujian penyembahan &lt;font color=#F25F5C>(Wahyu 5;11-12)&lt;/font>&lt;br>
+        10.   Malaikat Karakter dan Kabod &lt;font color=#F25F5C>(2 Korintus 3:18)&lt;/font>&lt;br>
+        11.   Malaikat Perjanjian &lt;font color=#F25F5C>(Maleakhi 3:1)&lt;/font>&lt;br>
+        12.   Malaikat Pengangkatan &lt;font color=#F25F5C>(1 Tesalonika 4:16-17)&lt;/font>&lt;br>
     </string>
 </resources>

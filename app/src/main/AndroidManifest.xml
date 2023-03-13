@@ -17,6 +17,12 @@
         android:theme="@style/Theme.DeklarasiMDF"
         tools:targetApi="31">
         <activity
+            android:name=".library.LibraryDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".library.SubLibraryActivity"
+            android:exported="false" />
+        <activity
             android:name=".spiritualwarfare.SpiritualWarfareSubCategoryActivity"
             android:exported="false" />
         <activity

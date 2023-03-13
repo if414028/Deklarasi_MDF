@@ -7,10 +7,18 @@
         android:gravity="center"
         android:orientation="vertical">
 
+        <View
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:background="@color/greyAAAAAA" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
             android:paddingStart="@dimen/_24sdp"
             android:paddingTop="@dimen/_16sdp"
             android:paddingEnd="@dimen/_24sdp"
@@ -23,24 +31,24 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_8sdp"
                 android:layout_weight="1"
-                android:backgroundTint="@color/purple72033B"
-                android:paddingTop="@dimen/_8sdp"
-                android:paddingBottom="@dimen/_8sdp"
-                android:text="-"
+                android:backgroundTint="@color/greyAAAAAA"
+                android:paddingTop="@dimen/_11sdp"
+                android:paddingBottom="@dimen/_13sdp"
+                android:text="A"
                 android:textColor="@color/white"
-                android:textSize="@dimen/_14ssp" />
+                android:textSize="@dimen/_9ssp" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_positive"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:backgroundTint="@color/purple72033B"
-                android:paddingTop="@dimen/_8sdp"
-                android:paddingBottom="@dimen/_8sdp"
-                android:text="+"
+                android:backgroundTint="@color/greyAAAAAA"
+                android:paddingTop="@dimen/_6sdp"
+                android:paddingBottom="@dimen/_6sdp"
+                android:text="A"
                 android:textColor="@color/white"
-                android:textSize="@dimen/_14ssp" />
+                android:textSize="@dimen/_18ssp" />
 
         </LinearLayout>
 

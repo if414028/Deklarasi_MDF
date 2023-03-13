@@ -1,4 +1,4 @@
-package com.mdf.deklarasi.spiritualwarfare
+package com.mdf.deklarasi.library
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -7,25 +7,26 @@ import android.os.Build
 import android.os.Bundle
 import android.text.Html
 import android.util.TypedValue
+import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.databinding.DataBindingUtil
 import com.mdf.deklarasi.R
-import com.mdf.deklarasi.databinding.ActivitySpiritualWarfareDetailBinding
-import com.mdf.deklarasi.model.SpiritualWarfareVerse
+import com.mdf.deklarasi.databinding.ActivityLibraryDetailBinding
+import com.mdf.deklarasi.model.Library
 import com.mdf.deklarasi.utilities.UIHelper
 
-class SpiritualWarfareDetailActivity : AppCompatActivity() {
+class LibraryDetailActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivitySpiritualWarfareDetailBinding
+    private lateinit var binding: ActivityLibraryDetailBinding
 
-    private var spiritualWarfareVerse: SpiritualWarfareVerse? = SpiritualWarfareVerse()
+    private var library: Library? = Library()
     private var isNightMode = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_spiritual_warfare_detail)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_library_detail)
         supportActionBar?.hide()
 
         getArgument()
@@ -34,8 +35,7 @@ class SpiritualWarfareDetailActivity : AppCompatActivity() {
     }
 
     private fun getArgument() {
-        spiritualWarfareVerse =
-            intent.getParcelableExtra("spiritualWarfare") as? SpiritualWarfareVerse
+        library = intent.getParcelableExtra("library") as? Library
     }
 
     private fun checkAppliedTheme() {
@@ -50,16 +50,17 @@ class SpiritualWarfareDetailActivity : AppCompatActivity() {
     }
 
     private fun setupLayout() {
+        setupImage()
         binding.tvTitle.isSelected = true
         binding.btnBack.setOnClickListener {
             onBackPressed()
         }
-        binding.tvTitle.text = spiritualWarfareVerse?.category
+        binding.tvTitle.text = library?.title
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-            binding.tvVerse.text =
+            binding.tvContent.text =
                 Html.fromHtml(
-                    spiritualWarfareVerse?.verses,
+                    library?.content,
                     Html.FROM_HTML_MODE_LEGACY
                 )
         }
@@ -76,8 +77,8 @@ class SpiritualWarfareDetailActivity : AppCompatActivity() {
             val clipboardManager = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
             val clipData = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
                 ClipData.newPlainText(
-                    spiritualWarfareVerse?.category, Html.fromHtml(
-                        spiritualWarfareVerse?.verses,
+                    library?.content, Html.fromHtml(
+                        library?.content,
                         Html.FROM_HTML_MODE_LEGACY
                     )
                 )
@@ -91,14 +92,24 @@ class SpiritualWarfareDetailActivity : AppCompatActivity() {
     }
 
     private fun increaseTextSize() {
-        var fontSize = binding.tvVerse.textSize
+        var fontSize = binding.tvContent.textSize
         fontSize = fontSize.plus(4f)
-        binding.tvVerse.setTextSize(TypedValue.COMPLEX_UNIT_PX, fontSize!!)
+        binding.tvContent.setTextSize(TypedValue.COMPLEX_UNIT_PX, fontSize!!)
     }
 
     private fun decreaseTextSize() {
-        var fontSize = binding.tvVerse.textSize
+        var fontSize = binding.tvContent.textSize
         fontSize = fontSize.minus(4f)
-        binding.tvVerse.setTextSize(TypedValue.COMPLEX_UNIT_PX, fontSize!!)
+        binding.tvContent.setTextSize(TypedValue.COMPLEX_UNIT_PX, fontSize!!)
+    }
+
+    private fun setupImage() {
+        if (library?.image != null) {
+            val imageFile = resources.getIdentifier(library?.image, "drawable", packageName)
+            binding.ivContent.setImageResource(imageFile)
+            binding.ivContent.visibility = View.VISIBLE
+        } else {
+            binding.ivContent.visibility = View.GONE
+        }
     }
 }

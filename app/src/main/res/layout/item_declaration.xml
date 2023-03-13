@@ -24,7 +24,7 @@
                 android:orientation="horizontal">
 
                 <View
-                    android:layout_width="@dimen/_10sdp"
+                    android:layout_width="@dimen/_5sdp"
                     android:layout_height="match_parent"
                     android:background="@color/color_primary" />
 

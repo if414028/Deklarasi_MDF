@@ -1,7 +1,6 @@
 package com.mdf.deklarasi.spiritualwarfare
 
 import android.media.MediaPlayer
-import android.media.MediaPlayer.OnCompletionListener
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil

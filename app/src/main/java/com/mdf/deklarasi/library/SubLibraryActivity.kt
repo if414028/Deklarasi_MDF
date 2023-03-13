@@ -1,4 +1,4 @@
-package com.mdf.deklarasi.spiritualwarfare
+package com.mdf.deklarasi.library
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,24 +9,23 @@ import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.mdf.deklarasi.R
-import com.mdf.deklarasi.databinding.ActivitySpiritualWarfareSubCategoryBinding
+import com.mdf.deklarasi.databinding.ActivitySubLibraryBinding
 import com.mdf.deklarasi.databinding.ItemDeclarationBinding
-import com.mdf.deklarasi.model.SpiritualWarfareSubCategory
-import com.mdf.deklarasi.model.SpiritualWarfareVerse
+import com.mdf.deklarasi.model.Library
+import com.mdf.deklarasi.model.SubLibrary
 import com.mdf.deklarasi.utilities.SimpleFilterRecyclerAdapter
 import com.mdf.deklarasi.utilities.SimpleRecyclerAdapter
 
-class SpiritualWarfareSubCategoryActivity : AppCompatActivity() {
+class SubLibraryActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivitySpiritualWarfareSubCategoryBinding
-    private lateinit var adapter: SimpleFilterRecyclerAdapter<SpiritualWarfareSubCategory>
+    private lateinit var binding: ActivitySubLibraryBinding
+    private lateinit var adapter: SimpleFilterRecyclerAdapter<SubLibrary>
 
-    private var spiritualWarfareSubCategory: List<SpiritualWarfareSubCategory>? = arrayListOf()
+    private var subLibrary: List<SubLibrary>? = arrayListOf()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding =
-            DataBindingUtil.setContentView(this, R.layout.activity_spiritual_warfare_sub_category)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_sub_library)
         supportActionBar?.hide()
 
         getArgument()
@@ -34,9 +33,9 @@ class SpiritualWarfareSubCategoryActivity : AppCompatActivity() {
     }
 
     private fun getArgument() {
-        val spiritualWarfareVerse =
-            intent.getParcelableExtra("spiritualWarfare") as? SpiritualWarfareVerse
-        spiritualWarfareSubCategory = spiritualWarfareVerse?.subCategory
+        val library =
+            intent.getParcelableExtra("subLibrary") as? Library
+        subLibrary = library?.subtitle
     }
 
     private fun setupLayout() {
@@ -46,7 +45,7 @@ class SpiritualWarfareSubCategoryActivity : AppCompatActivity() {
     }
 
     private fun setupRecyclerView() {
-        binding.rvSpiritualWarfareCategory.layoutManager =
+        binding.rvSubLibrary.layoutManager =
             LinearLayoutManager(applicationContext, RecyclerView.VERTICAL, false)
         adapter = SimpleFilterRecyclerAdapter(listOf(),
             R.layout.item_declaration,
@@ -54,26 +53,27 @@ class SpiritualWarfareSubCategoryActivity : AppCompatActivity() {
                 val itemBinding: ItemDeclarationBinding =
                     holder.layoutBinding as ItemDeclarationBinding
 
-                itemBinding.tvDeclarationName.text = item?.subCategoryName
+                itemBinding.tvDeclarationName.text = item?.title
                 itemBinding.root.setOnClickListener {
-                    val spiritualWarfareVerse = SpiritualWarfareVerse()
-                    spiritualWarfareVerse.id = item?.id.toString()
-                    spiritualWarfareVerse.category = item?.subCategoryName.toString()
-                    spiritualWarfareVerse.verses = item?.verses.toString()
+                    val library = Library()
+                    library.id = item?.id.toString()
+                    library.title = item?.title.toString()
+                    library.content = item?.content.toString()
+                    library.image = item?.image.toString()
                     val intent =
-                        Intent(applicationContext, SpiritualWarfareDetailActivity::class.java)
-                    intent.putExtra("spiritualWarfare", spiritualWarfareVerse)
+                        Intent(applicationContext, LibraryDetailActivity::class.java)
+                    intent.putExtra("library", library)
                     startActivity(intent)
                 }
             },
-            object : SimpleFilterRecyclerAdapter.OnSearchListener<SpiritualWarfareSubCategory?> {
+            object : SimpleFilterRecyclerAdapter.OnSearchListener<SubLibrary?> {
                 override fun onSearchRules(
-                    model: SpiritualWarfareSubCategory?,
+                    model: SubLibrary?,
                     searchedText: String?
-                ): SpiritualWarfareSubCategory? {
+                ): SubLibrary? {
                     if (searchedText?.let {
-                            model?.verses?.lowercase()?.contains(it, ignoreCase = true) == true ||
-                                    model?.verses?.lowercase()
+                            model?.title?.lowercase()?.contains(it, ignoreCase = true) == true ||
+                                    model?.content?.lowercase()
                                         ?.contains(it, ignoreCase = true) == true
                         } == true) {
                         binding.isEmpty = false
@@ -82,7 +82,7 @@ class SpiritualWarfareSubCategoryActivity : AppCompatActivity() {
                     return null
                 }
 
-                override fun onSearch(model: ArrayList<SpiritualWarfareSubCategory?>?) {
+                override fun onSearch(model: ArrayList<SubLibrary?>?) {
 
                 }
 
@@ -90,8 +90,8 @@ class SpiritualWarfareSubCategoryActivity : AppCompatActivity() {
                     binding.isEmpty = true
                 }
             })
-        binding.rvSpiritualWarfareCategory.adapter = adapter
-        adapter.mainData = spiritualWarfareSubCategory
+        binding.rvSubLibrary.adapter = adapter
+        adapter.mainData = subLibrary
     }
 
     private fun getTextWatcher(): TextWatcher {
@@ -107,7 +107,7 @@ class SpiritualWarfareSubCategoryActivity : AppCompatActivity() {
             override fun afterTextChanged(editable: Editable?) {
                 val searchedText = editable.toString()
                 if (searchedText.isBlank()) {
-                    adapter.mainData = spiritualWarfareSubCategory
+                    adapter.mainData = subLibrary
                     binding.isEmpty = false
                 } else {
                     adapter.filter(searchedText)

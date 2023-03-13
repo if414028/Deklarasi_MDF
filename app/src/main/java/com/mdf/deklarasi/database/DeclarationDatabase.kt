@@ -3,6 +3,7 @@ package com.mdf.deklarasi.database
 import android.app.Activity
 import android.content.Context
 import com.mdf.deklarasi.model.Declaration
+import com.mdf.deklarasi.model.Library
 import com.mdf.deklarasi.model.ShofarSound
 import com.mdf.deklarasi.model.SpiritualWarfareVerse
 import com.mdf.deklarasi.utilities.AppConfiguration
@@ -167,6 +168,38 @@ class DeclarationDatabase(context: Context) : IDeclarationDatabase {
     ) {
         GlobalScope.launch {
             database.shofarSoundDao().delete(shofarSound)
+            currentActivity?.runOnUiThread(successListener)
+        }
+    }
+
+    override fun getAllLibrary(
+        successListener: DatabaseSuccessListener<List<Library>>,
+        errorListener: DatabaseErrorListener
+    ) {
+        GlobalScope.launch {
+            successListener.setResult(database.libraryDao().getAllLibrary())
+            currentActivity?.runOnUiThread(successListener)
+        }
+    }
+
+    override fun insertLibrary(
+        libraries: List<Library>,
+        successListener: DatabaseSuccessListener<Void>,
+        errorListener: DatabaseErrorListener
+    ) {
+        GlobalScope.launch {
+            database.libraryDao().insert(libraries)
+            currentActivity?.runOnUiThread(successListener)
+        }
+    }
+
+    override fun deleteLibrary(
+        library: Library,
+        successListener: DatabaseSuccessListener<Void>,
+        errorListener: DatabaseErrorListener
+    ) {
+        GlobalScope.launch {
+            database.libraryDao().delete(library)
             currentActivity?.runOnUiThread(successListener)
         }
     }

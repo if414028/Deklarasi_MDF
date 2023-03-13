@@ -100,7 +100,8 @@ class SpiritualWarfareVerseActivity : AppCompatActivity() {
                     searchedText: String?
                 ): SpiritualWarfareVerse? {
                     if (searchedText?.let {
-                            model?.category?.lowercase()?.contains(it, ignoreCase = true) == true
+                            model?.category?.lowercase()?.contains(it, ignoreCase = true) == true ||
+                                    model?.verses?.lowercase()?.contains(it, ignoreCase = true) == true
                         } == true) {
                         binding.isEmpty = false
                         return model

@@ -80,7 +80,7 @@
                         android:orientation="horizontal">
 
                         <View
-                            android:layout_width="@dimen/_10sdp"
+                            android:layout_width="@dimen/_5sdp"
                             android:layout_height="match_parent"
                             android:background="@color/color_primary" />
 
@@ -93,42 +93,6 @@
                             android:padding="@dimen/_16sdp"
                             android:singleLine="true"
                             android:text="@string/shofar_sound"
-                            android:textSize="@dimen/_12ssp" />
-
-                    </LinearLayout>
-
-                </com.google.android.material.card.MaterialCardView>
-
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/card_support_spiritual_warfare_verse"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/_8sdp"
-                    app:cardCornerRadius="@dimen/_8sdp"
-                    app:cardElevation="@dimen/_4sdp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <View
-                            android:layout_width="@dimen/_10sdp"
-                            android:layout_height="match_parent"
-                            android:background="@color/color_primary" />
-
-                        <TextView
-                            android:id="@+id/tv_card_support_spiritual_warfare"
-                            style="@style/Manrope.SemiBold"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:ellipsize="end"
-                            android:padding="@dimen/_16sdp"
-                            android:singleLine="true"
-                            android:text="@string/supporting_verse_for_spiritual_warfare"
                             android:textSize="@dimen/_12ssp" />
 
                     </LinearLayout>
@@ -152,7 +116,7 @@
                         android:orientation="horizontal">
 
                         <View
-                            android:layout_width="@dimen/_10sdp"
+                            android:layout_width="@dimen/_5sdp"
                             android:layout_height="match_parent"
                             android:background="@color/color_primary" />
 
