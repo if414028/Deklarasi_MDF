@@ -1134,7 +1134,17 @@ class SplashScreen : AppCompatActivity() {
             ""
         )
 
+        val deklarasiIsrael = Declaration(
+            "deklarasi_israel",
+            "Deklarasi Israel",
+            resources.getString(R.string.deklarasi_israel),
+            false,
+            "",
+            ""
+        )
+
         val declarationList = arrayListOf<Declaration>()
+        declarationList.add(deklarasiIsrael)
         declarationList.add(mdfDeclaration)
         declarationList.add(bahteraDelcaration)
         declarationList.add(tembokPerlindunganDeclaration)
@@ -1453,22 +1463,612 @@ class SplashScreen : AppCompatActivity() {
             resources.getString(R.string.melawan_roh_ular)
         )
 
+        val selengkapSenjataAllah = SpiritualWarfareSubCategory(
+            "selengkap_senjata_allah",
+            "Selengkap Senjata Allah",
+            resources.getString(R.string.selengkap_senjata_allah)
+        )
+
+        val tujuhMeterai = SpiritualWarfareSubCategory(
+            "tujuh_meterai",
+            "Tujuh Meterai",
+            resources.getString(R.string.tujuh_meterai)
+        )
+
+        val tujuhPilar = SpiritualWarfareSubCategory(
+            "tujuh_pilar",
+            "Tujuh Pilar",
+            resources.getString(R.string.tujuh_pilar)
+        )
+
+        val kuasaMandatDanOtoritas = SpiritualWarfareSubCategory(
+            "kuasa_mandat_dan_otoritas",
+            "Kuasa Mandat & Otoritas",
+            resources.getString(R.string.kuasa_mandat_dan_otoritas)
+        )
+
+        val empatWajah = SpiritualWarfareSubCategory(
+            "empat_wajah",
+            "Empat Wajah",
+            resources.getString(R.string.empat_wajah)
+        )
+
+        val sidangIlahi = SpiritualWarfareSubCategory(
+            "sidang_ilahi",
+            "Sidang Ilahi",
+            resources.getString(R.string.sidang_ilahi)
+        )
+
+        val ayatPerjanjianDarah = SpiritualWarfareSubCategory(
+            "ayat_ayat_perjanjian_darah",
+            "Ayat Ayat Perjanjian Darah",
+            resources.getString(R.string.ayat_ayat_perjanjian_darah)
+        )
+
+        val ayatAirKehidupan = SpiritualWarfareSubCategory(
+            "ayat_ayat_air_kehidupan_atau_pentahiran",
+            "Ayat Ayat Air Kehidupan atau Pentahiran",
+            resources.getString(R.string.ayat_ayat_air_kehidupan_atau_pentahiran)
+        )
+
+        val aktifkanSenjataList = arrayListOf<SpiritualWarfareSubCategory>()
+        aktifkanSenjataList.add(selengkapSenjataAllah)
+        aktifkanSenjataList.add(tujuhMeterai)
+        aktifkanSenjataList.add(tujuhPilar)
+        aktifkanSenjataList.add(kuasaMandatDanOtoritas)
+        aktifkanSenjataList.add(empatWajah)
+        aktifkanSenjataList.add(sidangIlahi)
+        aktifkanSenjataList.add(ayatPerjanjianDarah)
+        aktifkanSenjataList.add(ayatAirKehidupan)
+
+        val aktifkanSenjata = SpiritualWarfareVerse(
+            "aktifkan_senjata",
+            "Aktifkan Senjata, Meterai, Pilar, Kuasa & Mandat, 4 Wajah, Shofar dan Sidang Ilahi",
+            aktifkanSenjataList,
+            ""
+        )
+
+        val melawanOkultismeAnakTuhan = SpiritualWarfareSubCategory(
+            "melawan_okultisme_anak_tuhan",
+            "Melawan Okultisme (Anak Tuhan)",
+            resources.getString(R.string.melawan_okultisme_anak_tuhan)
+        )
+
+        val melawanOkultismeOrangFasik = SpiritualWarfareSubCategory(
+            "melawan_okulstime_orang_fasik",
+            "Melawan Okultisme (Orang Fasik)",
+            resources.getString(R.string.melawan_okulstime_orang_fasik)
+        )
+
+        val melawanMalaikatJatuhSapuBersih = SpiritualWarfareSubCategory(
+            "melawan_malaikat_jatuh_sapu_bersih",
+            "Melawan Malaikat Jatuh 1 (Sapu Bersih)",
+            resources.getString(R.string.melawan_malaikat_jatuh_sapu_bersih)
+        )
+
+        val melawanMalaikatJatuhSidangIlahi = SpiritualWarfareSubCategory(
+            "melawan_malaikat_jatuh_sidang_ilahi",
+            "Melawan Malaikat Jatuh 2 (Sidang Ilahi)",
+            resources.getString(R.string.melawan_malaikat_jatuh_sidang_ilahi)
+        )
+
+        val melawanMalaikatJatuhPerjamuanKawinAnakDomba = SpiritualWarfareSubCategory(
+            "melawan_malaikat_jatuh_perjamuan_kawin_anak_domba",
+            "Melawan Malaikat Jatuh 3 (4 Kuda & Penunggang; Makan dalam Perjamuan Kawin Anak Domba)",
+            resources.getString(R.string.melawan_malaikat_jatuh_perjamuan_kawin_anak_domba)
+        )
+
+        val melawanMalaikatJatuhEmpatKudaDanPenunggangnya = SpiritualWarfareSubCategory(
+            "melawan_malaikat_jatuh_4_kuda_dan_penunggangnya_sapu_bersih",
+            "Melawan Malaikat Jatuh 4 Kuda & Penunggangnya (Sapu Bersih)",
+            resources.getString(R.string.melawan_malaikat_jatuh_4_kuda_dan_penunggangnya_sapu_bersih)
+        )
+
+        val melawanTenungManteraSihir = SpiritualWarfareSubCategory(
+            "melawan_tenung_mantera_sihir",
+            "Melawan Tenung, Mantera dan Sihir",
+            resources.getString(R.string.melawan_tenung_mantera_sihir)
+        )
+
+        val melawanDukunOrangKuatPertapa = SpiritualWarfareSubCategory(
+            "melawan_dukun_orang_kuat_pertapa",
+            "Melawan Dukun, Orang Kuat dan Pertapa",
+            resources.getString(R.string.melawan_dukun_orang_kuat_pertapa)
+        )
+
+        val melepasTawananRohAzimat = SpiritualWarfareSubCategory(
+            "melepas_tawanan_roh_azimat",
+            "Melepas Tawanan Roh & Azimat",
+            resources.getString(R.string.melepas_tawanan_roh_azimat)
+        )
+
+        val menutupHutangDarah = SpiritualWarfareSubCategory(
+            "menutup_hutang_darah",
+            "Menutup Hutang Darah & Memutuskan Hubungan dengan Dunia Orang Mati",
+            resources.getString(R.string.menutup_hutang_darah)
+        )
+
+        val celakaBagiYangMenjamahDiurapi = SpiritualWarfareSubCategory(
+            "celaka_bagi_yang_menjamah_diurapi_tuhan",
+            "Celaka Bagi Yang Menjamah Yang Diurapi Tuhan / Biji Mata Tuhan",
+            resources.getString(R.string.celaka_bagi_yang_menjamah_diurapi_tuhan)
+        )
+
+        val menghardikEmpatBelalang = SpiritualWarfareSubCategory(
+            "menghardik_4_belalang",
+            "Menghardik 4 Belalang",
+            resources.getString(R.string.menghardik_4_belalang)
+        )
+
+        val melawanBeelzebul = SpiritualWarfareSubCategory(
+            "melawan_beelzebul",
+            "Melawan Pembisik, Beelzebul dan Virus Penyakit",
+            resources.getString(R.string.melawan_beelzebul)
+        )
+
+        val menutupKerajaanMaut = SpiritualWarfareSubCategory(
+            "menutup_kerajaan_maut",
+            "Menutup Kerajaan Maut (Pantai Selatan, Kaisarea Filipi dsb.)",
+            resources.getString(R.string.menutup_kerajaan_maut)
+        )
+
+        val melawanRohPerzinahan = SpiritualWarfareSubCategory(
+            "melawan_roh_perzinahan",
+            "Melawan Roh Perzinahan",
+            resources.getString(R.string.melawan_roh_perzinahan)
+        )
+
+        val melawanRohKegilaan = SpiritualWarfareSubCategory(
+            "melawan_roh_kegilaan_dan_manifest",
+            "Melawan Roh Kegilaan & Manifest (Kerasukan)",
+            resources.getString(R.string.melawan_roh_kegilaan_dan_manifest)
+        )
+
+        val melawanRohIntimidasi = SpiritualWarfareSubCategory(
+            "melawan_roh_intimidasi",
+            "Melawan Roh Intimidasi",
+            resources.getString(R.string.melawan_roh_intimidasi)
+        )
+
+        val melawanKedarNebayot = SpiritualWarfareSubCategory(
+            "melawan_kedar_dan_nebayot_dan_radikalisme",
+            "Melawan Kedar, Nebayot dan Radikalisme",
+            resources.getString(R.string.melawan_kedar_dan_nebayot_dan_radikalisme)
+        )
+
+        val melawanMamon = SpiritualWarfareSubCategory(
+            "melawan_mamon",
+            "Melawan Mamon (Cinta Uang)",
+            resources.getString(R.string.melawan_mamon)
+        )
+
+        val melawanRohMaut_ = SpiritualWarfareSubCategory(
+            "melawan_roh_maut",
+            "Melawan Roh Maut",
+            resources.getString(R.string.melawan_roh_maut)
+        )
+
+        val meruntuhkanMezbahBerhala = SpiritualWarfareSubCategory(
+            "meruntuhkan_mezbah_berhala",
+            "Meruntuhkan Mezbah Baal",
+            resources.getString(R.string.meruntuhkan_mezbah_berhala)
+        )
+
+        val melawanSinkritisme = SpiritualWarfareSubCategory(
+            "melawan_sinkritisme",
+            "Melawan Sinkritisme",
+            resources.getString(R.string.melawan_sinkritisme)
+        )
+
+        val melawanAntikris = SpiritualWarfareSubCategory(
+            "melawan_pembinasa_keji_antirkris",
+            "Melawan Pembinasa Keji & Antikris",
+            resources.getString(R.string.melawan_pembinasa_keji_antirkris)
+        )
+
+        val melawanRohPenyesat_ = SpiritualWarfareSubCategory(
+            "melawan_roh_penyesat",
+            "Melawan Roh Penyesat",
+            resources.getString(R.string.melawan_roh_penyesat)
+        )
+
+        val melawanRohAgamawi = SpiritualWarfareSubCategory(
+            "melawan_roh_agamawi",
+            "Melawan Roh Agamawi",
+            resources.getString(R.string.melawan_roh_agamawi)
+        )
+
+        val melawanRohIzebel = SpiritualWarfareSubCategory(
+            "melawan_roh_izebel",
+            "Melawan Roh Izebel",
+            resources.getString(R.string.melawan_roh_izebel),
+        )
+
+        val melawanRohBileam = SpiritualWarfareSubCategory(
+            "melawan_roh_bilean",
+            "Melawan Roh Bileam",
+            resources.getString(R.string.melawan_roh_bilean)
+        )
+
+        val melawanRohYoab = SpiritualWarfareSubCategory(
+            "melawan_roh_yoab",
+            "Melawan Roh Yoab",
+            resources.getString(R.string.melawan_roh_yoab)
+        )
+
+        val melawanLucifer = SpiritualWarfareSubCategory(
+            "melawan_lucifer",
+            "Melawan Lucifer",
+            resources.getString(R.string.melawan_lucifer)
+        )
+
+        val melawanUlarNaga = SpiritualWarfareSubCategory(
+            "melawan_ular_naga",
+            "Melawan Ular Naga",
+            resources.getString(R.string.melawan_ular_naga)
+        )
+
+        val menggilingHalusMusuh = SpiritualWarfareSubCategory(
+            "menggiling_halus_musuh",
+            "Menggiling Halus Musuh",
+            resources.getString(R.string.menggiling_halus_musuh)
+        )
+
+        val meruntuhkanBabel = SpiritualWarfareSubCategory(
+            "meruntuhkan_babel",
+            "Meruntuhkan Babel",
+            resources.getString(R.string.meruntuhkan_babel)
+        )
+
+        val melawanPenguasaAir = SpiritualWarfareSubCategory(
+            "melawan_penguasa_air",
+            "Melawan Penguasa Air (Sungai, Danau dan Pantai)",
+            resources.getString(R.string.melawan_penguasa_air)
+        )
+
+        val melawanPohonKeramat = SpiritualWarfareSubCategory(
+            "melawan_pohon_keramat",
+            "Melawan Pohon Keramat",
+            resources.getString(R.string.melawan_pohon_keramat)
+        )
+
+        val melawanRohPerusak = SpiritualWarfareSubCategory(
+            "melawan_roh_perusak",
+            "Melawan Roh Perusak",
+            resources.getString(R.string.melawan_roh_perusak)
+        )
+
+        val melawanRohYudas = SpiritualWarfareSubCategory(
+            "melawan_roh_yudas",
+            "Melawan Roh Yudas",
+            resources.getString(R.string.melawan_roh_yudas)
+        )
+
+        val melawanRohKematian = SpiritualWarfareSubCategory(
+            "melawan_roh_kematian",
+            "Melawan Roh Kematian",
+            resources.getString(R.string.melawan_roh_kematian)
+        )
+
+        val ayatMelawanSpiritList = arrayListOf<SpiritualWarfareSubCategory>()
+        ayatMelawanSpiritList.add(melawanOkultismeAnakTuhan)
+        ayatMelawanSpiritList.add(melawanOkultismeOrangFasik)
+        ayatMelawanSpiritList.add(melawanMalaikatJatuhSapuBersih)
+        ayatMelawanSpiritList.add(melawanMalaikatJatuhSidangIlahi)
+        ayatMelawanSpiritList.add(melawanMalaikatJatuhPerjamuanKawinAnakDomba)
+        ayatMelawanSpiritList.add(melawanMalaikatJatuhEmpatKudaDanPenunggangnya)
+        ayatMelawanSpiritList.add(melawanTenungManteraSihir)
+        ayatMelawanSpiritList.add(melawanDukunOrangKuatPertapa)
+        ayatMelawanSpiritList.add(melepasTawananRohAzimat)
+        ayatMelawanSpiritList.add(menutupHutangDarah)
+        ayatMelawanSpiritList.add(celakaBagiYangMenjamahDiurapi)
+        ayatMelawanSpiritList.add(menghardikEmpatBelalang)
+        ayatMelawanSpiritList.add(melawanBeelzebul)
+        ayatMelawanSpiritList.add(menutupKerajaanMaut)
+        ayatMelawanSpiritList.add(melawanRohPerzinahan)
+        ayatMelawanSpiritList.add(melawanRohKegilaan)
+        ayatMelawanSpiritList.add(melawanRohIntimidasi)
+        ayatMelawanSpiritList.add(melawanKedarNebayot)
+        ayatMelawanSpiritList.add(melawanRohMaut_)
+        ayatMelawanSpiritList.add(melawanMamon)
+        ayatMelawanSpiritList.add(meruntuhkanMezbahBerhala)
+        ayatMelawanSpiritList.add(melawanSinkritisme)
+        ayatMelawanSpiritList.add(melawanAntikris)
+        ayatMelawanSpiritList.add(melawanRohPenyesat_)
+        ayatMelawanSpiritList.add(melawanRohAgamawi)
+        ayatMelawanSpiritList.add(melawanRohIzebel)
+        ayatMelawanSpiritList.add(melawanRohBileam)
+        ayatMelawanSpiritList.add(melawanRohYoab)
+        ayatMelawanSpiritList.add(melawanLucifer)
+        ayatMelawanSpiritList.add(melawanUlarNaga)
+        ayatMelawanSpiritList.add(menggilingHalusMusuh)
+        ayatMelawanSpiritList.add(meruntuhkanBabel)
+        ayatMelawanSpiritList.add(melawanPenguasaAir)
+        ayatMelawanSpiritList.add(melawanPohonKeramat)
+        ayatMelawanSpiritList.add(melawanRohPerusak)
+        ayatMelawanSpiritList.add(melawanRohYudas)
+        ayatMelawanSpiritList.add(melawanRohKematian)
+
+        val ayatMelawanSpirit = SpiritualWarfareVerse(
+            "ayat_melawan_spirit",
+            "Ayat Perang Melawan Spirit / Roh",
+            ayatMelawanSpiritList,
+            ""
+        )
+
+        val melawanGarang = SpiritualWarfareSubCategory(
+            "melawan_garang_sombong",
+            "Melawan Garang & Sombong",
+            resources.getString(R.string.melawan_garang_sombong)
+        )
+
+        val melawanKeletihan = SpiritualWarfareSubCategory(
+            "melawan_keletihan / Kelelahan Jiwa",
+            "Melawan Keletihan",
+            resources.getString(R.string.melawan_keletihan)
+        )
+
+        val melawanKemalasan = SpiritualWarfareSubCategory(
+            "melawan_kemalasam",
+            "Melawan Kemalasan",
+            resources.getString(R.string.melawan_kemalasam)
+        )
+
+        val melawanKemarahan = SpiritualWarfareSubCategory(
+            "melawan_kemarahan",
+            "Melawan Kemarahan (Termasuk Spirit Macan)",
+            resources.getString(R.string.melawan_kemarahan)
+        )
+
+        val melawanKemiskinan = SpiritualWarfareSubCategory(
+            "melawan_kemiskinan",
+            "Melawan Kemiskinan",
+            resources.getString(R.string.melawan_kemiskinan)
+        )
+
+        val melawanKemunafikan = SpiritualWarfareSubCategory(
+            "melawan_kemunafikan",
+            "Melawan Kemunafikan",
+            resources.getString(R.string.melawan_kemunafikan)
+        )
+
+        val melawanKerasKepala = SpiritualWarfareSubCategory(
+            "melawan_keras_kepala",
+            "Melawan Keras Kepala / Tegar Tengkuk",
+            resources.getString(R.string.melawan_keras_kepala)
+        )
+
+        val melawanKesuaman = SpiritualWarfareSubCategory(
+            "melawan_kesuaman",
+            "Melawan Kesuaman (Tidak Panas & Tidak Dingin)",
+            resources.getString(R.string.melawan_kesuaman)
+        )
+
+        val melawanKetidakPercayaan = SpiritualWarfareSubCategory(
+            "melawan_ketidak_percayaan",
+            "Melawan Ketidak-percayaan",
+            resources.getString(R.string.melawan_ketidak_percayaan)
+        )
+
+        val melawanOrangFasik = SpiritualWarfareSubCategory(
+            "melawan_orang_fasik",
+            "Melawan Orang Fasik (Suka Menghakimi & Kebenaran Diri Sendiri)",
+            resources.getString(R.string.melawan_orang_fasik)
+        )
+
+        val melawanSukaMencuri = SpiritualWarfareSubCategory(
+            "melawan_suka_mencuri",
+            "Melawan Suka Mencuri (Korupsi)",
+            resources.getString(R.string.melawan_suka_mencuri)
+        )
+
+        val melawanMeninggikanDiri = SpiritualWarfareSubCategory(
+            "melawan_yang_meninggikan_diri",
+            "Melawan yang Meninggikan Diri / Minta Dihargai",
+            resources.getString(R.string.melawan_yang_meninggikan_diri)
+        )
+
+        val melanggarBatasWilayah = SpiritualWarfareSubCategory(
+            "melanggar_batas_wilayah",
+            "Melanggar Batas Wilayah / Tanah (Suka Menyerobot)",
+            resources.getString(R.string.melanggar_batas_wilayah)
+        )
+
+        val menghakimiSecaraSepihak = SpiritualWarfareSubCategory(
+            "menghakimi_secara_sepihak",
+            "Menghakimi Secara Sepihak",
+            resources.getString(R.string.menghakimi_secara_sepihak)
+        )
+
+        val ayatMelawanRohSifatLst = arrayListOf<SpiritualWarfareSubCategory>()
+        ayatMelawanRohSifatLst.add(melawanGarang)
+        ayatMelawanRohSifatLst.add(melawanKeletihan)
+        ayatMelawanRohSifatLst.add(melawanKemalasan)
+        ayatMelawanRohSifatLst.add(melawanKemarahan)
+        ayatMelawanRohSifatLst.add(melawanKemiskinan)
+        ayatMelawanRohSifatLst.add(melawanKemunafikan)
+        ayatMelawanRohSifatLst.add(melawanKerasKepala)
+        ayatMelawanRohSifatLst.add(melawanKesuaman)
+        ayatMelawanRohSifatLst.add(melawanKetidakPercayaan)
+        ayatMelawanRohSifatLst.add(melawanOrangFasik)
+        ayatMelawanRohSifatLst.add(melawanSukaMencuri)
+        ayatMelawanRohSifatLst.add(melawanMeninggikanDiri)
+        ayatMelawanRohSifatLst.add(melanggarBatasWilayah)
+        ayatMelawanRohSifatLst.add(menghakimiSecaraSepihak)
+
+        val ayatMelawanRohSifat = SpiritualWarfareVerse(
+            "ayat_melawan_roh_sifat",
+            "Ayat Perang Melawan Roh Sifat",
+            ayatMelawanRohSifatLst,
+            ""
+        )
+
+        val tahanHujan = SpiritualWarfareSubCategory(
+            "tahan_hujan",
+            "Tahan Hujan",
+            resources.getString(R.string.tahan_hujan)
+        )
+
+        val aktifkanTiangAwanTiangApi = SpiritualWarfareSubCategory(
+            "aktifkan_tiang_awan_tiang_api",
+            "Aktifkan Tiang Awan & Tiang Api",
+            resources.getString(R.string.aktifkan_tiang_awan_tiang_api)
+        )
+
+        val tahanBanjirDanTsunami = SpiritualWarfareSubCategory(
+            "tahan_banjir_dan_tsunami",
+            "Tahan Banjir & Tsunami",
+            resources.getString(R.string.tahan_banjir_dan_tsunami)
+        )
+
+        val tahanGempaBumiDanTanahLongsor = SpiritualWarfareSubCategory(
+            "tahan_gempa_bumi_dan_tanah_longsor",
+            "Tahan Gempa Bumi & Tanah Longsor",
+            resources.getString(R.string.tahan_gempa_bumi_dan_tanah_longsor)
+        )
+
+        val tahanAnginKencangDanPutingBeliung = SpiritualWarfareSubCategory(
+            "tahan_angin_kencang_dan_puting_beliung",
+            "Tahan Angin Kencang dan Puting Beliung yang Merusak",
+            resources.getString(R.string.tahan_angin_kencang_dan_puting_beliung)
+        )
+
+        val tahanGunungMeletus = SpiritualWarfareSubCategory(
+            "tahan_gunung_meletus",
+            "Tahan Gunung Meletus",
+            resources.getString(R.string.tahan_gunung_meletus)
+        )
+
+        val mintaHujanTurun = SpiritualWarfareSubCategory(
+            "minta_hujan_turun",
+            "Minta Hujan Turun",
+            resources.getString(R.string.minta_hujan_turun)
+        )
+
+        val ayatPerangKendalikanAlamList = arrayListOf<SpiritualWarfareSubCategory>()
+        ayatPerangKendalikanAlamList.add(tahanHujan)
+        ayatPerangKendalikanAlamList.add(aktifkanTiangAwanTiangApi)
+        ayatPerangKendalikanAlamList.add(tahanBanjirDanTsunami)
+        ayatPerangKendalikanAlamList.add(tahanGempaBumiDanTanahLongsor)
+        ayatPerangKendalikanAlamList.add(tahanAnginKencangDanPutingBeliung)
+        ayatPerangKendalikanAlamList.add(tahanGunungMeletus)
+        ayatPerangKendalikanAlamList.add(mintaHujanTurun)
+
+        val ayatPerangKendalikanAlam = SpiritualWarfareVerse(
+            "ayatPerangKendalikanAlam",
+            "Ayat Perang Kendalikan Alam (Cuaca)",
+            ayatPerangKendalikanAlamList,
+            ""
+        )
+
+        val pengakuanPanggilanImamatRajani = SpiritualWarfareSubCategory(
+            "pengakuan_panggilan_imamat_rajani",
+            "Pengakuan Panggilan Imamat Rajani",
+            resources.getString(R.string.pengakuan_panggilan_imamat_rajani)
+        )
+
+        val masukSidangIlahiMintaPengampunan = SpiritualWarfareSubCategory(
+            "masuk_sidang_ilahi_minta_pengampunan",
+            "Masuk Sidang Ilahi Minta Pengampunan",
+            resources.getString(R.string.masuk_sidang_ilahi_minta_pengampunan)
+        )
+
+        val merendahkanDiriMintaBelasKasihan = SpiritualWarfareSubCategory(
+            "merendahkan_diri_minta_belas_kasihan",
+            "Merendahkan Diri Minta Belas Kasihan",
+            resources.getString(R.string.merendahkan_diri_minta_belas_kasihan)
+        )
+
+        val tuhanYesusBerdiriSebagaiImamBesarAgung = SpiritualWarfareSubCategory(
+            "tuhan_yesus_berdiri_sebagai_imam_besar_agung",
+            "Tuhan Yesus Berdiri Sebagai Imam Besar Agung",
+            resources.getString(R.string.tuhan_yesus_berdiri_sebagai_imam_besar_agung)
+        )
+
+        val imamBerdiriSebagaiPerantara = SpiritualWarfareSubCategory(
+            "imam_berdiri_sebagai_perantara",
+            "Imam Berdiri Sebagai Perantara antara Surga & Bumi",
+            resources.getString(R.string.imam_berdiri_sebagai_perantara)
+        )
+
+        val aktifkanPerjanjianDarah = SpiritualWarfareSubCategory(
+            "aktifkan_perjanjian_darah",
+            "Aktifkan Perjanjian Darah Yesus yang Mengampuni & Mendamaikan",
+            resources.getString(R.string.aktifkan_perjanjian_darah)
+        )
+
+        val mintaPemutihan = SpiritualWarfareSubCategory(
+            "minta_pemutihan",
+            "Minta Pemutihan Dari Setiap Dosa",
+            resources.getString(R.string.minta_pemutihan)
+        )
+
+        val batalkanSetiapHutangDarah = SpiritualWarfareSubCategory(
+            "batalkan_setiap_hutang_darah",
+            "Batalkan Setiap Hutang Darah, Perjanjian Kuasa Gelap & Lepaskan Belenggu Tawanan Roh",
+            resources.getString(R.string.batalkan_setiap_hutang_darah)
+        )
+
+        val naikkanSetiapDupaDoa = SpiritualWarfareSubCategory(
+            "naikkan_setiap_dupa_doa",
+            "Naikkan Setiap Dupa Doa Untuk Mengadakan Pendamaina",
+            resources.getString(R.string.naikkan_setiap_dupa_doa)
+        )
+
+        val syafaatUntukBerbelasKasihan = SpiritualWarfareSubCategory(
+            "syafaat_untuk_berbelas_kasihan",
+            "Syafaat Untuk Berbelas Kasihan Pada Jiwa Jiwa",
+            resources.getString(R.string.syafaat_untuk_berbelas_kasihan)
+        )
+
+        val meteraiTuhan = SpiritualWarfareSubCategory(
+            "meterai_tuhan",
+            "Meterai Tuhan yang Telah Mengadakan Pendamaian",
+            resources.getString(R.string.meterai_tuhan)
+        )
+
+        val mintaPengampunanList = arrayListOf<SpiritualWarfareSubCategory>()
+        mintaPengampunanList.add(pengakuanPanggilanImamatRajani)
+        mintaPengampunanList.add(masukSidangIlahiMintaPengampunan)
+        mintaPengampunanList.add(merendahkanDiriMintaBelasKasihan)
+        mintaPengampunanList.add(tuhanYesusBerdiriSebagaiImamBesarAgung)
+        mintaPengampunanList.add(imamBerdiriSebagaiPerantara)
+        mintaPengampunanList.add(aktifkanPerjanjianDarah)
+        mintaPengampunanList.add(mintaPemutihan)
+        mintaPengampunanList.add(naikkanSetiapDupaDoa)
+        mintaPengampunanList.add(syafaatUntukBerbelasKasihan)
+        mintaPengampunanList.add(syafaatUntukBerbelasKasihan)
+        mintaPengampunanList.add(meteraiTuhan)
+
+        val ayatMintaPengampunan = SpiritualWarfareVerse(
+            "ayat_minta_pengampunan",
+            "Minta Pengampunan, Belas Kasihan & Pendamaian",
+            mintaPengampunanList,
+            ""
+        )
+
         val spiritualWarfareVerses = arrayListOf<SpiritualWarfareVerse>()
-        spiritualWarfareVerses.add(mintaOtoritasKerajaanSorga)
-        spiritualWarfareVerses.add(mintaLayananMalaikat)
-        spiritualWarfareVerses.add(mintaKekuatanDariTuhan)
-        spiritualWarfareVerses.add(mintaPerlindunganDariTuhan)
-        spiritualWarfareVerses.add(ketetapanTuhan)
-        spiritualWarfareVerses.add(tarikBerkat)
-        spiritualWarfareVerses.add(melawanMalaikatJatuh)
-        spiritualWarfareVerses.add(melawanRohPenyesat)
-        spiritualWarfareVerses.add(melawanRohMaut)
-        spiritualWarfareVerses.add(melawanBerhala)
-        spiritualWarfareVerses.add(melawanRohKedar)
-        spiritualWarfareVerses.add(melawanTenung)
-        spiritualWarfareVerses.add(melawanPembinasaKeji)
-        spiritualWarfareVerses.add(melawanRohMamon)
-        spiritualWarfareVerses.add(melawanRohUlar)
+        spiritualWarfareVerses.add(aktifkanSenjata)
+        spiritualWarfareVerses.add(ayatMelawanSpirit)
+        spiritualWarfareVerses.add(ayatMelawanRohSifat)
+        spiritualWarfareVerses.add(ayatPerangKendalikanAlam)
+        spiritualWarfareVerses.add(ayatMintaPengampunan)
+
+//        spiritualWarfareVerses.add(mintaOtoritasKerajaanSorga)
+//        spiritualWarfareVerses.add(mintaLayananMalaikat)
+//        spiritualWarfareVerses.add(mintaKekuatanDariTuhan)
+//        spiritualWarfareVerses.add(mintaPerlindunganDariTuhan)
+//        spiritualWarfareVerses.add(ketetapanTuhan)
+//        spiritualWarfareVerses.add(tarikBerkat)
+//        spiritualWarfareVerses.add(melawanMalaikatJatuh)
+//        spiritualWarfareVerses.add(melawanRohPenyesat)
+//        spiritualWarfareVerses.add(melawanRohMaut)
+//        spiritualWarfareVerses.add(melawanBerhala)
+//        spiritualWarfareVerses.add(melawanRohKedar)
+//        spiritualWarfareVerses.add(melawanTenung)
+//        spiritualWarfareVerses.add(melawanPembinasaKeji)
+//        spiritualWarfareVerses.add(melawanRohMamon)
+//        spiritualWarfareVerses.add(melawanRohUlar)
         database.insertSpiritualWarfareVerse(
             spiritualWarfareVerses,
             getSpiritualWarfareVerseDatabaseSuccessListener(),
