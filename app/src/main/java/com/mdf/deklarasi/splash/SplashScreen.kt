@@ -2368,7 +2368,7 @@ class SplashScreen : AppCompatActivity() {
         val perjanjianIshak = SubLibrary(
             "perjanjian_ishak_35",
             "Perjanjian Ishak",
-            resources.getString(R.string.perjanjian_rut_35),
+            resources.getString(R.string.perjanjian_ishak_35),
             "pishak"
         )
 
