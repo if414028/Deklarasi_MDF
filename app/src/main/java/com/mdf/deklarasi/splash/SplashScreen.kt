@@ -28,12 +28,11 @@ class SplashScreen : AppCompatActivity() {
             AppConfiguration.getInstance().getDeclarationDatabase(this)
         supportActionBar?.hide()
 
-//        if (UserConfiguration.getInstance().getCompleteFillData()) {
-//            openMainActivity()
-//        } else {
-//            initData()
-//        }
-        initData()
+        if (UserConfiguration.getInstance().getCompleteFillData()) {
+            openMainActivity()
+        } else {
+            initData()
+        }
     }
 
     private fun initData() {
@@ -45,7 +44,7 @@ class SplashScreen : AppCompatActivity() {
             "declaration_sma_mdf",
             "S.M.A (MDF)",
             resources.getString(R.string.dek_sma_mdf),
-            true,
+            false,
             "layout_dek_sma_mdf",
             "tv_1, tv_2, tv_3, tv_4, tv_5, tv_6, tv_7, tv_8, tv_9, tv_10, tv_11, tv_12, tv_13, tv_14, tv_15, tv_16, tv_17, tv_18, tv_19"
         )
@@ -2047,12 +2046,101 @@ class SplashScreen : AppCompatActivity() {
             ""
         )
 
+        val tidakAdaLagiTuntutanKematian = SpiritualWarfareSubCategory(
+            "tidak_ada_lagi_tuntutan_kematian",
+            "Tidak Ada Lagi Tuntutan Kematian",
+            resources.getString(R.string.tidak_ada_lagi_tuntutan_kematian)
+        )
+
+        val tuhanPerlindunganKita = SpiritualWarfareSubCategory(
+            "tuhan_perlindungan_kita",
+            "Tuhan Perlindungan Kita",
+            resources.getString(R.string.tuhan_perlindungan_kita)
+        )
+
+        val senantiasaDalamPerlindunganTuhan = SpiritualWarfareSubCategory(
+            "senantiasa_dalam_pemeliharaan_tuhan",
+            "Senantiasa Dalam Pemeliharaan Tuhan",
+            resources.getString(R.string.senantiasa_dalam_pemeliharaan_tuhan)
+        )
+
+        val bebasDariKutuk = SpiritualWarfareSubCategory(
+            "bebas_dari_kutuk",
+            "Bebas Dari Kutuk",
+            resources.getString(R.string.bebas_dari_kutuk)
+        )
+
+        val tuhanYesusSbgJalanKebenaran = SpiritualWarfareSubCategory(
+            "tuhan_yesus_sebagai_jalan_kebenaran_dan_hidup",
+            "Tuhan Yesus Sebagai Jalan Kebenaran dan Hidup",
+            resources.getString(R.string.tuhan_yesus_sebagai_jalan_kebenaran_dan_hidup)
+        )
+
+        val pembawaKehidupanYangSejati = SpiritualWarfareSubCategory(
+            "pembawa_kehidupan_yang_sejati",
+            "Pembawa Kehidupan yang Sejati",
+            resources.getString(R.string.pembawa_kehidupan_yang_sejati)
+        )
+
+        val mataAirKehidupan = SpiritualWarfareSubCategory(
+            "mata_air_kehidupan",
+            "Mata Air Kehidupan",
+            resources.getString(R.string.mata_air_kehidupan)
+        )
+
+        val kemerdekaan = SpiritualWarfareSubCategory(
+            "kemerdekaan",
+            "Kemerdekaan",
+            resources.getString(R.string.kemerdekaan)
+        )
+
+        val pembedaaSepertiGosyen = SpiritualWarfareSubCategory(
+            "pembedaan_seperti_tahah_gosyen",
+            "Pembedaan Seperti Tanah Gosyen",
+            resources.getString(R.string.pembedaan_seperti_tahah_gosyen)
+        )
+
+        val pertobatanOlehTuhanYesus = SpiritualWarfareSubCategory(
+            "pertobatan_oleh_pengorbanan_tuhan_yesus",
+            "Pertobatan Oleh Pengorbanan Tuhan Yesus",
+            resources.getString(R.string.pertobatan_oleh_pengorbanan_tuhan_yesus)
+        )
+
+        val ayatPembalikanKeadaanList = arrayListOf<SpiritualWarfareSubCategory>()
+        ayatPembalikanKeadaanList.add(tidakAdaLagiTuntutanKematian)
+        ayatPembalikanKeadaanList.add(tuhanPerlindunganKita)
+        ayatPembalikanKeadaanList.add(senantiasaDalamPerlindunganTuhan)
+        ayatPembalikanKeadaanList.add(bebasDariKutuk)
+        ayatPembalikanKeadaanList.add(tuhanYesusSbgJalanKebenaran)
+        ayatPembalikanKeadaanList.add(pembawaKehidupanYangSejati)
+        ayatPembalikanKeadaanList.add(mataAirKehidupan)
+        ayatPembalikanKeadaanList.add(kemerdekaan)
+        ayatPembalikanKeadaanList.add(pembedaaSepertiGosyen)
+        ayatPembalikanKeadaanList.add(pertobatanOlehTuhanYesus)
+
+        val ayatPembalikanKeadaan = SpiritualWarfareVerse(
+            "ayat_pembalikan_keadaan",
+            "Ayat Pembalikan Keadaan",
+            ayatPembalikanKeadaanList,
+            ""
+        )
+
+        val namaGelarTuhan = SpiritualWarfareVerse(
+            "nama_gelar_tuhan",
+            "Nama-Nama / Gelar-Gelar Tuhan",
+            emptyList(),
+            resources.getString(R.string.nama_dan_gelar_tuhan)
+        )
+
         val spiritualWarfareVerses = arrayListOf<SpiritualWarfareVerse>()
         spiritualWarfareVerses.add(aktifkanSenjata)
         spiritualWarfareVerses.add(ayatMelawanSpirit)
         spiritualWarfareVerses.add(ayatMelawanRohSifat)
         spiritualWarfareVerses.add(ayatPerangKendalikanAlam)
         spiritualWarfareVerses.add(ayatMintaPengampunan)
+        spiritualWarfareVerses.add(ayatPembalikanKeadaan)
+        spiritualWarfareVerses.add(mintaLayananMalaikat)
+        spiritualWarfareVerses.add(namaGelarTuhan)
 
 //        spiritualWarfareVerses.add(mintaOtoritasKerajaanSorga)
 //        spiritualWarfareVerses.add(mintaLayananMalaikat)
@@ -2166,7 +2254,7 @@ class SplashScreen : AppCompatActivity() {
             "tujuh_perjanjian",
             "7 Perjanjian (Legalitas dan Cawan)",
             subLibraries,
-            resources.getString(R.string.nama_nama_tuhan),
+            "",
             ""
         )
 
@@ -2186,7 +2274,301 @@ class SplashScreen : AppCompatActivity() {
             ""
         )
 
+        val perjanjianPaulus = SubLibrary(
+            "perjanjian_paulus_35",
+            "Perjanjian Paulus",
+            resources.getString(R.string.perjanjian_paulus_35),
+            "ppaulus"
+        )
+
+        val perjanjianWanitaSamaria = SubLibrary(
+            "perjanjian_wanita_samaria_35",
+            "Perjanjian Wanita Samaria",
+            resources.getString(R.string.perjanjian_wanita_samaria_35),
+            "psamaria"
+        )
+
+        val perjanjianEliezer = SubLibrary(
+            "perjanjian_eliezer_35",
+            "Perjanjian Eliezer",
+            resources.getString(R.string.perjanjian_eliezer_35),
+            "peliezer"
+        )
+
+        val perjanjianYoel = SubLibrary(
+            "perjanjian_yoel_35",
+            "Perjanjian Yoel",
+            resources.getString(R.string.perjanjian_yoel_35),
+            "pjoel"
+        )
+
+        val perjanjianKemahDaud = SubLibrary(
+            "perjanjian_kemah_daud_35",
+            "Perjanjian Kemah Daud",
+            resources.getString(R.string.perjanjian_kemah_daud_35),
+            "pkemahdaud"
+        )
+
+        val perjanjianDarah_ = SubLibrary(
+            "perjanjian_darah_35",
+            "Perjanjian Darah",
+            resources.getString(R.string.perjanjian_darah_35),
+            "pdarah"
+        )
+
+        val perjanjianAnakSulung_ = SubLibrary(
+            "perjanjian_anak_sulung_35",
+            "Perjanjian Anak Sulung",
+            resources.getString(R.string.perjanjian_anak_sulung_35),
+            "pkesulungan"
+        )
+
+        val perjanjianKaleb = SubLibrary(
+            "perjanjian_kaleb_35",
+            "Perjanjian Kaleb",
+            resources.getString(R.string.perjanjian_kaleb_35),
+            "pkaleb"
+        )
+
+        val perjanjianJoshua = SubLibrary(
+            "perjanjian_joshua_35",
+            "Perjanjian Joshua",
+            resources.getString(R.string.perjanjian_joshua_35),
+            "pjoshua"
+        )
+
+        val perjanjianTriwira = SubLibrary(
+            "perjanjian_triwira_35",
+            "Perjanjian Triwira",
+            resources.getString(R.string.perjanjian_triwira_35),
+            "ptriwira"
+        )
+
+        val perjanjianDaud = SubLibrary(
+            "perjanjian_daud_35",
+            "Perjanjian Daud",
+            resources.getString(R.string.perjanjian_daud_35),
+            "pdaud"
+        )
+
+        val perjanjianPelangi_ = SubLibrary(
+            "perjanjian_pelangi_35",
+            "Perjanjian Pelangi",
+            resources.getString(R.string.perjanjian_pelangi_35),
+            "ppelangi"
+        )
+
+        val perjanjianRut = SubLibrary(
+            "perjanjian_rut_35",
+            "Perjanjian Rut",
+            resources.getString(R.string.perjanjian_rut_35),
+            "prut"
+        )
+
+        val perjanjianIshak = SubLibrary(
+            "perjanjian_ishak_35",
+            "Perjanjian Ishak",
+            resources.getString(R.string.perjanjian_rut_35),
+            "pishak"
+        )
+
+        val perjanjianYefta = SubLibrary(
+            "perjanjian_yefta_35",
+            "Perjanjian Yefta",
+            resources.getString(R.string.perjanjian_yefta_35),
+            "pyefta"
+        )
+
+        val perjanjianGaram_ = SubLibrary(
+            "perjanjian_garam_35",
+            "Perjanjian Garam",
+            resources.getString(R.string.perjanjian_garam_35),
+            "pgaram"
+        )
+
+        val perjanjianEster = SubLibrary(
+            "perjanjian_ester_35",
+            "Perjanjian Ester",
+            resources.getString(R.string.perjanjian_ester_35),
+            "pester"
+        )
+
+        val perjanjianAbraham = SubLibrary(
+            "perjanjian_abraham_35",
+            "Perjanjian Abraham",
+            resources.getString(R.string.perjanjian_abraham_35),
+            "pabraham"
+        )
+
+        val perjanjianYusuf = SubLibrary(
+            "perjanjian_yusuf_35",
+            "Perjanjian Yusuf",
+            resources.getString(R.string.perjanjian_yusuf_35),
+            "pyusuf"
+        )
+
+        val perjanjianKarpetMerah = SubLibrary(
+            "perjanjian_karpet_merah_35",
+            "Perjanjian Karpet Merah",
+            resources.getString(R.string.perjanjian_karpet_merah_35),
+            "pkarpetmerah"
+        )
+
+        val perjanjianSalomo = SubLibrary(
+            "perjanjian_salomo_35",
+            "Perjanjian Salomo",
+            resources.getString(R.string.perjanjian_salomo_35),
+            "psalomo"
+        )
+
+        val perjanjianBatsyeba = SubLibrary(
+            "perjanjian_batsyeba_35",
+            "Perjanjian Batsyeba",
+            resources.getString(R.string.perjanjian_batsyeba_35),
+            "pbathsheba"
+        )
+
+        val perjanjianDaniel_ = SubLibrary(
+            "perjanjian_daniel_35",
+            "Perjanjian Daniel",
+            resources.getString(R.string.perjanjian_daniel_35),
+            "pdaniel"
+        )
+
+        val perjanjianStefanus = SubLibrary(
+            "perjanjian_stefanus_35",
+            "Perjanjian Stefanus",
+            resources.getString(R.string.perjanjian_stefanus_35),
+            "pstefanus"
+        )
+
+        val perjanjianGadaBesi = SubLibrary(
+            "perjanjian_gada_besi_35",
+            "Perjanjian Gada Besi",
+            resources.getString(R.string.perjanjian_gada_besi_35),
+            "pgadabesi"
+        )
+
+        val perjanjianGideon = SubLibrary(
+            "perjanjian_gideon_35",
+            "Perjanjian Gideon",
+            resources.getString(R.string.perjanjian_gideon_35),
+            "pgideon"
+        )
+
+        val perjanjianPetrus = SubLibrary(
+            "perjanjian_petrus_35",
+            "Perjanjian Petrus",
+            resources.getString(R.string.perjanjian_petrus_35),
+            "ppetrus"
+        )
+
+        val perjanjianPersepuluhan_ = SubLibrary(
+            "perjanjian_persepuluhan_35",
+            "Perjanjian Persepuluhan",
+            resources.getString(R.string.perjanjian_persepuluhan_35),
+            "pperpuluhan"
+        )
+
+        val perjanjianLewi = SubLibrary(
+            "perjanjian_lewi_35",
+            "Perjanjian Lewi",
+            resources.getString(R.string.perjanjian_lewi_35),
+            "plewi"
+        )
+
+        val perjanjianAnakDomba = SubLibrary(
+            "perjanjian_anak_domba_35",
+            "Perjanjian Anak Domba",
+            resources.getString(R.string.perjanjian_anak_domba_35),
+            "panakdomba"
+        )
+
+        val perjanjianYehuda = SubLibrary(
+            "perjanjian_yehuda_35",
+            "Perjanjian Yehuda",
+            resources.getString(R.string.perjanjian_yehuda_35),
+            "pyehuda"
+        )
+
+        val perjanjianDeborah = SubLibrary(
+            "perjanjian_deborah",
+            "Perjanjian Deborah",
+            resources.getString(R.string.perjanjian_deborah),
+            "pdebora"
+        )
+
+        val perjanjianHagar = SubLibrary(
+            "perjanjian_hagar_35",
+            "Perjanjian Hagar",
+            resources.getString(R.string.perjanjian_hagar_35),
+            "phagar"
+        )
+
+        val perjanjianKornelius = SubLibrary(
+            "perjanjian_kornelius_35",
+            "Perjanjian Kornelius",
+            resources.getString(R.string.perjanjian_kornelius_35),
+            "pkornelius"
+        )
+
+        val perjanjianBoas = SubLibrary(
+            "perjanjian_boas_35",
+            "Perjanjian Boas",
+            resources.getString(R.string.perjanjian_boas_35),
+            "pboas"
+        )
+
+        val perjanjianSubLibraries = arrayListOf<SubLibrary>()
+        perjanjianSubLibraries.add(perjanjianPaulus)
+        perjanjianSubLibraries.add(perjanjianWanitaSamaria)
+        perjanjianSubLibraries.add(perjanjianEliezer)
+        perjanjianSubLibraries.add(perjanjianYoel)
+        perjanjianSubLibraries.add(perjanjianKemahDaud)
+        perjanjianSubLibraries.add(perjanjianDarah_)
+        perjanjianSubLibraries.add(perjanjianAnakSulung_)
+        perjanjianSubLibraries.add(perjanjianKaleb)
+        perjanjianSubLibraries.add(perjanjianJoshua)
+        perjanjianSubLibraries.add(perjanjianTriwira)
+
+        perjanjianSubLibraries.add(perjanjianDaud)
+        perjanjianSubLibraries.add(perjanjianPelangi_)
+        perjanjianSubLibraries.add(perjanjianRut)
+        perjanjianSubLibraries.add(perjanjianIshak)
+        perjanjianSubLibraries.add(perjanjianYefta)
+        perjanjianSubLibraries.add(perjanjianGaram_)
+        perjanjianSubLibraries.add(perjanjianEster)
+        perjanjianSubLibraries.add(perjanjianAbraham)
+        perjanjianSubLibraries.add(perjanjianYusuf)
+        perjanjianSubLibraries.add(perjanjianKarpetMerah)
+
+        perjanjianSubLibraries.add(perjanjianSalomo)
+        perjanjianSubLibraries.add(perjanjianBatsyeba)
+        perjanjianSubLibraries.add(perjanjianDaniel_)
+        perjanjianSubLibraries.add(perjanjianStefanus)
+        perjanjianSubLibraries.add(perjanjianGadaBesi)
+        perjanjianSubLibraries.add(perjanjianGideon)
+        perjanjianSubLibraries.add(perjanjianPetrus)
+        perjanjianSubLibraries.add(perjanjianPersepuluhan_)
+        perjanjianSubLibraries.add(perjanjianLewi)
+        perjanjianSubLibraries.add(perjanjianAnakDomba)
+
+        perjanjianSubLibraries.add(perjanjianYehuda)
+        perjanjianSubLibraries.add(perjanjianDeborah)
+        perjanjianSubLibraries.add(perjanjianHagar)
+        perjanjianSubLibraries.add(perjanjianKornelius)
+        perjanjianSubLibraries.add(perjanjianBoas)
+
+        val tigaLimaPerjanjian = Library(
+            "35_perjanjian",
+            "35 Perjanjian",
+            perjanjianSubLibraries,
+            "",
+            ""
+        )
+
         val libraries = arrayListOf<Library>()
+        libraries.add(tigaLimaPerjanjian)
         libraries.add(proseduralDoling)
         libraries.add(namaNamaTuhan)
         libraries.add(tujuhPerjanjian)
