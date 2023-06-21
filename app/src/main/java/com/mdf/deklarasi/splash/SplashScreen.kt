@@ -1143,7 +1143,6 @@ class SplashScreen : AppCompatActivity() {
         )
 
         val declarationList = arrayListOf<Declaration>()
-        declarationList.add(deklarasiIsrael)
         declarationList.add(mdfDeclaration)
         declarationList.add(bahteraDelcaration)
         declarationList.add(tembokPerlindunganDeclaration)
@@ -2258,6 +2257,72 @@ class SplashScreen : AppCompatActivity() {
             ""
         )
 
+        val meteraiCinta = SubLibrary(
+            "meterai_cinta",
+            "Meterai Cinta",
+            resources.getString(R.string.meterai_cinta),
+            "meterai_cinta"
+        )
+
+        val meteraiPerjanjian = SubLibrary(
+            "meterai_perjanjian",
+            "Meterai Perjanjian",
+            resources.getString(R.string.meterai_perjanjian),
+            "meterai_perjanjian"
+        )
+
+        val meteraiPenangguhan = SubLibrary(
+            "meterai_penangguhan",
+            "Meterai Penangguhan (Menahan Waktu)",
+            resources.getString(R.string.meterai_penangguhan),
+            "meterai_penangguhan"
+        )
+
+        val meteraiPenetapanLegal = SubLibrary(
+            "meterai_penetapan_legal",
+            "Meterai Penetapan Legal",
+            resources.getString(R.string.meterai_penetapan_legal),
+            "meterai_penetapan_legal"
+        )
+
+        val meteraiKeputusanPerang = SubLibrary(
+            "meterai_keputusan_perang",
+            "Meterai Keputusan Perang",
+            resources.getString(R.string.meterai_keputusan_perang),
+            "meterai_keputusan_perang"
+        )
+
+        val meteraiAlamSemesta = SubLibrary(
+            "meterai_alam_semesta",
+            "Meterai Alam Semesta",
+            resources.getString(R.string.meterai_alam_semesta),
+            "meterai_semesta"
+        )
+
+        val meteraiRuangMahaKudus = SubLibrary(
+            "meterai_ruang_maha_kudus",
+            "Meterai Ruang Maha Kudus",
+            resources.getString(R.string.meterai_ruang_maha_kudus),
+            "meterai_ruang_maha_kudus"
+        )
+
+        val tujuhMeteraiSubLibraries = arrayListOf<SubLibrary>()
+        tujuhMeteraiSubLibraries.add(meteraiPerjanjian)
+        tujuhMeteraiSubLibraries.add(meteraiCinta)
+        tujuhMeteraiSubLibraries.add(meteraiPenangguhan)
+        tujuhMeteraiSubLibraries.add(meteraiPenetapanLegal)
+        tujuhMeteraiSubLibraries.add(meteraiKeputusanPerang)
+        tujuhMeteraiSubLibraries.add(meteraiAlamSemesta)
+        tujuhMeteraiSubLibraries.add(meteraiRuangMahaKudus)
+
+        val tujuhMeterai = Library(
+            "tujuh_meterai",
+            "7 Meterai",
+            tujuhMeteraiSubLibraries,
+            "",
+            ""
+        )
+
         val pengertianTumen = Library(
             "tumen",
             "Pengertian 7 Elemen (TUMEN)",
@@ -2572,6 +2637,7 @@ class SplashScreen : AppCompatActivity() {
         libraries.add(proseduralDoling)
         libraries.add(namaNamaTuhan)
         libraries.add(tujuhPerjanjian)
+        libraries.add(tujuhMeterai)
         libraries.add(pengertianTumen)
         libraries.add(layananMalaikat)
 
