@@ -2009,7 +2009,7 @@ class SplashScreen : AppCompatActivity() {
 
         val naikkanSetiapDupaDoa = SpiritualWarfareSubCategory(
             "naikkan_setiap_dupa_doa",
-            "Naikkan Setiap Dupa Doa Untuk Mengadakan Pendamaina",
+            "Naikkan Setiap Dupa Doa Untuk Mengadakan Pendamaian",
             resources.getString(R.string.naikkan_setiap_dupa_doa)
         )
 
@@ -2689,7 +2689,7 @@ class SplashScreen : AppCompatActivity() {
                 val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
             },
-            1000
+            3000
         )
     }
 }
