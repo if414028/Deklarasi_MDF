@@ -1461,71 +1461,6 @@ class SplashScreen : AppCompatActivity() {
             resources.getString(R.string.melawan_roh_ular)
         )
 
-        val selengkapSenjataAllah = SpiritualWarfareSubCategory(
-            "selengkap_senjata_allah",
-            "Selengkap Senjata Allah",
-            resources.getString(R.string.selengkap_senjata_allah)
-        )
-
-        val tujuhMeterai = SpiritualWarfareSubCategory(
-            "tujuh_meterai",
-            "Tujuh Meterai",
-            resources.getString(R.string.tujuh_meterai)
-        )
-
-        val tujuhPilar = SpiritualWarfareSubCategory(
-            "tujuh_pilar",
-            "Tujuh Pilar",
-            resources.getString(R.string.tujuh_pilar)
-        )
-
-        val kuasaMandatDanOtoritas = SpiritualWarfareSubCategory(
-            "kuasa_mandat_dan_otoritas",
-            "Kuasa Mandat & Otoritas",
-            resources.getString(R.string.kuasa_mandat_dan_otoritas)
-        )
-
-        val empatWajah = SpiritualWarfareSubCategory(
-            "empat_wajah",
-            "Empat Wajah",
-            resources.getString(R.string.empat_wajah)
-        )
-
-        val sidangIlahi = SpiritualWarfareSubCategory(
-            "sidang_ilahi",
-            "Sidang Ilahi",
-            resources.getString(R.string.sidang_ilahi)
-        )
-
-        val ayatPerjanjianDarah = SpiritualWarfareSubCategory(
-            "ayat_ayat_perjanjian_darah",
-            "Ayat Ayat Perjanjian Darah",
-            resources.getString(R.string.ayat_ayat_perjanjian_darah)
-        )
-
-        val ayatAirKehidupan = SpiritualWarfareSubCategory(
-            "ayat_ayat_air_kehidupan_atau_pentahiran",
-            "Ayat Ayat Air Kehidupan atau Pentahiran",
-            resources.getString(R.string.ayat_ayat_air_kehidupan_atau_pentahiran)
-        )
-
-        val aktifkanSenjataList = arrayListOf<SpiritualWarfareSubCategory>()
-        aktifkanSenjataList.add(selengkapSenjataAllah)
-        aktifkanSenjataList.add(tujuhMeterai)
-        aktifkanSenjataList.add(tujuhPilar)
-        aktifkanSenjataList.add(kuasaMandatDanOtoritas)
-        aktifkanSenjataList.add(empatWajah)
-        aktifkanSenjataList.add(sidangIlahi)
-        aktifkanSenjataList.add(ayatPerjanjianDarah)
-        aktifkanSenjataList.add(ayatAirKehidupan)
-
-        val aktifkanSenjata = SpiritualWarfareVerse(
-            "aktifkan_senjata",
-            "Aktifkan Senjata, Meterai, Pilar, Kuasa & Mandat, 4 Wajah, Shofar dan Sidang Ilahi",
-            aktifkanSenjataList,
-            ""
-        )
-
         val melawanOkultismeAnakTuhan = SpiritualWarfareSubCategory(
             "melawan_okultisme_anak_tuhan",
             "Melawan Okultisme (Anak Tuhan)",
@@ -2131,8 +2066,63 @@ class SplashScreen : AppCompatActivity() {
             resources.getString(R.string.nama_dan_gelar_tuhan)
         )
 
+        val selengkapSenjataAllah = SpiritualWarfareVerse(
+            "selengkap_senjata_allah",
+            "Selengkap Senjata Allah",
+            emptyList(),
+            resources.getString(R.string.selengkap_senjata_allah)
+        )
+
+        val tujuhPilar = SpiritualWarfareVerse(
+            "tujuh_pilar",
+            "Tujuh Pilar",
+            emptyList(),
+            resources.getString(R.string.tujuh_pilar)
+        )
+
+        val kuasaMandatDanOtoritas = SpiritualWarfareVerse(
+            "kuasa_mandat_dan_otoritas",
+            "Kuasa Mandat & Otoritas",
+            emptyList(),
+            resources.getString(R.string.kuasa_mandat_dan_otoritas)
+        )
+
+        val empatWajah = SpiritualWarfareVerse(
+            "empat_wajah",
+            "Empat Wajah",
+            emptyList(),
+            resources.getString(R.string.empat_wajah)
+        )
+
+        val sidangIlahi = SpiritualWarfareVerse(
+            "sidang_ilahi",
+            "Sidang Ilahi",
+            emptyList(),
+            resources.getString(R.string.sidang_ilahi)
+        )
+
+        val ayatPerjanjianDarah = SpiritualWarfareVerse(
+            "ayat_ayat_perjanjian_darah",
+            "Ayat Ayat Perjanjian Darah",
+            emptyList(),
+            resources.getString(R.string.ayat_ayat_perjanjian_darah)
+        )
+
+        val ayatAirKehidupan = SpiritualWarfareVerse(
+            "ayat_ayat_air_kehidupan_atau_pentahiran",
+            "Ayat Ayat Air Kehidupan atau Pentahiran",
+            emptyList(),
+            resources.getString(R.string.ayat_ayat_air_kehidupan_atau_pentahiran)
+        )
+
         val spiritualWarfareVerses = arrayListOf<SpiritualWarfareVerse>()
-        spiritualWarfareVerses.add(aktifkanSenjata)
+        spiritualWarfareVerses.add(selengkapSenjataAllah)
+        spiritualWarfareVerses.add(tujuhPilar)
+        spiritualWarfareVerses.add(kuasaMandatDanOtoritas)
+        spiritualWarfareVerses.add(empatWajah)
+        spiritualWarfareVerses.add(sidangIlahi)
+        spiritualWarfareVerses.add(ayatPerjanjianDarah)
+        spiritualWarfareVerses.add(ayatAirKehidupan)
         spiritualWarfareVerses.add(ayatMelawanSpirit)
         spiritualWarfareVerses.add(ayatMelawanRohSifat)
         spiritualWarfareVerses.add(ayatPerangKendalikanAlam)
